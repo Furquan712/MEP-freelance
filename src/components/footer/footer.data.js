@@ -1,4 +1,4 @@
-import { FaFacebook, FaTwitter, FaGithub, FaDribbble } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaPinterest  } from 'react-icons/fa';
 
 export default [
   {
@@ -81,15 +81,15 @@ export default [
       },
       {
         path: '/',
-        label: 'Github',
-        name: 'github',
-        icon: <FaGithub />,
+        label: 'Instagram',
+        name: 'instagram',
+        icon: <FaInstagram />,
       },
       {
         path: '/',
-        label: 'Dribbble',
-        name: 'dribbble',
-        icon: <FaDribbble />,
+        label: 'Pinterest',
+        name: 'pinterest',
+        icon: <FaPinterest />,
       },
     ],
   },

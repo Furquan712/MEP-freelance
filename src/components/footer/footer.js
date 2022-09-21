@@ -116,10 +116,10 @@ const styles = {
       '&.twitter > svg': {
         color: '#55ACEE',
       },
-      '&.github > svg': {
+      '&.instagram > svg': {
         color: '#161614',
       },
-      '&.dribbble > svg': {
+      '&.pintrest > svg': {
         color: '#E74D89',
       },
       ':hover': {
@@ -150,7 +150,7 @@ const styles = {
       mt: [3, null, null, null, 4],
       a: {
         fontSize: ['14px', 1],
-        color: 'text_secondary',
+        color: '#66ABFF',
         fontWeight: 'body',
         mb: 1,
         cursor: 'pointer',
@@ -160,7 +160,7 @@ const styles = {
         ':before': {
           px: 2,
           content: '"|"',
-          color: 'text_secondary',
+          color: '#66ABFF',
         },
         ':first-of-type:before': {
           display: 'none',
@@ -172,7 +172,7 @@ const styles = {
     },
     copyright: {
       fontSize: ['14px', 1],
-      color: '#6D7886',
+      color: '#fcfcfc',
       pt: 1,
     },
   },
