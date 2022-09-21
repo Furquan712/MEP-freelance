@@ -50,7 +50,7 @@ export default function Footer() {
 
 const styles = {
   footer: {
-    backgroundColor: 'background_secondary',
+    backgroundColor: '#18263B',
     container: {
       width: '100%',
       alignItems: 'stretch',
@@ -86,7 +86,7 @@ const styles = {
 
     heading: {
       fontSize: [2, 3],
-      color: 'heading',
+      color: '#66ABFF',
       fontWeight: 'heading',
       litterSpacing: 'heading',
       mb: [4, null, null, null, 5, 6],
@@ -95,7 +95,7 @@ const styles = {
 
     link: {
       fontSize: ['14px', 1],
-      color: 'text_secondary',
+      color: '#fcfcfc',
       fontWeight: 'body',
       mb: 2,
       cursor: 'pointer',
