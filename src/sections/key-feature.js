@@ -45,7 +45,9 @@ export default function KeyFeature() {
 
         <Grid sx={styles.grid}>
           {data.map((item) => (
-            <FeatureCardColumn
+            <FeatureCardColumn   sx={styles.featurecardcolumn}   data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
               key={item.id}
               src={item.imgSrc}
               alt={item.title}
@@ -60,6 +62,12 @@ export default function KeyFeature() {
 }
 
 const styles = {
+
+  featurecardcolumn:{
+    boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+  transition: '0.3s',
+},
+   
   grid: {
     px: [0, null, null, '40px', null, '80px'],
     pt: [0, null, null, null, null, null, null, 3],
@@ -74,6 +82,10 @@ const styles = {
     width: ['100%', '80%', '100%'],
     mx: 'auto',
     '& > div': {
+      boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+      transition: '0.3s',
+      marginLeft: '50px',
+      padding: '38px',
       px: [0, '15px', null, '25px', null, '30px', '40px', '60px'],
     },
   },
