@@ -23,8 +23,8 @@ export default function IndexPage() {
           <Banner />
           <KeyFeature />
           <WorkFlow />
-          <CoreFeature />
           <PartnerSection />
+          <CoreFeature />
           <TestimonialCard />
           
         </Layout>

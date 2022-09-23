@@ -43,17 +43,17 @@ export default function Banner() {
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
-          <Heading as="h1" variant="heroPrimary">
+          <Heading as="h1" variant="heroPrimary" color='#596AFF'>
             Experience your ultimate mobile application
           </Heading>
-          <Text as="p" variant="heroSecondary">
+          <Text as="p" variant="heroSecondary" color='black'>
             Get your blood tests delivered at let home collect sample from the
             victory of the managements that supplies best design system
             guidelines ever.
           </Text>
           <Flex>
-            <Button variant="whiteButton" aria-label="Get Started">
-              Get Started
+            <Button variant="whiteButton" aria-label="Get Started" backgroundColor='#596AFF' color='white'>
+              Contact Us
             </Button>
             <>
               <ModalVideo
@@ -62,7 +62,7 @@ export default function Banner() {
                 videoId="ZNA9rmDsYVE"
                 onClose={() => setVideoOpen(false)}
               />
-              <Button color='#596AFF'
+              <Button color='black'
                 variant="textButton"
                 aria-label="Watch Video"
                 onClick={handleClick}
@@ -71,16 +71,7 @@ export default function Banner() {
               </Button>
             </>
           </Flex>
-          <Flex sx={styles.sponsorBox}>
-            <Text sx={styles.sponsorTitle}>Sponsored by:</Text>
-            <Box sx={styles.sponsorBox.sponsor}>
-              {data.map((item, index) => (
-                <Link path={item.path} key={`client-key${index}`}>
-                  <Image src={item.image} alt={item.title} />
-                </Link>
-              ))}
-            </Box>
-          </Flex>
+           
         </Box>
 
         <Box sx={styles.banner.imageBox}>
@@ -101,7 +92,7 @@ const styles = {
     borderBottomRightRadius: [100, 150, null, null, null, 250],
     pt: ['150px', null, null, null, null, null, '140px', '130px'],
     pb: ['100px', null, null, '110px', null, 10, '150px'],
-    backgroundColor: 'primary',
+    backgroundColor: 'white',
     container: {
       display: 'flex',
     },
@@ -114,6 +105,9 @@ const styles = {
       pt: [0, null, null, null, null, null, 5, 7],
     },
     imageBox: {
+      // marginRight:'131px',
+      // marginTop:'90px',
+      padding:'110px',
       display: ['none', null, null, 'block'],
       justifyContent: 'center',
       ml: [0, null, null, '-110px', '-115px', '-150px', '-210px', '-270px'],
