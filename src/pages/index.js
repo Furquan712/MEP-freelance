@@ -11,8 +11,7 @@ import Feature from 'sections/feature';
 import PartnerSection from 'sections/partner';
 import WorkFlow from 'sections/workflow';
 import TestimonialCard from 'sections/testimonial';
-import SecurePayment from 'sections/secure-payment';
-import Package from 'sections/package';
+ import Package from 'sections/package';
 import Faq from 'sections/faq';
 
 export default function IndexPage() {
@@ -23,13 +22,11 @@ export default function IndexPage() {
           <SEO title="Startup Landing 004" />
           <Banner />
           <KeyFeature />
-          <CoreFeature />
-          {/* <Feature /> */}
           <WorkFlow />
-          {/* <SecurePayment /> */}
+          <CoreFeature />
           <PartnerSection />
           <TestimonialCard />
-          {/* <Faq /> */}
+          
         </Layout>
       </StickyProvider>
     </ThemeProvider>

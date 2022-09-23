@@ -66,8 +66,8 @@ export default function Feature() {
     <section sx={{ variant: 'section.feature' }}>
       <Container>
         <SectionHeader
+          title="Why  Choose Us"
           slogan="Quality features"
-          title="Meet exciting feature of app"
         />
 
         <Grid sx={styles.grid}>
@@ -99,6 +99,7 @@ const styles = {
       null,
       '90px 70px',
     ],
+     
     width: ['100%', '80%', '100%'],
     mx: 'auto',
     gridTemplateColumns: [

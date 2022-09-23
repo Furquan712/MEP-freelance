@@ -6,6 +6,14 @@ import menuItems from './footer.data';
  
 export default function Footer() {
   return (
+    <> 
+    <Container sx={styles.abovefooter}>
+           <Box>
+                  <Text>
+                    gfxcghgh
+                  </Text>
+           </Box>
+     </Container>
     <footer sx={styles.footer}>
        <Container sx={styles.footer.container}>
         <Box sx={styles.footer.footerTopArea}>
@@ -45,10 +53,30 @@ export default function Footer() {
         </Box>
       </Container>
     </footer>
+    </>
   );
 }
 
 const styles = {
+  abovefooter:{
+    position: 'relative',
+    zIndex: '10',
+    top: -9,
+    mb: -9,
+    marginTop:'70px',
+    marginBottom:'-89px',
+    padding: ['55px 30px 60px', null, null, '55px 30px 60px', '55px 50px 60px'],
+    backgroundColor: '#183656',
+     backgroundRepeat: 'no-repeat',
+    backgroundPosition: '60% center',
+    backgroundSize: ['120px', null, null, null, 'auto'],
+    borderRadius: '7px',
+    display: 'flex',
+    alignItems: 'center',
+    textAlign: ['center', null, null, 'left'],
+    flexDirection: ['column', null, null, 'row'],
+    justifyContent: ['center', null, null, 'space-between'],
+  },
   footer: {
     backgroundColor: '#18263B',
     container: {

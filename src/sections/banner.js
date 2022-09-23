@@ -62,7 +62,7 @@ export default function Banner() {
                 videoId="ZNA9rmDsYVE"
                 onClose={() => setVideoOpen(false)}
               />
-              <Button
+              <Button color='#596AFF'
                 variant="textButton"
                 aria-label="Watch Video"
                 onClick={handleClick}
@@ -126,7 +126,7 @@ const styles = {
     },
   },
   sponsorTitle: {
-    color: 'white',
+    color: '#596AFF',
     fontSize: [1, 2],
     opacity: 0.6,
     pr: 20,

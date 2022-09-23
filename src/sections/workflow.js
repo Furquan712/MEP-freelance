@@ -38,7 +38,7 @@ export default function WorkFlow() {
   return (
     <section sx={styles.workflow}>
       <Container>
-        <SectionHeader
+        <SectionHeader  sx={styles.sectionheader}
           slogan="Whats the function"
           title="Let’s see how it works"
           isWhite={true}
@@ -62,7 +62,7 @@ export default function WorkFlow() {
 
 const styles = {
   workflow: {
-    backgroundColor: 'primary',
+    backgroundColor: '#66abff',
     backgroundImage: `url(${PatternBG})`,
     backgroundRepeat: `no-repeat`,
     backgroundPosition: 'center center',
@@ -82,6 +82,9 @@ const styles = {
       opacity: 0.3,
       zIndex: 0,
     },
+  },
+  sectionheader:{
+       color: 'black',
   },
   grid: {
     mb: -1,
@@ -142,7 +145,7 @@ const styles = {
     height: ['50px', null, '60px', null, null, '70px'],
     flexShrink: 0,
     borderRadius: [15, null, 23, null, null, 30],
-    backgroundColor: 'white',
+    backgroundColor: 'black',
     display: 'flex',
     alignItems: 'center',
     mb: [5, null, null, null, null, 6],
@@ -150,7 +153,7 @@ const styles = {
     fontSize: [6, null, 7, null, null, '30px'],
     fontWeight: 700,
     justifyContent: 'center',
-    color: '#234582',
+    color: 'white',
   },
   wrapper: {
     width: '100%',
@@ -159,7 +162,7 @@ const styles = {
     mt: '-5px',
     title: {
       fontSize: [3, null, 4, null, null, 5],
-      color: 'white',
+      color: 'black',
       lineHeight: [1.4, null, null, null, null, 1.55],
       pr: [0, null, null, null, null, 2],
       mb: [2, 3],
@@ -169,7 +172,7 @@ const styles = {
       fontSize: 1,
       fontWeight: 400,
       lineHeight: [1.85, null, null, 1.9, 2],
-      color: 'white',
+      color: 'black',
       opacity: 0.65,
       pr: [0, null, null, null, null, 5],
     },
