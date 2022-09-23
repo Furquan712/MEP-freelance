@@ -13,7 +13,7 @@ export default function Header({ className }) {
   return (
     <DrawerProvider >
       <header sx={styles.header} className={className} id="header">
-        <Container sx={styles.container} backgroundColor='white'>
+        <Container sx={styles.container} >
           <Logo src={className === 'sticky' ? LogoDark : LogoWhite} />
 
           <Flex as="nav" sx={styles.nav}>
@@ -87,8 +87,7 @@ const styles = {
         color: 'text',
       },
       '.donate__btn': {
-        borderColor: 'primary',
-        color: 'primary',
+        
         '&:hover': {
           boxShadow: 'rgba(31, 62, 118, 0.57) 0px 9px 20px -5px',
           backgroundColor: 'white',
