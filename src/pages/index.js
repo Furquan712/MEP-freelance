@@ -13,6 +13,7 @@ import WorkFlow from 'sections/workflow';
 import TestimonialCard from 'sections/testimonial';
  import Package from 'sections/package';
 import Faq from 'sections/faq';
+import OurProjects from 'sections/our-projects';
 
 export default function IndexPage() {
   return (
@@ -23,6 +24,7 @@ export default function IndexPage() {
           <Banner />
           <KeyFeature />
           <WorkFlow />
+          <OurProjects />
           <CoreFeature />
           <PartnerSection />
           <TestimonialCard />
