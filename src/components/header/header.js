@@ -11,9 +11,9 @@ import menuItems from './header.data';
 
 export default function Header({ className }) {
   return (
-    <DrawerProvider>
+    <DrawerProvider >
       <header sx={styles.header} className={className} id="header">
-        <Container sx={styles.container}>
+        <Container sx={styles.container} >
           <Logo src={className === 'sticky' ? LogoDark : LogoWhite} />
 
           <Flex as="nav" sx={styles.nav}>
@@ -36,8 +36,9 @@ export default function Header({ className }) {
             className="donate__btn"
             variant="secondary"
             aria-label="Get Started"
+            backgroundColor='#596AFF' color='white'
           >
-            Get Started
+            Join Us
           </Button>
 
           <MobileDrawer />
@@ -61,7 +62,7 @@ const positionAnim = keyframes`
 
 const styles = {
   header: {
-    color: 'white',
+    color: 'black',
     fontWeight: 'normal',
     py: 4,
     width: '100%',
@@ -86,11 +87,10 @@ const styles = {
         color: 'text',
       },
       '.donate__btn': {
-        borderColor: 'primary',
-        color: 'primary',
+        
         '&:hover': {
           boxShadow: 'rgba(31, 62, 118, 0.57) 0px 9px 20px -5px',
-          backgroundColor: 'primary',
+          backgroundColor: 'white',
           color: 'white',
         },
       },

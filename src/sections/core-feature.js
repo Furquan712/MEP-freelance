@@ -9,7 +9,7 @@ import Secure from 'assets/core-feature/secure.svg';
 
 const data = {
   subTitle: 'Core features',
-  title: 'Smart Jackpots that you may love this anytime & anywhere',
+  title: 'Our Team',
   features: [
     {
       id: 1,

@@ -24,9 +24,8 @@ export default function IndexPage() {
           <Banner />
           <KeyFeature />
           <WorkFlow />
-          <OurProjects />
-          <CoreFeature />
           <PartnerSection />
+          <CoreFeature />
           <TestimonialCard />
           
         </Layout>
