@@ -14,6 +14,7 @@ import TestimonialCard from 'sections/testimonial';
  import Package from 'sections/package';
 import Faq from 'sections/faq';
 import OurProjects from 'sections/our-projects';
+import WhatWeDo from 'sections/what-we-do';
 
 export default function IndexPage() {
   return (
@@ -25,6 +26,8 @@ export default function IndexPage() {
           <KeyFeature />
           <WorkFlow />
           <PartnerSection />
+          <WhatWeDo />
+          <OurProjects />
           <CoreFeature />
           <TestimonialCard />
           

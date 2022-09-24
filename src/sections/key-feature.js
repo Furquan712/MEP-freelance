@@ -36,7 +36,8 @@ const data = [
 
 export default function KeyFeature() {
   return (
-    <section sx={{ variant: 'section.keyFeature' }} id="feature">
+    <section sx={{ variant: 'section.keyFeature' }} style={{overflowX:'hidden'}} id="feature">
+      <div style={styles.gradient}></div>
       <Container>
         <SectionHeader
            title="Why  Choose Us"
@@ -67,6 +68,16 @@ const styles = {
   featurecardcolumn:{
     boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
   transition: '0.3s',
+},
+gradient:{
+  width:"830px",
+  height:"3000px",
+  background: "linear-gradient(180deg, rgba(90, 107, 255, 0.476) 0%, rgba(169, 227, 255, 0) 100%)",
+  transform: "rotate(75deg)",
+  position: "absolute",
+  top: '-47%',
+  left:'110%',
+
 },
    
   grid: {
