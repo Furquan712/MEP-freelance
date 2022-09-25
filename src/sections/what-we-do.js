@@ -6,11 +6,10 @@ import { FiArrowRight } from 'react-icons/fi'
 export default function WhatWeDo() {
   return (
     <section style={styles.coreFeature}>
-      <Container>
         <SectionHeader title="What We Do" />
 
         <div class="container">
-          <Container style={styles.anotherContainer}>
+          <div style={styles.anotherContainer}>
             <ul class="cards" style={styles.cards}>
               <li class="card" style={styles.card}>
                 <div style={styles.cardContent}>
@@ -77,9 +76,8 @@ export default function WhatWeDo() {
                 </div>
               </li>
             </ul>
-          </Container>
+          </div>
         </div>
-      </Container>
     </section>
   );
 }
@@ -88,9 +86,8 @@ const styles = {
   coreFeature: {
     py: [0, null, null, 2, null, 7],
     position: "relative",
-    margin: "40px 0",
     backgroundColor: "#E9EFFF",
-    padding: "40px 0",
+    padding: "60px 0",
     "&::before": {
       position: "absolute",
       content: '""',
@@ -118,10 +115,12 @@ const styles = {
     gridAutoColumns: ["100%", "50%"],
     gridColumnGap: "20px",
     gridAutoFlow: "column",
-    padding: "25px 0px",
+    padding: "25px 10px",
     listStyle: "none",
     overflowX: "scroll",
     scrollSnapType: "x mandatory",
+    scrollBehavior: "smooth",
+    scrollbarWidth: "none",
   },
   anotherContainer: {
     maxWidth: "1400px",
@@ -186,13 +185,14 @@ const styles = {
   card: {
     display: "flex",
     flexDirection: "column",
-    minWidth: "460px",
-    minHeight:"490px",
+    minWidth: "400px",
+    minHeight:"430px",
     backgroundColor: "white",
     borderRadius: "12px",
     boxShadow: " 0 5px 15px rgba(0, 0, 0, 15%)",
     scrollSnapAlign: "start",
     transition: "all 0.2s",
+    
   },
   cardHeading:{
     fontSize: "24px",

@@ -36,7 +36,7 @@ const data = [
 
 export default function KeyFeature() {
   return (
-    <section sx={{ variant: 'section.keyFeature' }} style={{overflowX:'hidden'}} id="feature">
+    <section sx={{ variant: 'section.keyFeature' }} style={{position:'relative',overflow:'hidden'}} id="feature">
       <div style={styles.gradient}></div>
       <Container>
         <SectionHeader
@@ -75,7 +75,7 @@ gradient:{
   background: "linear-gradient(180deg, rgba(90, 107, 255, 0.476) 0%, rgba(169, 227, 255, 0) 100%)",
   transform: "rotate(75deg)",
   position: "absolute",
-  top: '-47%',
+  top: '-197%',
   left:'110%',
 
 },
