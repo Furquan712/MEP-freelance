@@ -1,19 +1,15 @@
 /** @jsx jsx */
-import { jsx, Heading, Box, Text, Flex, Container } from 'theme-ui';
+import { jsx, Container, Flex, Box, Heading, Text, Image, Button } from 'theme-ui';
 import { Link } from 'components/link';
 import Logo from 'components/logo';
 import menuItems from './footer.data';
+import Dubaicon from 'assets/dubai.png'
+import IndiaGate from 'assets/india-gate.png'
+import Uk from 'assets/uk.png'
  
 export default function Footer() {
   return (
     <> 
-    <Container sx={styles.abovefooter}>
-           <Box>
-                  <Text>
-                    gfxcghgh
-                  </Text>
-           </Box>
-     </Container>
     <footer sx={styles.footer}>
        <Container sx={styles.footer.container}>
         <Box sx={styles.footer.footerTopArea}>
@@ -58,26 +54,8 @@ export default function Footer() {
 }
 
 const styles = {
-  abovefooter:{
-    position: 'relative',
-    zIndex: '10',
-    top: -9,
-    mb: -9,
-    marginTop:'70px',
-    marginBottom:'-89px',
-    padding: ['55px 30px 60px', null, null, '55px 30px 60px', '55px 50px 60px'],
-    backgroundColor: '#183656',
-     backgroundRepeat: 'no-repeat',
-    backgroundPosition: '60% center',
-    backgroundSize: ['120px', null, null, null, 'auto'],
-    borderRadius: '7px',
-    display: 'flex',
-    alignItems: 'center',
-    textAlign: ['center', null, null, 'left'],
-    flexDirection: ['column', null, null, 'row'],
-    justifyContent: ['center', null, null, 'space-between'],
-  },
   footer: {
+    positio:'relative',
     backgroundColor: '#18263B',
     container: {
       width: '100%',

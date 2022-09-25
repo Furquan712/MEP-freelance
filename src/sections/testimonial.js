@@ -1,10 +1,12 @@
 /** @jsx jsx */
-import { jsx, Container, Heading, Text, Box, Image } from 'theme-ui';
+import { jsx, Container, Flex, Box, Heading, Text, Image, Button } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import Rating from 'components/rating';
 import ButtonGroup from 'components/button-group';
 import Carousel from 'react-multi-carousel';
-
+import Dubaicon from 'assets/dubai.png'
+import IndiaGate from 'assets/india-gate.png'
+import Uk from 'assets/uk.png'
 import Avatar1 from 'assets/testimonial/avatar1.png';
 import Avatar2 from 'assets/testimonial/avatar2.png';
 import Avatar3 from 'assets/testimonial/avatar3.png';
@@ -127,6 +129,23 @@ export default function TestimonialCard() {
           ))}
         </Carousel>
       </Box>
+      <Container sx={styles.abovefooter}>
+      <Box>
+      <Flex  >
+      <Box >
+           <Image src={Dubaicon} alt="dubaicon" />
+      </Box>
+      <Box>
+           <Image src={IndiaGate} alt="indiagate" />
+      </Box>
+      <Box>
+           <Image src={Uk} alt="uk" />
+      </Box>
+      </Flex>
+      </Box>
+      
+          
+     </Container>
     </section>
   );
 }
@@ -253,5 +272,27 @@ const styles = {
     fontWeight: '500',
     fontSize: 1,
     lineHeight: 1.4,
+  },
+  abovefooter:{
+    position: 'relative',
+    zIndex: '10',
+     
+ 
+ 
+    mb: -9,
+    
+    marginTop:'70px',
+    marginBottom:'-89px',
+    padding: ['55px 30px 42px', null, null, '55px 30px 42px', '55px 50px 42px'],
+    backgroundColor: '#183656',
+     backgroundRepeat: 'no-repeat',
+    backgroundPosition: '60% center',
+    backgroundSize: ['120px', null, null, null, 'auto'],
+    borderRadius: '7px',
+    display: 'flex',
+    alignItems: 'center',
+    textAlign: ['center', null, null, 'left'],
+    flexDirection: ['column', null, null, 'row'],
+    justifyContent: ['center', null, null, 'space-between'],
   },
 };

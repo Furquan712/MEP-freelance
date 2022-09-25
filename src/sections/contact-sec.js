@@ -1,12 +1,73 @@
+/** @jsx jsx */
+import { jsx } from 'theme-ui';
 import { Container, Box, Heading, Text,Row } from 'theme-ui';
-
+import {
+    Flex,
+    Button,
+    Label,
+    Input,
+    Select,
+    Textarea,
+    Radio,
+    Checkbox,
+    Slider,
+  } from 'theme-ui'
 
 
 export default function ContactSec(){
     return (
         
-            <Container>
-                <Heading as="h2">Contact Us</Heading>
+  <Container  sx={styles.contactform}>
+               <Box as="form" onSubmit={(e) => e.preventDefault()}>
+  <Label htmlFor="username">Username</Label>
+  <Input name="username" id="username" mb={3} />
+  <Label htmlFor="password">Password</Label>
+  <Input type="password" name="password" id="password" mb={3} />
+  <Box>
+    <Label mb={3}>
+      <Checkbox />
+      Remember me
+    </Label>
+  </Box>
+  <Label htmlFor="sound">Sound</Label>
+  <Select name="sound" id="sound" mb={3}>
+    <option>Beep</option>
+    <option>Boop</option>
+    <option>Blip</option>
+  </Select>
+  <Label htmlFor="comment">Comment</Label>
+  <Textarea name="comment" id="comment" rows={6} mb={3} />
+  <Flex mb={3}>
+    <Label>
+      <Radio name="letter" /> Alpha
+    </Label>
+    <Label>
+      <Radio name="letter" /> Bravo
+    </Label>
+    <Label>
+      <Radio name="letter" /> Charlie
+    </Label>
+  </Flex>
+  <Label>Slider</Label>
+  <Slider mb={3} />
+  <Button>Submit</Button>
+</Box>
             </Container>
     )
 }
+
+const styles = {
+    banner: {
+      overflow: ['hidden', 'initial', null, 'hidden'],
+       backgroundRepeat: `no-repeat`,
+      backgroundPosition: 'top left',
+      backgroundSize: 'cover',
+      borderBottomRightRadius: [100, 150, null, null, null, 250],
+      pt: ['150px', null, null, null, null, null, '140px', '130px'],
+      pb: ['100px', null, null, '110px', null, 10, '150px'],
+      backgroundColor: 'white',
+      container: {
+        display: 'flex',
+      },
+    },
+};
