@@ -3,13 +3,16 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "prestart": "next build",
     "dev": "next dev",
     "build": "next build",
     "serve": "next start",
     "export": "next export",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap",
+    "start": "next start -p $PORT"
   },
   "dependencies": {
+    "@next/env": "^12.3.1",
     "caniuse-lite": "^1.0.30001402",
     "dotenv": "^8.2.0",
     "framer-motion": "^2.7.5",

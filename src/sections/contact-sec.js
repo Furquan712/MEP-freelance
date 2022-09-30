@@ -20,51 +20,96 @@ export default function ContactSec() {
     <Container sx={styles.contactform}>
       <Grid gap={2} columns={[2, "1fr 1fr"]} sx={styles.grid}>
         <Box>
-          <Heading>Connect With Us</Heading>
+          <Heading as="h1" sx={styles.h1}>
+            | Connect With Us
+          </Heading>
           <Box sx={styles.salesBox}>
-            {/* <Heading as="h5">Enquiry</Heading> */}
-            <Text
-              sx={{
-                fontSize: 2,
-                fontWeight: "bold",
-                display: "block",
-                margin:"8px 0px"
-              }}
-            >
-              <FaEnvelope/> enquiry@gmail.com
-              {/* <FaPhone /> +91 1234567890 */}
-            </Text>
-            <Text
-              sx={{
-                fontSize: 2,
-                fontWeight: "bold",
-                display: "block",
-              }}
-            >
-              <FaPhone /> +91 1234567890
-            </Text>
+            <Heading as="h5">Enquiry for sales</Heading>
+            <Box sx={styles.box}>
+              <Text
+                sx={{
+                  fontSize: 2,
+                  fontWeight: "bold",
+                  display: "block",
+                  margin: "8px 0px",
+                }}
+              >
+                <FaEnvelope /> enquiry@gmail.com
+                {/* <FaPhone /> +91 1234567890 */}
+              </Text>
+              <Text
+                sx={{
+                  fontSize: 2,
+                  fontWeight: "bold",
+                  display: "block",
+                }}
+              >
+                <FaPhone /> +91 1234567890
+              </Text>
+            </Box>
+            <hr></hr>
+          </Box>
+          <Box sx={styles.salesBox}>
+            <Heading as="h5">Enquiry for sales</Heading>
+            <Box sx={styles.box}>
+              <Text
+                sx={{
+                  fontSize: 2,
+                  fontWeight: "bold",
+                  display: "block",
+                  margin: "8px 0px",
+                }}
+              >
+                <FaEnvelope /> enquiry@gmail.com
+                {/* <FaPhone /> +91 1234567890 */}
+              </Text>
+              <Text
+                sx={{
+                  fontSize: 2,
+                  fontWeight: "bold",
+                  display: "block",
+                }}
+              >
+                <FaPhone /> +91 1234567890
+              </Text>
+            </Box>
+            <hr></hr>
+          </Box>
+          <Box sx={styles.salesBox}>
+            <Heading as="h5">General Enquiry</Heading>
+            <Box sx={styles.box}>
+              <Text
+                sx={{
+                  fontSize: 2,
+                  fontWeight: "bold",
+                  display: "block",
+                }}
+              >
+                <FaPhone /> +91 1234567890
+              </Text>
+            </Box>
+            <hr></hr>
           </Box>
         </Box>
         <Box as="form" onSubmit={(e) => e.preventDefault()}>
-          <Label htmlFor="username">Username</Label>
+          <Label htmlFor="username">Name</Label>
           <Input name="username" id="username" mb={3} />
-          <Label htmlFor="password">Password</Label>
-          <Input type="password" name="password" id="password" mb={3} />
-          <Box>
-            <Label mb={3}>
-              <Checkbox />
-              Remember me
-            </Label>
-          </Box>
-          <Label htmlFor="sound">Sound</Label>
+          <Label htmlFor="password">Email</Label>
+          <Input type="email" name="password" id="password" mb={3} />
+
+          <Label htmlFor="sound">Country</Label>
           <Select name="sound" id="sound" mb={3}>
-            <option>Beep</option>
-            <option>Boop</option>
-            <option>Blip</option>
+            <option>UAE</option>
+            <option>India</option>
+            <option>etc</option>
           </Select>
-          <Label htmlFor="comment">Comment</Label>
+          <Label htmlFor="password">Contact number</Label>
+          <Input type="tel" name="password" id="password" mb={3} />
+          <Label htmlFor="password">Expected date</Label>
+          <Input type="date" name="password" id="password" mb={3} />
+          <Label htmlFor="comment">Message</Label>
           <Textarea name="comment" id="comment" rows={6} mb={3} />
-          <Flex mb={3}>
+          {/* <Flex mb={3}>
             <Label>
               <Radio name="letter" /> Alpha
             </Label>
@@ -74,9 +119,9 @@ export default function ContactSec() {
             <Label>
               <Radio name="letter" /> Charlie
             </Label>
-          </Flex>
-          <Label>Slider</Label>
-          <Slider mb={3} />
+          </Flex> */}
+          {/* <Label>Slider</Label>
+          <Slider mb={3} /> */}
           <Button>Submit</Button>
         </Box>
       </Grid>
@@ -85,17 +130,24 @@ export default function ContactSec() {
 }
 
 const styles = {
+  h1: {
+    fontSize: "30px",
+  },
+  h3: {},
   contactform: {
     maxWidth: 600,
     padding: "150px 0 120px 0",
   },
   salesBox: {
-    padding: "20px",
+    padding: "10px 20px",
   },
-  grid:{
+  box:{
+    padding: "10px 20px",
+  },
+  grid: {
     "@media screen and (max-width: 768px)": {
       gridTemplateColumns: "1fr",
-    }
+    },
   },
   banner: {
     overflow: ["hidden", "initial", null, "hidden"],
