@@ -9,7 +9,6 @@ import KeyFeature from 'sections/key-feature';
 import CoreFeature from 'sections/core-feature';
 import Feature from 'sections/feature';
 import PartnerSection from 'sections/partner';
-import WorkFlow from 'sections/workflow';
 import TestimonialCard from 'sections/testimonial';
  import Package from 'sections/package';
 import Faq from 'sections/faq';
@@ -24,7 +23,6 @@ export default function IndexPage() {
           <SEO title="Startup Landing 004" />
           <Banner />
           <KeyFeature />
-          <WorkFlow />
           <PartnerSection />
           <WhatWeDo />
           <OurProjects />
