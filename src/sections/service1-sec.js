@@ -4,20 +4,17 @@ import { jsx } from "theme-ui";
 import { Container, Box, Heading, Text, Row } from "theme-ui";
 import {
     Link,
-  Flex,
-  Grid,
-  Button,
-  Label,
-  Input,
-  Select,
-  Textarea,
-  Radio,
-  Checkbox,
-  Slider,
+  Image,
 } from "theme-ui";
+import Img from '../assets/elec.jpg';
+
+import {BsGear} from 'react-icons/bs'
+import { GiElectric } from "react-icons/gi";
 
 export default function Service1() {
   return (
+    <>
+    <Image src={Img} sx={styles.Image}/>
     <Container sx={styles.service1}>
       <Box>
            <h1 sx={styles.mainheading} >MEP Building Services </h1>
@@ -26,7 +23,7 @@ export default function Service1() {
            </p>
       </Box>
       <Box> 
-        <h1 sx={styles.heading}>Mechanical</h1>
+        <h1 sx={styles.heading}><BsGear sx={styles.icons}/> Mechanical</h1>
         <p>
         Since its establishment in 1978, USBC has consistently delivered successful MEP projects in a wide spectrum of sectors including infrastructure and commercial buildings such as Burj Al Arab, 
         </p>
@@ -35,7 +32,7 @@ export default function Service1() {
         <Link>Plumbing</Link>
       </Box>
       <Box>
-      <h1 sx={styles.heading}>Electricals</h1>
+      <h1 sx={styles.heading}><GiElectric sx={styles.icons}/> Electricals</h1>
         <p>
         Since its establishment in 1978, USBC has consistently delivered successful MEP projects in a wide spectrum of sectors including infrastructure and commercial buildings such as Burj Al Arab,         </p>
         <br/>
@@ -44,6 +41,7 @@ export default function Service1() {
       </Box>
          
     </Container>
+    </>
   );
 }
 
@@ -54,6 +52,17 @@ const styles = {
     heading:{
         backgroundColor: "#596AFF",
         color: "white",
+        display:'flex',
+        alignItems:'center',
+    },
+    icons:{
+      margin: '4px 10px'
+    },
+    Image: {
+      width: "100%",
+      height: "400px",
+      objectFit: "cover",
+      margin:"100px 0 50px 0"
     },
   service1: {
     maxWidth: 600,
