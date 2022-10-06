@@ -3,18 +3,19 @@ import { FaEnvelope, FaPhone } from "react-icons/fa";
 import { jsx } from "theme-ui";
 import { Container, Box, Heading, Text, Row } from "theme-ui";
 import {
-    Link,
+    Button,
   Image,
 } from "theme-ui";
 import Img from '../assets/elec.jpg';
 
 import {BsGear} from 'react-icons/bs'
 import { GiElectric } from "react-icons/gi";
-
+import { MdEngineering } from "react-icons/md";
 export default function Service1() {
   return (
     <>
-    <Image src={Img} sx={styles.Image}/>
+    <Container>
+       <Image src={Img} sx={styles.Image}/>
     <Container sx={styles.service1}>
       <Box>
            <h1 sx={styles.mainheading} >MEP Building Services </h1>
@@ -28,19 +29,35 @@ export default function Service1() {
         Since its establishment in 1978, USBC has consistently delivered successful MEP projects in a wide spectrum of sectors including infrastructure and commercial buildings such as Burj Al Arab, 
         </p>
         <br/>
-        <Link>HVAC</Link>
-        <Link>Plumbing</Link>
+        <Button><BsGear sx={styles.icons}/>HVAC</Button>
+        <br/>
+        <br/>
+        <Button><BsGear sx={styles.icons}/>Plumbing</Button>
       </Box>
       <Box>
       <h1 sx={styles.heading}><GiElectric sx={styles.icons}/> Electricals</h1>
         <p>
         Since its establishment in 1978, USBC has consistently delivered successful MEP projects in a wide spectrum of sectors including infrastructure and commercial buildings such as Burj Al Arab,         </p>
         <br/>
-        <Link>LV network</Link>
-        <Link>BLV</Link>
+        <Button><BsGear sx={styles.icons}/>LV network</Button>
+        <br/>
+        <br/>
+        <Button><BsGear sx={styles.icons}/>BLV</Button>
+      </Box>
+      <Box>
+      <h1 sx={styles.heading}><GiElectric sx={styles.icons}/> Electricals</h1>
+        <p>
+        Since its establishment in 1978, USBC has consistently delivered successful MEP projects in a wide spectrum of sectors including infrastructure and commercial buildings such as Burj Al Arab,         </p>
+        <br/>
+        <Button><BsGear sx={styles.icons}/>LV network</Button>
+        <br/>
+        <br/>
+        <Button><BsGear sx={styles.icons}/>BLV</Button>
       </Box>
          
     </Container>
+    </Container>
+   
     </>
   );
 }
@@ -59,6 +76,7 @@ const styles = {
       margin: '4px 10px'
     },
     Image: {
+      paddingTop:"50px",
       width: "100%",
       height: "400px",
       objectFit: "cover",

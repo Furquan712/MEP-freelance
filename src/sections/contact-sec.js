@@ -17,7 +17,8 @@ import {
 
 export default function ContactSec() {
   return (
-    <Container sx={styles.contactform}>
+    <Box sx={styles.main}>
+      <Container sx={styles.contactform}>
       <Grid gap={2} columns={[2, "1fr 1fr"]} sx={styles.grid}>
         <Box>
           <Heading as="h1" sx={styles.h1}>
@@ -126,10 +127,15 @@ export default function ContactSec() {
         </Box>
       </Grid>
     </Container>
+    </Box>
+    
   );
 }
 
 const styles = {
+  main:{
+    backgroundColor:"#7d89f2",
+  },
   h1: {
     fontSize: "30px",
   },
