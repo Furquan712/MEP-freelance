@@ -15,18 +15,18 @@ export default function Service1() {
   return (
     <>
     <Container>
-       <Image src={Img} sx={styles.Image}/>
+    <Image src={Img} sx={styles.Image}/>
     <Container sx={styles.service1}>
       <Box>
            <h1 sx={styles.mainheading} >MEP Building Services </h1>
            <p>
-           Since its establishment in 1978, USBC has consistently delivered successful MEP projects in a wide spectrum of sectors including infrastructure and commercial buildings such as Burj Al Arab, Abu Dhabi Investment Council, Dubai Fountain, Atlantis The Palm and Dubai Airport Concourse 4.
+           URBAN SCIENCE is one of the leading MEP companies in Dubai, in electrical, mechanical, instrumentation and building services within Dubai. We help our customers with integrated engineering solutions that is comprised of design, procurement, construction, project management, commissioning and facilities management especially done according to clients’ requirements.
            </p>
       </Box>
       <Box> 
         <h1 sx={styles.heading}><BsGear sx={styles.icons}/> Mechanical</h1>
         <p>
-        Since its establishment in 1978, USBC has consistently delivered successful MEP projects in a wide spectrum of sectors including infrastructure and commercial buildings such as Burj Al Arab, 
+        From last 18 years URBAN SCIENCE have consistently delivery best output in facility management and MEP work. Our core team has covered a large part in Dubai. Our consistent delivery and expertise make us one of the leading facility management company in Dubai.
         </p>
         <br/>
         <Button><BsGear sx={styles.icons}/>HVAC</Button>
@@ -36,18 +36,9 @@ export default function Service1() {
       </Box>
       <Box>
       <h1 sx={styles.heading}><GiElectric sx={styles.icons}/> Electricals</h1>
-        <p>
-        Since its establishment in 1978, USBC has consistently delivered successful MEP projects in a wide spectrum of sectors including infrastructure and commercial buildings such as Burj Al Arab,         </p>
-        <br/>
-        <Button><BsGear sx={styles.icons}/>LV network</Button>
-        <br/>
-        <br/>
-        <Button><BsGear sx={styles.icons}/>BLV</Button>
-      </Box>
-      <Box>
-      <h1 sx={styles.heading}><GiElectric sx={styles.icons}/> Electricals</h1>
-        <p>
-        Since its establishment in 1978, USBC has consistently delivered successful MEP projects in a wide spectrum of sectors including infrastructure and commercial buildings such as Burj Al Arab,         </p>
+         <p>
+        Urban Science Contracting is prepared to take on all challenging Electrical works whether it is ELV, LV, IT Solutions, access control, CCTV, and Security. We are happy to inform you that we are a Dubai Municipality and DCD approved MEP company in Dubai.
+         </p>
         <br/>
         <Button><BsGear sx={styles.icons}/>LV network</Button>
         <br/>
@@ -84,7 +75,7 @@ const styles = {
     },
   service1: {
     maxWidth: 600,
-    padding: "150px 0 120px 0",
+    padding: "0px 0 120px 0",
   },
   
   grid:{

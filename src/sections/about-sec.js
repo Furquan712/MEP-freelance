@@ -141,7 +141,7 @@ export default aboutsec;
 
 const styles = {
     main:{
-    backgroundColor:"#7d89f2",
+    backgroundColor:"white",
     },
   section: {
     padding: "150px 0 120px 0",
@@ -165,6 +165,10 @@ const styles = {
   flexxbox:{
     display:"flex",
      padding:"60px",
+  },
+  gridform:{
+   borderStyle:"solid",
+   borderColor:"coral",
   },
   aboutform:{
 padding:"100px",

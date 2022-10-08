@@ -41,7 +41,7 @@ export default function KeyFeature() {
       <Container>
         <SectionHeader
            title="Why  Choose Us"
-          slogan="Quality features"
+          slogan="“You cannot create the experience. You must undergo it”"
           
         />
 
