@@ -118,6 +118,9 @@ function aboutsec() {
         </Flex>
       </Container>
       <Grid sx={styles.gridform}>
+      <Box sx={styles.headBox}>
+        <Box sx={styles.head}>Register your interest</Box>
+      </Box>
         <Box
           as="form"
           sx={styles.aboutform}
@@ -133,7 +136,7 @@ function aboutsec() {
               <option>Saudi Arab</option>
             </Select>
           </Flex>
-          <Button>Submit</Button>
+          <Button sx={styles.formBtn}>Submit</Button>
         </Box>
       </Grid>
     </Box>
@@ -167,6 +170,18 @@ const styles = {
   flexx:{
     flexWrap: "wrap",
   },
+  headBox:{
+    padding: ["0 20px","0 70px"],
+    position: "relative",
+  },
+  head:{
+    fontSize: "30px",
+    position: "absolute",
+    bottom: "-85px",
+    backgroundColor: "#7d89f2",
+    color: "#fff",
+    zIndex: "1",
+  },
   flexbox: {
     paddingTop:"50px",
   },
@@ -181,9 +196,18 @@ const styles = {
     padding: "60px",
   },
   aboutform: {
-    padding: ["20px","100px"],
+    position: "relative",
+    padding: ["20px","70px"],
+    border:"2px solid #fff",
+    margin: "40px"
   },
   aboutforminner: {
     padding: "20px",
   },
+  formBtn:{
+    position:"absolute",
+    bottom: "-25px",
+    width: ["100px","300px"],
+    left: "35vw",
+  }
 };
