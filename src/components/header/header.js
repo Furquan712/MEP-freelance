@@ -8,6 +8,7 @@ import LogoWhite from 'assets/logo.svg';
 import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
+import { BsTelephoneInboundFil } from 'react-icons/bs';
 
 export default function Header({ className }) {
   return (
@@ -31,7 +32,8 @@ export default function Header({ className }) {
               </Link>
             ))}
           </Flex>
-
+          
+          <h3><BsTelephoneInboundFill/></h3>
           <Button
             className="donate__btn"
             variant="secondary"

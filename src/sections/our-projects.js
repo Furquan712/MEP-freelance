@@ -116,7 +116,7 @@ const styles = {
     overflowX:"auto",
     padding: "20px",
 
-    "&::-webkit-scrollbar": {
+    "&::WebkitScrollbar": {
       background: "transparent",
     }
   },
