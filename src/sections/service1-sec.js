@@ -29,10 +29,8 @@ export default function Service1() {
         From last 18 years URBAN SCIENCE have consistently delivery best output in facility management and MEP work. Our core team has covered a large part in Dubai. Our consistent delivery and expertise make us one of the leading facility management company in Dubai.
         </p>
         <br/>
-        <Button><BsGear sx={styles.icons}/>HVAC</Button>
-        <br/>
-        <br/>
-        <Button><BsGear sx={styles.icons}/>Plumbing</Button>
+        <h2 ><BsGear style={{padding:"10px"}} />HVAC</h2>
+        <h2><BsGear />Plumbing</h2>
       </Box>
       <Box>
       <h1 sx={styles.heading}><GiElectric sx={styles.icons}/> Electricals</h1>
@@ -40,10 +38,8 @@ export default function Service1() {
         Urban Science Contracting is prepared to take on all challenging Electrical works whether it is ELV, LV, IT Solutions, access control, CCTV, and Security. We are happy to inform you that we are a Dubai Municipality and DCD approved MEP company in Dubai.
          </p>
         <br/>
-        <Button><BsGear sx={styles.icons}/>LV network</Button>
-        <br/>
-        <br/>
-        <Button><BsGear sx={styles.icons}/>BLV</Button>
+        <h2><BsGear  />LV network</h2>
+        <h2><BsGear  />BLV</h2>
       </Box>
          
     </Container>
