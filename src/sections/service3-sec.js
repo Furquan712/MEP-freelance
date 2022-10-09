@@ -40,7 +40,7 @@ export default function KeyFeature() {
     >
       <div style={styles.gradient}></div>
       <Container>
-        <h1 style={{fontSize:"50px", color:"#596AFF"}}>HVAC Services</h1>
+        <h1 style={{fontSize:"50px", color:"#596AFF"}}>Plumbing Services</h1>
         <p>
           Since its establishment in 1978, USBC has consistently delivered
           successful MEP projects in a wide spectrum of sectors including

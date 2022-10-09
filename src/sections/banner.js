@@ -42,14 +42,16 @@ export default function Banner() {
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
+       
         <Box sx={styles.banner.contentBox}>
-          <Heading as="h1" variant="heroPrimary" color='#596AFF'>
-            Experience your ultimate mobile application
+          <Heading as="h1" style={{fontSize:"280%",fontWeight:"bold"}}   color='#596AFF'>
+          Leading Facility management & MEP company in Dubai
           </Heading>
+           
           <Text as="p" variant="heroSecondary" color='black'>
-            Get your blood tests delivered at let home collect sample from the
-            victory of the managements that supplies best design system
-            guidelines ever.
+          Urban Science is always ready to accept your challenges
+          <br/>
+          Meeting your goals is our main objective. Professional services for facility management & MEP works.
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Get Started" backgroundColor='#596AFF' color='white'>
