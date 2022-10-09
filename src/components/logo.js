@@ -23,6 +23,6 @@ export default function Logo({ src, ...rest }) {
 const style = {
   logo:{
     width: '100%',
-    height:["40px","100px"]
+    height:["30px","70px"]
   }
 }

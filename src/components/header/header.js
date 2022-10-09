@@ -1,10 +1,12 @@
 /** @jsx jsx */
-import { jsx, Container, Flex, Button } from 'theme-ui';
+import { jsx, Container, Flex, Button, Heading } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import { Link } from 'react-scroll';
 import Logo from 'components/logo';
 import LogoDark from 'assets/logo-dark.svg';
 import LogoWhite from 'assets/logo.svg';
+import BlackLogo from 'assets/blackLogo.png';
+import { FaPhone, FaEnvelope } from 'react-icons/fa';
 import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
