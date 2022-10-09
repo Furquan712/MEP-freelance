@@ -68,7 +68,7 @@ export default function Feature() {
       <Container>
         <SectionHeader
           title="Why  Choose Us"
-          slogan="Quality features"
+          slogan="“You cannot create the experience. You must undergo it”"
         />
 
         <Grid sx={styles.grid}>

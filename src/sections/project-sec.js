@@ -424,13 +424,14 @@ export default function ProjectSec() {
       <Image src={Img} sx={style.Image} />
       <Container sx={style.contactform}>
         <div sx={style.circle}></div>
-        <Heading sx={style.h1}>USBC MEP</Heading>
+        {/* <Heading sx={style.h1}></Heading> */}
       </Container>
       <Container sx={style.center}>
+       
+        <div sx={style.anotherFlex} style={{ display: "flex", marginBottom:"10px" }}>
         <Heading sx={style.projectHeading} as="h1">
-          Our Projects
+          Projects
         </Heading>
-        <div sx={style.anotherFlex} style={{ display: "flex" }}>
           <Heading sx={style.mainText} as="h2" onClick={() => setPopUp(true)}>
             M
           </Heading>
@@ -506,6 +507,7 @@ const style = {
     backgroundClip: "text",
     color: "transparent",
     cursor: "pointer",
+
   },
   circle: {
     width: "50px",

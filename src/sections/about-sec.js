@@ -23,118 +23,69 @@ function aboutsec() {
   return (
     <Box sx={styles.main}>
       <Container sx={styles.section}>
+        <h1>About Us</h1>
         <Flex sx={styles.flexbox}>
           <Box sx={styles.text}>
-            <h2>OVERVIEW</h2>
             <p>
-              Sobha Realty is an international luxury developer committed to
-              redefining the art of living through sustainable communities.
-              Established in 1976 as an interior decoration firm in Oman by PNC
-              Menon – a visionary entrepreneur, the company has grown its
-              presence with developments and investments in the UAE, Oman,
-              Bahrain, Brunei and India. Over the last four decades, Sobha
-              Realty has also redefined the real estate value chain by
-              leveraging its inherent in-house capabilities of
-              conceptualisation, design and development. Sobha Realty is
-              currently developing Sobha Hartland, a luxurious freehold
-              community spread across eight million square feet in the heart of
-              Dubai, as part of the Mohammed Bin Rashid Al Maktoum City master
-              development.
+              A Leading MEP company in Dubai is Urban Science contracting MEP
+              companies in Dubai. For all of your MEP requirements, there is a
+              one-stop shop in Dubai which is Urban Science Contracting. Our
+              goal is to offer a good service at a very affordable price because
+              we are industry specialists with 18+ years of experience. Founded
+              in Dubai. The goal of Urban Science contracting is to provide the
+              Dubai, UAE with top-notch mechanical, electrical, and plumbing
+              MEP. With immense satisfaction, Urban Science Contracting would
+              like to present us as one of the reputable MEP companies in Dubai,
+              United Arab Emirates that provides best MEP Services in Dubai.
+              Urban Science contracting in Dubai, UAE mostly concentrated on MEP
+              services such as mechanical, electrical and plumbing. We have a
+              vast experience in the facility management as well as your
+              community management. At Urban Science we are 24/7 working for
+              managing your communities so that you can spend your team
+              peacefully. Best facility management company in Dubai.
             </p>
           </Box>
           <Image src={CoreFeatureThumb} alt="Thumbnail" sx={styles.image} />
         </Flex>
-
-        <Flex sx={styles.flexbox}>
-          <Image src={CoreFeatureThumb} alt="Thumbnail" sx={styles.image} />
-          <Box sx={styles.text}>
-            <h2>OVERVIEW</h2>
-            <p>
-              Sobha Realty is an international luxury developer committed to
-              redefining the art of living through sustainable communities.
-              Established in 1976 as an interior decoration firm in Oman by PNC
-              Menon – a visionary entrepreneur, the company has grown its
-              presence with developments and investments in the UAE, Oman,
-              Bahrain, Brunei and India. Over the last four decades, Sobha
-              Realty has also redefined the real estate value chain by
-              leveraging its inherent in-house capabilities of
-              conceptualisation, design and development. Sobha Realty is
-              currently developing Sobha Hartland, a luxurious freehold
-              community spread across eight million square feet in the heart of
-              Dubai, as part of the Mohammed Bin Rashid Al Maktoum City master
-              development.
-            </p>
-          </Box>
-        </Flex>
-
-        <Flex sx={styles.flexbox}>
-          <Box sx={styles.text}>
-            <h2>VISION & MISSION</h2>
-            <h3>Vision</h3>
-            <p>
-              VISION & MISSIONVISIONSobha Group aspires to become the most
-              trusted and respected real estate organisation both regionally and
-              globally.MISSIONBy pioneering innovative global projects and
-              transforming perceptions of quality, we work to challenge existing
-              norms and standards to ultimately enrich communities and even
-              society at large.
-            </p>
-            <h3>Mission</h3>
-            <p>
-              VISION & MISSIONVISIONSobha Group aspires to become the most
-              trusted and respected real estate organisation both regionally and
-              globally.MISSIONBy pioneering innovative global projects and
-              transforming perceptions of quality, we work to challenge existing
-              norms and standards to ultimately enrich communities and even
-              society at large.
-            </p>
-          </Box>
-          <Image src={CoreFeatureThumb} alt="Thumbnail" sx={styles.image} />
-        </Flex>
-        <Flex sx={styles.flexbox}>
-          <Image src={CoreFeatureThumb} alt="Thumbnail" sx={styles.image} />
-          <Box sx={styles.text}>
-            <h2>PHILOSOPHY</h2>
-            <h3>Excelance</h3>
-            <p>
-              PHILOSOPHYEXCELLENCESobha Group’s foundations have been built on
-              excellence. From design to engineering, development and interiors,
-              everything has to be of the highest possible standard at all
-              times. These standards are embodied by everyone associated with
-              Sobha
-            </p>
-            <h2>Responsiblity</h2>
-            <p>
-              <p>
-                PHILOSOPHYEXCELLENCESobha Group’s foundations have been built on
-                excellence. From design to engineering, development and
-                interiors, everything has to be of the highest possible standard
-                at all times. These standards are embodied by everyone
-                associated with Sobha Group. The eminence of our work can be
-                revealed by our
-              </p>
-            </p>
-          </Box>
-        </Flex>
+        <Box sx={styles.quotes}>
+          <h2>Our Vision</h2>
+          <p>
+            “We want to work till the point, that a person in UAE won’t ask for
+            Facility management but URBAN SCIENCE.’’
+          </p>
+        </Box>
       </Container>
       <Grid sx={styles.gridform}>
-      <Box sx={styles.headBox}>
-        <Box sx={styles.head}>Register your interest</Box>
-      </Box>
+        <Box sx={styles.headBox}>
+          <Box sx={styles.head}>Register your interest</Box>
+        </Box>
         <Box
           as="form"
           sx={styles.aboutform}
           onSubmit={(e) => e.preventDefault()}
         >
           <Flex sx={styles.flexx}>
-            <Input name="username" sx={styles.spacing} id="username" mb={3} placeholder="Name"/>
-            <Input type="email" sx={styles.spacing} placeholder="Email" id="password" mb={3} />
-            <Input type="tel" sx={styles.spacing} placeholder="Mobile Number" id="password" mb={3} />
-            <Select sx={styles.extra} name="sound" id="sound" mb={3}>
-              <option>India</option>
-              <option>UAE</option>
-              <option>Saudi Arab</option>
-            </Select>
+            <Input
+              name="username"
+              sx={styles.spacing}
+              id="username"
+              mb={3}
+              placeholder="Name"
+            />
+            <Input
+              type="email"
+              sx={styles.spacing}
+              placeholder="Email"
+              id="password"
+              mb={3}
+            />
+            <Input
+              type="tel"
+              sx={styles.spacing}
+              placeholder="Mobile Number"
+              id="password"
+              mb={3}
+            />
           </Flex>
           <Button sx={styles.formBtn}>Submit</Button>
         </Box>
@@ -147,34 +98,33 @@ export default aboutsec;
 
 const styles = {
   main: {
-    backgroundColor: "#7d89f2",
+    backgroundColor: "white",
   },
   section: {
     padding: "150px 0 120px 0",
   },
-  text: {
-    paddingRight: "20px",
-    paddingLeft: "20px",
+  text:{
+marginTop:"0px",
   },
   image: {
-    width: "200%",
+    width: "600%",
   },
-  spacing:{
-    margin: ["20px 0","20px"],
+  spacing: {
+    margin: ["20px 0", "20px"],
     maxWidth: "300px",
   },
-  extra:{
+  extra: {
     margin: "20px 0 20px 0",
   },
 
-  flexx:{
+  flexx: {
     flexWrap: "wrap",
   },
-  headBox:{
-    padding: ["0 20px","0 70px"],
+  headBox: {
+    padding: ["0 20px", "0 70px"],
     position: "relative",
   },
-  head:{
+  head: {
     fontSize: "30px",
     position: "absolute",
     bottom: "-85px",
@@ -183,7 +133,7 @@ const styles = {
     zIndex: "1",
   },
   flexbox: {
-    paddingTop:"50px",
+    paddingTop: "50px",
   },
   Image: {
     width: "100%",
@@ -195,19 +145,23 @@ const styles = {
     display: "flex",
     padding: "60px",
   },
+  quotes: {
+    marginTop: "50px",
+    textAlign:"center",
+  },
   aboutform: {
     position: "relative",
-    padding: ["20px","70px"],
-    border:"2px solid #fff",
-    margin: "40px"
+    padding: ["20px", "70px"],
+    border: "2px solid #fff",
+    margin: "40px",
   },
   aboutforminner: {
     padding: "20px",
   },
-  formBtn:{
-    position:"absolute",
+  formBtn: {
+    position: "absolute",
     bottom: "-25px",
-    width: ["100px","300px"],
+    width: ["100px", "300px"],
     left: "35vw",
-  }
+  },
 };

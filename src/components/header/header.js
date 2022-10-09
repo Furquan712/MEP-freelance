@@ -1,16 +1,14 @@
 /** @jsx jsx */
-import { jsx, Container, Flex, Button, Heading } from "theme-ui";
-import { keyframes } from "@emotion/core";
-import { Link } from "react-scroll";
-import Logo from "components/logo";
-import LogoDark from "assets/logo-dark.svg";
-import ActLogo from "assets/logo.png";
-import LogoWhite from "assets/logo.svg";
-import BlackLogo from "assets/blackLogo.png";
-import { DrawerProvider } from "../../contexts/drawer/drawer.provider";
-import MobileDrawer from "./mobile-drawer";
-import menuItems from "./header.data";
-import { FaPhone, FaEnvelope } from "react-icons/fa";
+import { jsx, Container, Flex, Button } from 'theme-ui';
+import { keyframes } from '@emotion/core';
+import { Link } from 'react-scroll';
+import Logo from 'components/logo';
+import LogoDark from 'assets/logo-dark.svg';
+import LogoWhite from 'assets/logo.svg';
+import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
+import MobileDrawer from './mobile-drawer';
+import menuItems from './header.data';
+// import { BsTelephoneInboundFil } from 'react-icons/bs';
 
 export default function Header({ className }) {
   return (
@@ -46,7 +44,8 @@ export default function Header({ className }) {
               </Link>
             ))}
           </Flex>
-
+          
+          {/* <h3><BsTelephoneInboundFill/></h3> */}
           <Button
             className="donate__btn"
             variant="secondary"
