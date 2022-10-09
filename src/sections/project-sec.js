@@ -424,7 +424,6 @@ export default function ProjectSec() {
       <Image src={Img} sx={style.Image} />
       <Container sx={style.contactform}>
         <div sx={style.circle}></div>
-        {/* <Heading sx={style.h1}></Heading> */}
         <Heading sx={style.projectHeading} as="h1">
           Projects
         </Heading>
@@ -432,7 +431,7 @@ export default function ProjectSec() {
       <Container sx={style.center}>
        
         <div sx={style.anotherFlex} style={{ display: "flex", marginBottom:"10px" }}>
-       
+        
           <Heading sx={style.mainText} as="h2" onClick={() => setPopUp(true)}>
             M
           </Heading>
@@ -522,7 +521,10 @@ const style = {
   },
   projectHeading: {
     fontSize: ["42px", "133px"],
-    color: "#596AFF",
+    
+    color: "#353535",
+    position: "relative",
+    top: "100px",
   },
   contactform: {
     padding: "0",
@@ -543,7 +545,7 @@ const style = {
     width: "100%",
     height: "400px",
     objectFit: "cover",
-    margin: "100px 0 50px 0",
+    margin: "100px 0 0px 0",
   },
   box: {
     padding: "10px 20px",

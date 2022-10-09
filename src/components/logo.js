@@ -14,7 +14,15 @@ export default function Logo({ src, ...rest }) {
       }}
       {...rest}
     >
-      <Image src={src} alt="startup landing logo" />
+      <Image src={src} alt="startup landing logo" sx={style.logo}/>
     </Link>
   );
+}
+
+
+const style = {
+  logo:{
+    width: '100%',
+    height:["30px","70px"]
+  }
 }

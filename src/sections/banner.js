@@ -102,7 +102,8 @@ const styles = {
       flexDirection: 'column',
       alignItems: 'flex-start',
       flexShrink: 0,
-      pt: [0, null, null, null, null, null, 5, 7],
+      pt: [0, null, null, null, null, null,60, 7],
+     
     },
     imageBox: {
       // marginRight:'131px',
