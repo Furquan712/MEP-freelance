@@ -4,7 +4,9 @@ import { keyframes } from "@emotion/core";
 import { Link } from "react-scroll";
 import Logo from "components/logo";
 import LogoDark from "assets/logo-dark.svg";
+import ActLogo from "assets/logo.png";
 import LogoWhite from "assets/logo.svg";
+import BlackLogo from "assets/blackLogo.png";
 import { DrawerProvider } from "../../contexts/drawer/drawer.provider";
 import MobileDrawer from "./mobile-drawer";
 import menuItems from "./header.data";
@@ -27,7 +29,7 @@ export default function Header({ className }) {
       </header>
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
-          <Logo src={className === "sticky" ? LogoDark : LogoWhite} />
+          <Logo src={className === "sticky" ? BlackLogo : BlackLogo} />
 
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
