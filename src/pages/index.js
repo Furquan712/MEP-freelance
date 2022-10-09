@@ -23,7 +23,6 @@ export default function IndexPage() {
           <SEO title="Startup Landing 004" />
           <Banner />
           <KeyFeature />
-          <PartnerSection />
           <WhatWeDo />
           <OurProjects />
           <CoreFeature />

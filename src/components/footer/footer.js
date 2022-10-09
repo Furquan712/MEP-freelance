@@ -109,6 +109,7 @@ const styles = {
     backgroundColor: "#18263B",
     container: {
       width: "100%",
+
       alignItems: "stretch",
     },
     footerTopArea: {
@@ -127,7 +128,9 @@ const styles = {
         null,
         "calc(100% - 250px)",
         "calc(100% - 300px)",
+        
       ],
+      height:"200px",
       justifyContent: "space-between",
       flexWrap: "wrap",
       pb: 3,

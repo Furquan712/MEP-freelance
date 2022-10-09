@@ -17,16 +17,9 @@ const data = {
       altText: 'Smart Features',
       title: 'Smart Features',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
     },
-    {
-      id: 2,
-      imgSrc: Secure,
-      altText: 'Secure Contents',
-      title: 'Secure Contents',
-      text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
-    },
+     
   ],
 };
 

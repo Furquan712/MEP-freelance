@@ -17,14 +17,14 @@ export default function Header({ className }) {
     <DrawerProvider>
       <header sx={styles.patti} className={className}>
         <Flex sx={styles.flex}>
-          <Heading as="h4" sx={styles.head}>
+          <a as="h4" href=" tel:123456789" sx={styles.head}>
             <FaPhone sx={styles.icons}/>
-            123456789
-          </Heading>
-          <Heading as="h4" sx={styles.head}>
+            0509418224
+          </a>
+          <a as="h4" href="mailto:mep@gmail.com" sx={styles.head}>
             <FaEnvelope sx={styles.icons}/>
-            mep@gmail.com
-          </Heading>
+            urbansciencemep@gmail.com
+          </a>
         </Flex>
       </header>
       <header sx={styles.header} className={className} id="header">
@@ -55,7 +55,7 @@ export default function Header({ className }) {
             backgroundColor="#596AFF"
             color="white"
           >
-            Join Us
+            Enquire Now
           </Button>
 
           <MobileDrawer />

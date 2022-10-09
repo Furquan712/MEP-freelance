@@ -11,6 +11,7 @@ import { MdEngineering } from "react-icons/md";
 export default function Service1() {
   return (
     <>
+<<<<<<< HEAD
       <Container>
         <Image src={Img} sx={styles.Image} />
         <Container sx={styles.service1}>
@@ -80,6 +81,39 @@ export default function Service1() {
           </Box>
         </Container>
       </Container>
+=======
+    <Container>
+    <Image src={Img} sx={styles.Image}/>
+    <Container sx={styles.service1}>
+      <Box>
+           <h1 sx={styles.mainheading} >MEP Building Services </h1>
+           <p>
+           URBAN SCIENCE is one of the leading MEP companies in Dubai, in electrical, mechanical, instrumentation and building services within Dubai. We help our customers with integrated engineering solutions that is comprised of design, procurement, construction, project management, commissioning and facilities management especially done according to clients’ requirements.
+           </p>
+      </Box>
+      <Box> 
+        <h1 sx={styles.heading}><BsGear sx={styles.icons}/> Mechanical</h1>
+        <p>
+        From last 18 years URBAN SCIENCE have consistently delivery best output in facility management and MEP work. Our core team has covered a large part in Dubai. Our consistent delivery and expertise make us one of the leading facility management company in Dubai.
+        </p>
+        <br/>
+        <h2 ><BsGear style={{padding:"10px"}} />HVAC</h2>
+        <h2><BsGear />Plumbing</h2>
+      </Box>
+      <Box>
+      <h1 sx={styles.heading}><GiElectric sx={styles.icons}/> Electricals</h1>
+         <p>
+        Urban Science Contracting is prepared to take on all challenging Electrical works whether it is ELV, LV, IT Solutions, access control, CCTV, and Security. We are happy to inform you that we are a Dubai Municipality and DCD approved MEP company in Dubai.
+         </p>
+        <br/>
+        <h2><BsGear  />LV network</h2>
+        <h2><BsGear  />BLV</h2>
+      </Box>
+         
+    </Container>
+    </Container>
+   
+>>>>>>> 4ec98900939772e22df725f9427257ab073f74ea
     </>
   );
 }
