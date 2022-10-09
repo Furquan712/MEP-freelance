@@ -102,7 +102,7 @@ const styles = {
     py: 4,
     width: "100%",
     position: "absolute",
-    top: "30px",
+    top: "25px",
     left: 0,
     backgroundColor: "transparent",
     transition: "all 0.5s ease",
