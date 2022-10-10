@@ -8,6 +8,7 @@ import {
   Text,
   Image,
   Button,
+  Grid
 } from "theme-ui";
 import SectionHeader from "components/section-header";
 import Rating from "components/rating";
@@ -94,7 +95,7 @@ export default function TestimonialCard() {
       <Container>
         <SectionHeader slogan="Testimonial" title="Meet Client Satisfaction" />
       </Container>
-      <div style={{display:"flex"}}>
+      <Grid gap={2} columns={[2, '1fr 2fr']}>
 
       <Box sx={styles.carouselWrapper}>
         <Carousel
@@ -142,7 +143,8 @@ export default function TestimonialCard() {
         </Carousel>
       </Box>
       <Image src={BannerThumb} alt="banner" />
-      </div>
+      </Grid>
+      {/* </div> */}
       <Container sx={styles.abovefooter}>
         <Box sx={styles.completeWidth}>
           <Flex sx={styles.flexCard}>
