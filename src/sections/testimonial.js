@@ -156,9 +156,7 @@ export default function TestimonialCard() {
       <Box sx={styles.imageBox}>
         <Image src={Dubaicon} alt="dubaicon" />
       </Box>
-      <Box sx={styles.imageBox}>
-        <Image src={IndiaGate} alt="indiagate" />
-      </Box>
+      
       <Box sx={styles.imageBox}>
         <Image src={Uk} alt="uk" />
       </Box>
