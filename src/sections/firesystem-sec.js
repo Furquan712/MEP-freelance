@@ -26,7 +26,7 @@ const data = [
     id: 3,
     imgSrc: Speed,
     altText: "Quality",
-    title: "Plumbing",
+    title: "fire system ",
     text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
 ];
