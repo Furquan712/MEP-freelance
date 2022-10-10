@@ -26,8 +26,11 @@ export default function OurProjects() {
 
   return (
     <section style={styles.coreFeature}>
-      <SectionHeader title="Our Projects" />
+    
+       <h1 style={{ color: "#596AFF", textAlign:"center", fontSize:"50px"}}>Our Projects </h1>
+
       <Flex style={styles.flex}>
+        
         <Card sx={styles.specialCard}>
           <Image src={data[0].imgSrc} style={styles.specialCardImage} />
           <Box>
@@ -116,6 +119,8 @@ const styles = {
       borderBottomRightRadius: "50%",
       transform: ["translateY(0)", null, null, "translateY(-50%)"],
     },
+  },
+  mainheading: {
   },
   containerBox: {
     display: "flex",
