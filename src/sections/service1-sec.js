@@ -43,8 +43,7 @@ export default function Service1() {
               </Box>
               HVAC
             </Button>
-            <br />
-            <br />
+             
             <Button sx={styles.btn}>
               <Box sx={styles.bgBtn}>
                 <BsGear sx={styles.icons} />
@@ -69,8 +68,7 @@ export default function Service1() {
               </Box>
               LV network
             </Button>
-            <br />
-            <br />
+            
             <Button sx={styles.btn}>
               <Box sx={styles.bgBtn}>
                 <BsGear sx={styles.icons} />
