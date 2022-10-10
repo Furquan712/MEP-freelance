@@ -8,7 +8,7 @@ import {
   Text,
   Image,
   Button,
-  Grid
+  Grid,
 } from "theme-ui";
 import SectionHeader from "components/section-header";
 import Rating from "components/rating";
@@ -95,72 +95,77 @@ export default function TestimonialCard() {
       <Container>
         <SectionHeader slogan="Testimonial" title="Meet Client Satisfaction" />
       </Container>
+      
+
       <Grid gap={2} columns={[2, '1fr 2fr']}>
 
-      <Box sx={styles.carouselWrapper}>
-        <Carousel
-          additionalTransfrom={0}
-          arrows={false}
-          autoPlaySpeed={3000}
-          centerMode={false}
-          className=""
-          containerClass="carousel-container"
-          customButtonGroup={<ButtonGroup />}
-          dotListClass=""
-          draggable
-          focusOnSelect={false}
-          infinite={true}
-          itemClass=""
-          keyBoardControl
-          minimumTouchDrag={80}
-          renderButtonGroupOutside
-          renderDotsOutside={false}
-          responsive={responsive}
-          showDots={false}
-          sliderClass=""
-          slidesToSlide={1}
-        >
-          {data.map((item) => (
-            <Box sx={styles.reviewCard} key={`testimonial--key${item.id}`}>
-              <Rating rating={item.review} />
-              <Heading as="h3" sx={styles.title}>
-                {item.title}
-              </Heading>
-              <Text sx={styles.description}>{item.description}</Text>
-              <div className="card-footer">
-                <div className="image">
-                  <Image src={item.avatar} alt="Client Image" />
-                </div>
-                <div className="reviewer-info">
-                  <Heading as="h4" sx={styles.heading}>
-                    {item.name}
-                  </Heading>
-                  <Text sx={styles.designation}>{item.designation}</Text>
-                </div>
-              </div>
-            </Box>
-          ))}
-        </Carousel>
+<Box sx={styles.carouselWrapper}>
+  <Carousel
+    additionalTransfrom={0}
+    arrows={false}
+    autoPlaySpeed={3000}
+    centerMode={false}
+    className=""
+    containerClass="carousel-container"
+    customButtonGroup={<ButtonGroup />}
+    dotListClass=""
+    draggable
+    focusOnSelect={false}
+    infinite={true}
+    itemClass=""
+    keyBoardControl
+    minimumTouchDrag={80}
+    renderButtonGroupOutside
+    renderDotsOutside={false}
+    responsive={responsive}
+    showDots={false}
+    sliderClass=""
+    slidesToSlide={1}
+  >
+    {data.map((item) => (
+      <Box sx={styles.reviewCard} key={`testimonial--key${item.id}`}>
+        <Rating rating={item.review} />
+        <Heading as="h3" sx={styles.title}>
+          {item.title}
+        </Heading>
+        <Text sx={styles.description}>{item.description}</Text>
+        <div className="card-footer">
+          <div className="image">
+            <Image src={item.avatar} alt="Client Image" />
+          </div>
+          <div className="reviewer-info">
+            <Heading as="h4" sx={styles.heading}>
+              {item.name}
+            </Heading>
+            <Text sx={styles.designation}>{item.designation}</Text>
+          </div>
+        </div>
       </Box>
-      <Image src={BannerThumb} alt="banner" />
-      </Grid>
-      {/* </div> */}
-      <Container sx={styles.abovefooter}>
-        <Box sx={styles.completeWidth}>
-          <Flex sx={styles.flexCard}>
-            <Box sx={styles.imageBox}>
-              <Image src={Dubaicon} alt="dubaicon" />
-            </Box>
-            <Box sx={styles.imageBox}>
-              <Image src={IndiaGate} alt="indiagate" />
-            </Box>
-            <Box sx={styles.imageBox}>
-              <Image src={Uk} alt="uk" />
-            </Box>
-          </Flex>
-        </Box>
-      </Container>
-    </section>
+      ))}
+  </Carousel>
+</Box>
+<Box>
+<Image src={BannerThumb} style={{width:"55%", marginLeft:"300px"}} alt="banner" />
+
+</Box>
+</Grid>
+{/* </div> */}
+<Container sx={styles.abovefooter}>
+  <Box sx={styles.completeWidth}>
+    <Flex sx={styles.flexCard}>
+      <Box sx={styles.imageBox}>
+        <Image src={Dubaicon} alt="dubaicon" />
+      </Box>
+      <Box sx={styles.imageBox}>
+        <Image src={IndiaGate} alt="indiagate" />
+      </Box>
+      <Box sx={styles.imageBox}>
+        <Image src={Uk} alt="uk" />
+      </Box>
+    </Flex>
+  </Box>
+</Container>
+</section>
   );
 }
 
