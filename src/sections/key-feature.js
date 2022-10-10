@@ -12,25 +12,25 @@ const data = [
     id: 1,
     imgSrc: Vector,
     altText: 'Vector',
-    title: 'Vector Editing',
+    title: 'Clean Handover',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'A project can be started by any MEP business in Dubai, but only a select handful can finish them on schedule. Urban Science gives you the opportunity to speak with past clients before your project even begins. In order for you to receive full feedback on URBAN SCIENCE. Our clean and on-time handover makes us among the best facilities management companies in Dubai.',
   },
   {
     id: 2,
     imgSrc: Editing,
     altText: 'Monitoring',
-    title: 'Customize & Monitoring',
+    title: 'Qualified and Certified',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'With growing urban development and opportunities in Dubai, many inexperienced players have also started working in the field of facilities management in Dubai. Therefore, whenever you start your work, please make sure to check that the company is certified and qualified enough to handle the project. At URBAN SCIENCE we have the most experienced team of facility management and MEP in Dubai. Our core team has been involved in a project like SOFITEL the palm, Mall of EMIRATES, and Dubai Airport..',
   },
   {
     id: 3,
     imgSrc: Speed,
     altText: 'Quality',
-    title: 'Quality & Short-period',
+    title: 'Experienced team',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'THE ONLY SOURCE OF EXPERIENCE IS KNOWLEDGE. And this tough experience has made Urban Science what we are today. One of the best when it comes to MEP companies in Dubai and facility management companies in Dubai. Everyone calls themselves the best. But how do you choose the right company to perform your task? See their core team and you will get your answers.',
   },
 ];
 

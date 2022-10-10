@@ -20,6 +20,7 @@ import Avatar1 from "assets/testimonial/avatar1.png";
 import Avatar2 from "assets/testimonial/avatar2.png";
 import Avatar3 from "assets/testimonial/avatar3.png";
 import Avatar4 from "assets/testimonial/avatar4.png";
+import BannerThumb from "assets/partner.png"
 
 const data = [
   {
@@ -93,6 +94,8 @@ export default function TestimonialCard() {
       <Container>
         <SectionHeader slogan="Testimonial" title="Meet Client Satisfaction" />
       </Container>
+      <div style={{display:"flex"}}>
+
       <Box sx={styles.carouselWrapper}>
         <Carousel
           additionalTransfrom={0}
@@ -138,6 +141,8 @@ export default function TestimonialCard() {
           ))}
         </Carousel>
       </Box>
+      <Image src={BannerThumb} alt="banner" />
+      </div>
       <Container sx={styles.abovefooter}>
         <Box sx={styles.completeWidth}>
           <Flex sx={styles.flexCard}>

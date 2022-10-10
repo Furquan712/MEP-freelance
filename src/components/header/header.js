@@ -81,7 +81,7 @@ const styles = {
   patti: {
     textAlign: "right",
     backgroundColor:"white",
-    padding: ["0","0px 20px"],
+    padding: ["0","0px 0px"],
   },
   flex:{
     justifyContent: "flex-end",
@@ -102,7 +102,7 @@ const styles = {
     py: 4,
     width: "100%",
     position: "absolute",
-    top: "25px",
+    top: "23px",
     left: 0,
     backgroundColor: "transparent",
     transition: "all 0.5s ease",
