@@ -44,6 +44,7 @@ export default function KeyFeature() {
           slogan="“You cannot create the experience. You must undergo it”"
           
         />
+        </Container>
 
         <Grid sx={styles.grid}>
           {data.map((item) => (
@@ -58,7 +59,7 @@ export default function KeyFeature() {
             />
           ))}
         </Grid>
-      </Container>
+      
     </section>
   );
 }
@@ -81,7 +82,7 @@ gradient:{
 },
    
   grid: {
-    px: [0, null, null, '40px', null, '80px'],
+    // px: [0, null, null, '40px', null, '80px'],
     pt: [0, null, null, null, null, null, null, 3],
     gridGap: ['35px 0', null, '40px 0'],
     gridTemplateColumns: [
