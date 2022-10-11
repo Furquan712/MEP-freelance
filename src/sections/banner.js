@@ -77,7 +77,7 @@ export default function Banner() {
         </Box>
 
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerThumb} alt="banner" />
+          <Image style={{ marginTop:'-105px',}} src={BannerThumb} alt="banner" />
         </Box>
       </Container>
     </section>
@@ -109,13 +109,13 @@ const styles = {
     },
     imageBox: {
       // marginRight:'131px',
-      // marginTop:'90px',
+      marginTop:'10px',
       padding:'110px',
       display: ['none', null, null, 'block'],
       justifyContent: 'center',
       ml: [0, null, null, '-110px', '-115px', '-150px', '-210px', '-270px'],
       mr: [0, null, null, '-145px', '-160px', '-180px', '-220px', '-290px'],
-      mt: [0, null, null, '40px', 4, 7, 0],
+      mt: [0, null, null, '10px', 4, 7, 0],
       mb: [0, null, null, null, '-45px', '-70px', null, '-115px'],
       overflow: 'hidden',
       textAlign: 'right',

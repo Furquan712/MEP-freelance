@@ -3,21 +3,21 @@ import { jsx, Container, Box, Grid, Text, Heading } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 
-import CoreFeatureThumb from 'assets/coreFeature.png';
+import CoreFeatureThumb from 'assets/coreFeature.jpg';
 import Briefcase from 'assets/core-feature/briefcase.svg';
 import Secure from 'assets/core-feature/secure.svg';
 
 const data = {
-  subTitle: 'Core features',
-  title: 'Our Team',
+  
+  title: 'Team',
   features: [
     {
       id: 1,
       imgSrc: Briefcase,
       altText: 'Smart Features',
-      title: 'Smart Features',
+      title: 'A satisfied customer is the best business strategy off all',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'After spending a huge time in facility management and MEP works. And after failing several times we have come to know that a satisfied customer is what makes you the best facility management company in Dubai. Our team is a blend of young and experience, and having an experienced core team helps us work through challenging problems while the youth ideas help us lay the groundwork for the future. Having this great vision for preparing for the better tomorrow makes us the best MEP companies in Dubai.',
     },
      
   ],
@@ -28,17 +28,17 @@ export default function CoreFeature() {
     <section sx={styles.coreFeature}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={CoreFeatureThumb} alt="Thumbnail" />
+          <Image src={CoreFeatureThumb} alt="Thumbnail" style={{borderRadius:"30%"}}/>
         </Box>
         <Box sx={styles.contentBox}>
           <Box sx={styles.headingTop}>
             <TextFeature subTitle={data.subTitle} title={data.title} />
           </Box>
 
-          <Grid gap="15px 0" columns={1} sx={styles.grid}>
+          <Box gap="15px 0" columns={1} sx={styles.grid}>
             {data.features.map((item) => (
               <Box sx={styles.card} key={item.id}>
-                <Image src={item.imgSrc} alt={item.altText} sx={styles.img} />
+                
 
                 <Box sx={styles.wrapper}>
                   <Heading sx={styles.wrapper.title}>{item.title}</Heading>
@@ -46,7 +46,7 @@ export default function CoreFeature() {
                 </Box>
               </Box>
             ))}
-          </Grid>
+          </Box>
         </Box>
       </Container>
     </section>

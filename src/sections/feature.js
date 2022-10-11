@@ -63,9 +63,9 @@ const data = [
 
 export default function Feature() {
   return (
-    <section sx={{ variant: 'section.feature'}}>
+    <section  sx={{ variant: 'section.feature'}}    >
        
-      <Container>
+      <Container style={{paddingTop:"30px"}}>
         <SectionHeader
           title="Why  Choose Us"
           slogan="“You cannot create the experience. You must undergo it”"

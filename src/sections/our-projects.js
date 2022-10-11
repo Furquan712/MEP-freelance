@@ -26,7 +26,7 @@ export default function OurProjects() {
 
   return (
     <section style={styles.coreFeature}>
-      <SectionHeader title="Our Projects" />
+      <SectionHeader title="Projects" />
       <Flex style={styles.flex}>
         <Card sx={styles.specialCard}>
           <Image src={data[0].imgSrc} style={styles.specialCardImage} />
