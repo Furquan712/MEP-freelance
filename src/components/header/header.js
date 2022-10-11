@@ -1,28 +1,31 @@
 /** @jsx jsx */
-import { jsx, Container, Flex, Button, Heading } from 'theme-ui';
-import { keyframes } from '@emotion/core';
-import { Link } from 'react-scroll';
-import Logo from 'components/logo';
-import LogoDark from 'assets/logo-dark.svg';
-import LogoWhite from 'assets/logo.svg';
-import BlackLogo from 'assets/blackLogo.png';
-import { FaPhone, FaEnvelope } from 'react-icons/fa';
-import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
-import MobileDrawer from './mobile-drawer';
-import menuItems from './header.data';
+import { jsx, Container, Flex, Button, Heading } from "theme-ui";
+import { keyframes } from "@emotion/core";
+import { Link } from "react-scroll";
+import Logo from "components/logo";
+import LogoDark from "assets/logo-dark.svg";
+import LogoWhite from "assets/logo.svg";
+import BlackLogo from "assets/blackLogo.png";
+import { FaPhone, FaEnvelope } from "react-icons/fa";
+import { DrawerProvider } from "../../contexts/drawer/drawer.provider";
+import MobileDrawer from "./mobile-drawer";
+import menuItems from "./header.data";
 // import { BsTelephoneInboundFil } from 'react-icons/bs';
 
 export default function Header({ className }) {
+
+  const [show, setShow] = React.useState(false);
+
   return (
     <DrawerProvider>
       <header sx={styles.patti} className={className}>
         <Flex sx={styles.flex}>
           <a as="h4" href=" tel:123456789" sx={styles.head}>
-            <FaPhone sx={styles.icons}/>
+            <FaPhone sx={styles.icons} />
             0509418224
           </a>
           <a as="h4" href="mailto:mep@gmail.com" sx={styles.head}>
-            <FaEnvelope sx={styles.icons}/>
+            <FaEnvelope sx={styles.icons} />
             urbansciencemep@gmail.com
           </a>
         </Flex>
@@ -33,21 +36,80 @@ export default function Header({ className }) {
 
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
-              <Link
-                activeClass="active"
-                to={path}
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                key={i}
-              >
-                {label}
-              </Link>
+              <>
+              {
+                label === "Services" ? (<Link
+                  activeClass="active"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  key={i}
+                  onMouseEnter={() => setShow(true)}
+                  // onMouseLeave={() => setShow(false)}
+                >
+                  {label}
+                </Link>) : (
+                  <Link
+                  activeClass="active"
+                  to={path}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                  key={i}
+                  
+                >
+                  {label}
+                </Link>
+                )
+              }
+                
+                {label === "Services" && show && (
+                  <div className="dropDown" sx={styles.dropDown} onMouseLeave={()=>setShow(false)}>
+                    <div sx={styles.dropLink}>
+                      <Link
+                        activeClass="active"
+                        // to={path}
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                      >
+                        Service 1
+                      </Link>
+                    </div>
+                    <div sx={styles.dropLink}>
+                      <Link
+                        activeClass="active"
+                        // to={path}
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                      >
+                        Service 2
+                      </Link>
+                    </div>
+                    <div sx={styles.dropLink}>
+                      <Link
+                        activeClass="active"
+                        // to={path}
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        
+                      >
+                        Service 3
+                      </Link>
+                    </div>
+                  </div>
+                )}
+              </>
             ))}
           </Flex>
-          
-          {/* <h3><BsTelephoneInboundFill/></h3> */}
+
           <Button
             className="donate__btn"
             variant="secondary"
@@ -80,18 +142,28 @@ const positionAnim = keyframes`
 const styles = {
   patti: {
     textAlign: "right",
-    backgroundColor:"white",
-    padding: ["0","0px 0px"],
+    backgroundColor: "white",
+    padding: ["0", "0px 0px"],
   },
-  flex:{
+  flex: {
     justifyContent: "flex-end",
     alignItems: "center",
   },
-  icons:{
+  dropDown: {
+    position: "Absolute",
+    left: "49%",
+    margin: "25px 0",
+    backgroundColor: "white",
+    borderRadius: "5px",
+  },
+  dropLink:{
+    margin: "10px",
+  },
+  icons: {
     color: "#596AFF",
     margin: "0 10px",
   },
-  head:{
+  head: {
     margin: "0 10px",
     display: "flex",
     alignItems: "center",
