@@ -47,6 +47,7 @@ const styles = {
       fontSize: 1,
       fontWeight: 400,
       lineHeight: [1.85, null, null, 1.9, 2],
+      padding:'10px',
     },
   },
 };
