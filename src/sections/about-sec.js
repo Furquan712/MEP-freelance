@@ -22,8 +22,8 @@ import {
 function aboutsec() {
   return (
     <Box sx={styles.main}>
-      <Container sx={styles.section}>
-        <h1>About Us</h1>
+      <Container sx={styles.section} style={{margin:"60px"}}>
+        <h1 style={{fontSize:"50px", textAlign:"center"}}>About Us</h1>
         <Flex sx={styles.flexbox}>
           <Box sx={styles.text}>
             <p>
@@ -45,19 +45,26 @@ function aboutsec() {
               peacefully. Best facility management company in Dubai.
             </p>
           </Box>
+          <Box>
           <Image src={CoreFeatureThumb} alt="Thumbnail" sx={styles.image} />
+          </Box>
         </Flex>
         <Box sx={styles.quotes}>
-          <h2>Our Vision</h2>
-          <p>
+          <h1>Our Vision</h1>
+          <h3>
             “We want to work till the point, that a person in UAE won’t ask for
             Facility management but URBAN SCIENCE.’’
-          </p>
+          </h3>
+        </Box>
+
+        <Box sx={styles.quotes}>
+          <h1>CEO's Message</h1>
+          <h3>“I have collected the UAE’S industry problems for almost 18 years and named it URBAN SCIENCE”</h3>
         </Box>
       </Container>
       <Grid sx={styles.gridform}>
         <Box sx={styles.headBox}>
-          <Box sx={styles.head}>Register your interest</Box>
+          <h1 sx={styles.head}>Register your interest</h1>
         </Box>
         <Box
           as="form"
@@ -128,13 +135,11 @@ marginTop:"0px",
     fontSize: "30px",
     position: "absolute",
     bottom: "-85px",
-    backgroundColor: "#7d89f2",
-    color: "#fff",
+    color: "#7d89f2",
+    textAlign:"center",
     zIndex: "1",
   },
-  flexbox: {
-    paddingTop: "50px",
-  },
+  
   Image: {
     width: "100%",
     height: "400px",
