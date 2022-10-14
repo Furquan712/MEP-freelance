@@ -21,7 +21,7 @@ import Avatar1 from "assets/testimonial/avatar1.png";
 import Avatar2 from "assets/testimonial/avatar2.png";
 import Avatar3 from "assets/testimonial/avatar3.png";
 import Avatar4 from "assets/testimonial/avatar4.png";
-import BannerThumb from "assets/partner.png"
+import BannerThumb from "assets/partner.png";
 
 const data = [
   {
@@ -95,75 +95,76 @@ export default function TestimonialCard() {
       <Container>
         <SectionHeader slogan="Testimonial" title="Meet Client Satisfaction" />
       </Container>
-      
 
-      <Grid gap={2} columns={[2, '1fr 2fr']}>
+      <Grid gap={2} columns={[2, "1fr 1fr"]}>
+        <Box sx={styles.carouselWrapper}>
+          <Carousel
+            additionalTransfrom={0}
+            arrows={false}
+            autoPlaySpeed={3000}
+            centerMode={false}
+            className=""
+            containerClass="carousel-container"
+            customButtonGroup={<ButtonGroup />}
+            dotListClass=""
+            draggable
+            focusOnSelect={false}
+            infinite={true}
+            itemClass=""
+            keyBoardControl
+            minimumTouchDrag={80}
+            renderButtonGroupOutside
+            renderDotsOutside={false}
+            responsive={responsive}
+            showDots={false}
+            sliderClass=""
+            slidesToSlide={1}
+          >
+            {data.map((item) => (
+              <Box sx={styles.reviewCard} key={`testimonial--key${item.id}`}>
+                <Rating rating={item.review} />
+                <Heading as="h3" sx={styles.title}>
+                  {item.title}
+                </Heading>
+                <Text sx={styles.description}>{item.description}</Text>
+                <div className="card-footer">
+                  <div className="image">
+                    <Image src={item.avatar} alt="Client Image" />
+                  </div>
+                  <div className="reviewer-info">
+                    <Heading as="h4" sx={styles.heading}>
+                      {item.name}
+                    </Heading>
+                    <Text sx={styles.designation}>{item.designation}</Text>
+                  </div>
+                </div>
+              </Box>
+            ))}
+          </Carousel>
+        </Box>
+        <Box sx={styles.box}>
+          <Image
+            src={BannerThumb}
+            style={{ width: "75%", marginLeft: "100px" }}
+            alt="banner"
+          />
+        </Box>
+      </Grid>
+      {/* </div> */}
+      <Container sx={styles.abovefooter}>
+        <Box sx={styles.completeWidth}>
+          <Flex sx={styles.flexCard}>
+            <Box sx={styles.imageBox}>
+              <Image src={Dubaicon} alt="dubaicon" />
+            </Box>
 
-<Box sx={styles.carouselWrapper}>
-  <Carousel
-    additionalTransfrom={0}
-    arrows={false}
-    autoPlaySpeed={3000}
-    centerMode={false}
-    className=""
-    containerClass="carousel-container"
-    customButtonGroup={<ButtonGroup />}
-    dotListClass=""
-    draggable
-    focusOnSelect={false}
-    infinite={true}
-    itemClass=""
-    keyBoardControl
-    minimumTouchDrag={80}
-    renderButtonGroupOutside
-    renderDotsOutside={false}
-    responsive={responsive}
-    showDots={false}
-    sliderClass=""
-    slidesToSlide={1}
-  >
-    {data.map((item) => (
-      <Box sx={styles.reviewCard} key={`testimonial--key${item.id}`}>
-        <Rating rating={item.review} />
-        <Heading as="h3" sx={styles.title}>
-          {item.title}
-        </Heading>
-        <Text sx={styles.description}>{item.description}</Text>
-        <div className="card-footer">
-          <div className="image">
-            <Image src={item.avatar} alt="Client Image" />
-          </div>
-          <div className="reviewer-info">
-            <Heading as="h4" sx={styles.heading}>
-              {item.name}
-            </Heading>
-            <Text sx={styles.designation}>{item.designation}</Text>
-          </div>
-        </div>
-      </Box>
-      ))}
-  </Carousel>
-</Box>
-<Box>
-<Image src={BannerThumb} style={{width:"55%", marginLeft:"300px"}} alt="banner" />
-
-</Box>
-</Grid>
-{/* </div> */}
-<Container sx={styles.abovefooter}>
-  <Box sx={styles.completeWidth}>
-    <Flex sx={styles.flexCard}>
-      <Box sx={styles.imageBox}>
-        <Image src={Dubaicon} alt="dubaicon" />
-      </Box>
-      
-      <Box sx={styles.imageBox}>
-        <Image src={Uk} alt="uk" />
-      </Box>
-    </Flex>
-  </Box>
-</Container>
-</section>
+            <Box sx={styles.imageBox}>
+              <Image src={Uk} alt="uk" />
+            </Box>
+          </Flex>
+        </Box>
+      </Container>
+    </section>
   );
 }
 
@@ -200,14 +201,17 @@ const styles = {
       },
     },
   },
-  flexCard:{
+  box:{
+    display: ['none', 'block'],
+  },
+  flexCard: {
     width: "100%",
     justifyContent: "space-evenly",
   },
-  completeWidth:{
+  completeWidth: {
     width: "100%",
   },
-  imageBox:{
+  imageBox: {
     width: "100px",
     height: "100px",
   },
