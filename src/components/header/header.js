@@ -10,11 +10,13 @@ import { FaPhone, FaEnvelope } from "react-icons/fa";
 import { DrawerProvider } from "../../contexts/drawer/drawer.provider";
 import MobileDrawer from "./mobile-drawer";
 import menuItems from "./header.data";
+import { useRouter } from 'next/router';
 // import { BsTelephoneInboundFil } from 'react-icons/bs';
 
 export default function Header({ className }) {
 
   const [show, setShow] = React.useState(false);
+  const router = useRouter();
 
   return (
     <DrawerProvider>
@@ -52,7 +54,7 @@ export default function Header({ className }) {
                 </Link>) : (
                   <Link
                   activeClass="active"
-                  to={path}
+                  onClick={() => router.push(path)}
                   spy={true}
                   smooth={true}
                   offset={-70}
@@ -70,38 +72,38 @@ export default function Header({ className }) {
                     <div sx={styles.dropLink}>
                       <Link
                         activeClass="active"
-                        // to={path}
+                        onClick={() => router.push("/service1")}
                         spy={true}
                         smooth={true}
                         offset={-70}
                         duration={500}
                       >
-                        Service 1
+                        HVAC
                       </Link>
                     </div>
                     <div sx={styles.dropLink}>
                       <Link
                         activeClass="active"
-                        // to={path}
+                        onClick={() => router.push("/service2")}
                         spy={true}
                         smooth={true}
                         offset={-70}
                         duration={500}
                       >
-                        Service 2
+                        Firesystem
                       </Link>
                     </div>
                     <div sx={styles.dropLink}>
                       <Link
                         activeClass="active"
-                        // to={path}
+                        onClick={() => router.push("/service3")}
                         spy={true}
                         smooth={true}
                         offset={-70}
                         duration={500}
                         
                       >
-                        Service 3
+                        Fabricated
                       </Link>
                     </div>
                   </div>

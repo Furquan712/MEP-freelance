@@ -463,8 +463,9 @@ const style = {
     fontWeight: "700",
   },
   popUp: {
+    zIndex: "99999999",
     position: "fixed",
-    top: "50%",
+    top: "60%",
     left: "50%",
     width: "90vw",
     backgroundColor: "white",
