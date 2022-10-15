@@ -9,13 +9,13 @@ import Secure from 'assets/core-feature/secure.svg';
 
 const data = {
   
-  title: 'Team',
+  title: 'Our Team',
   features: [
     {
       id: 1,
       imgSrc: Briefcase,
       altText: 'Smart Features',
-      title: 'A satisfied customer is the best business strategy off all',
+      title: '"A satisfied customer is the best business strategy off all"',
       text:
         'After spending a huge time in facility management and MEP works. And after failing several times we have come to know that a satisfied customer is what makes you the best facility management company in Dubai. Our team is a blend of young and experience, and having an experienced core team helps us work through challenging problems while the youth ideas help us lay the groundwork for the future. Having this great vision for preparing for the better tomorrow makes us the best MEP companies in Dubai.',
     },
@@ -26,22 +26,33 @@ const data = {
 export default function CoreFeature() {
   return (
     <section sx={styles.coreFeature}>
-      <Container sx={styles.containerBox}>
-        <Box sx={styles.thumbnail}>
-          <Image src={CoreFeatureThumb} alt="Thumbnail" style={{borderRadius:"30%"}}/>
-        </Box>
-        <Box sx={styles.contentBox}>
-          <Box sx={styles.headingTop}>
+        <Box sx={styles.headingTop}>
             <TextFeature subTitle={data.subTitle} title={data.title} />
-          </Box>
-
-          <Box gap="15px 0" columns={1} sx={styles.grid}>
+            <Box gap="15px 0" columns={1} sx={styles.grid}>
             {data.features.map((item) => (
               <Box sx={styles.card} key={item.id}>
                 
 
                 <Box sx={styles.wrapper}>
                   <Heading sx={styles.wrapper.title}>{item.title}</Heading>
+                </Box>
+              </Box>
+            ))}
+          </Box>
+          </Box>
+
+      <Container sx={styles.containerBox}>
+        <Box sx={styles.thumbnail}>
+          <Image src={CoreFeatureThumb} alt="Thumbnail" style={{borderRadius:"30%"}}/>
+        </Box>
+        <Box sx={styles.contentBox}>
+         
+          <Box gap="15px 0" columns={1} sx={styles.grid}>
+            {data.features.map((item) => (
+              <Box sx={styles.card} key={item.id}>
+                
+
+                <Box sx={styles.wrapper}>
                   <Text sx={styles.wrapper.subTitle}>{item.text}</Text>
                 </Box>
               </Box>
@@ -92,7 +103,7 @@ const styles = {
   headingTop: {
     pl: [0, null, null, null, '35px', null, '55px', 6],
     mb: [3, null, null, null, 1],
-    textAlign: ['center', null, null, 'left'],
+    textAlign: "center",
   },
   grid: {
     p: ['0 0px 35px', null, null, null, '0 20px 40px', null, '0 40px 40px', 0],

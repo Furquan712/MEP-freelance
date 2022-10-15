@@ -11,6 +11,7 @@ import BannerThumb from 'assets/banner-thumb.png';
 import client1 from 'assets/sponsor/paypal.svg';
 import client2 from 'assets/sponsor/google.svg';
 import client3 from 'assets/sponsor/dropbox.svg';
+// import meppdf from 'assets/mep.pdf';
 
 const data = [
   {
@@ -54,8 +55,9 @@ export default function Banner() {
           Meeting your goals is our main objective. Professional services for facility management & MEP works.
           </Text>
           <Flex>
-            <Button variant="whiteButton" aria-label="Get Started" backgroundColor='#596AFF' color='white'>
-              Contact Us
+            <Button variant="whiteButton" aria-label="Get Started" backgroundColor='#596AFF' color='white'><a href="." download />
+
+              Company Profile
             </Button>
             <>
               <ModalVideo

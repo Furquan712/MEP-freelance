@@ -314,7 +314,7 @@ const styles = {
     marginTop: "70px",
     marginBottom: "-89px",
     padding: ["55px 30px 42px", null, null, "55px 30px 42px", "55px 50px 42px"],
-    backgroundColor: "#183656",
+    backgroundColor: "#E9EFFF",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "60% center",
     backgroundSize: ["120px", null, null, null, "auto"],

@@ -6,7 +6,7 @@ import { FiArrowRight } from 'react-icons/fi'
 export default function WhatWeDo() {
   return (
     <section style={styles.coreFeature}>
-        <SectionHeader title="What We Do" />
+        <SectionHeader style={{fontSize:"40px"}} title="What We Do ?" />
 
         <div class="container">
           <div style={styles.anotherContainer}>
@@ -161,7 +161,7 @@ const styles = {
     alignItems: "center",
   },
   headingTop: {
-    pl: [0, null, null, null, "35px", null, "55px", 6],
+    pl: [0, null, null, null, "4px", null, "55px", 6],
     mb: [3, null, null, null, 1],
     textAlign: ["center", null, null, "left"],
   },
