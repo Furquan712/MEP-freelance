@@ -72,7 +72,7 @@ export default function Header({ className }) {
                     <div sx={styles.dropLink}>
                       <Link
                         activeClass="active"
-                        onClick={() => router.push("/service1")}
+                        onClick={() => router.push("/hvac")}
                         spy={true}
                         smooth={true}
                         offset={-70}
@@ -84,7 +84,7 @@ export default function Header({ className }) {
                     <div sx={styles.dropLink}>
                       <Link
                         activeClass="active"
-                        onClick={() => router.push("/service2")}
+                        onClick={() => router.push("/firesystem")}
                         spy={true}
                         smooth={true}
                         offset={-70}
@@ -96,7 +96,7 @@ export default function Header({ className }) {
                     <div sx={styles.dropLink}>
                       <Link
                         activeClass="active"
-                        onClick={() => router.push("/service3")}
+                        onClick={() => router.push("/fabricated")}
                         spy={true}
                         smooth={true}
                         offset={-70}

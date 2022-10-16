@@ -4,15 +4,15 @@ import theme from "theme";
 import SEO from "components/seo";
 import Layout from "components/layout";
 import Banner from "sections/banner";
-import FireSystem from "sections/firesystem-sec";
+import BlvSec from "sections/blv-sec";
 
-export default function Fire() {
+export default function Blv() {
   return (
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
           <SEO title="Startup Landing 004" />
-          <FireSystem />
+          <BlvSec />
         </Layout>
       </StickyProvider>
     </ThemeProvider>

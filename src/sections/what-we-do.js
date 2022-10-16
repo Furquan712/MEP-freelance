@@ -19,7 +19,7 @@ export default function WhatWeDo() {
                     </div>
                   </div>
                   <div>
-                    <h3 style={styles.cardHeading}>Electrical Works</h3>
+                    <h3 style={styles.cardHeading}>Facility management</h3>
                   </div>
                   <div style={{width:'60%',textAlign:'center'}}>
                     <p style={styles.cardPara}>afas oadh aaojdha ahuidgad ahsoudb afas oadh aaojdha ahuidgad ahs</p>
@@ -35,7 +35,7 @@ export default function WhatWeDo() {
                     </div>
                   </div>
                   <div>
-                    <h3 style={styles.cardHeading}>Electrical Works</h3>
+                    <h3 style={styles.cardHeading}>MEP Works</h3>
                   </div>
                   <div style={{width:'60%',textAlign:'center'}}>
                     <p style={styles.cardPara}>afas oadh aaojdha ahuidgad ahsoudb afas oadh aaojdha ahuidgad ahs</p>
@@ -51,7 +51,7 @@ export default function WhatWeDo() {
                     </div>
                   </div>
                   <div>
-                    <h3 style={styles.cardHeading}>Electrical Works</h3>
+                    <h3 style={styles.cardHeading}>Air conditioning services (HVAC)</h3>
                   </div>
                   <div style={{width:'60%',textAlign:'center'}}>
                     <p style={styles.cardPara}>afas oadh aaojdha ahuidgad ahsoudb afas oadh aaojdha ahuidgad ahs</p>
@@ -67,7 +67,24 @@ export default function WhatWeDo() {
                     </div>
                   </div>
                   <div>
-                    <h3 style={styles.cardHeading}>Electrical Works</h3>
+                    <h3 style={styles.cardHeading}>Chilled water system</h3>
+                  </div>
+                  <div style={{width:'60%',textAlign:'center'}}>
+                    <p style={styles.cardPara}>afas oadh aaojdha ahuidgad ahsoudb afas oadh aaojdha ahuidgad ahs</p>
+                  </div>
+                 
+                    <h2><FiArrowRight /></h2>
+                </div>
+              </li>
+              <li class="card" style={styles.card}>
+              <div style={styles.cardContent}>
+                  <div >
+                    <div style={styles.imageBG}>
+                      <img src={Plumber} style={{width:'100%',height:'100%',objectFit:'contain'}}/>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 style={styles.cardHeading}> Electrical work</h3>
                   </div>
                   <div style={{width:'60%',textAlign:'center'}}>
                     <p style={styles.cardPara}>afas oadh aaojdha ahuidgad ahsoudb afas oadh aaojdha ahuidgad ahs</p>

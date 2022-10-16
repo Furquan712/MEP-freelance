@@ -134,7 +134,7 @@ export default function ContactSec() {
 
 const styles = {
   main:{
-    backgroundColor:"#7d89f2",
+    backgroundColor:"white",
   },
   h1: {
     fontSize: "30px",

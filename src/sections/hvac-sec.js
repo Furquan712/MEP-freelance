@@ -11,41 +11,60 @@ const data = [
   {
     id: 1,
     imgSrc: Vector,
-    altText: "fire fighting",
-    title: "Fire fighting",
+    altText: "Air conditioning system    ",
+    title:"Air conditioning system",
     text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
   {
     id: 2,
     imgSrc: Editing,
-    altText: "Fire protection",
-    title: "Fire protection",
+    altText: "chilled water system",
+    title:  "Chilled water system",
     text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
   {
     id: 3,
     imgSrc: Speed,
-    altText: "Fire alarm",
-    title:"Fire alarm",
+    altText: "DX system",
+    title: "DX system",
     text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
   {
     id: 4,
     imgSrc: Speed,
-    altText: "Central battery/Emergency light",
-    title:"Fire alarm",
+    altText: "VRV system",
+    title: "VRV system",
+    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+  }, {
+    id: 5,
+    imgSrc: Speed,
+    altText: "Smoke management",
+    title: "Smoke management",
+    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+  }, {
+    id: 6,
+    imgSrc: Speed,
+    altText: "Building management",
+    title: "Plumbing",
     text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
   {
-    id: 4,
+    id: 7,
     imgSrc: Speed,
-    altText: "Voice Evacuation",
-    title:"Voice Evacuation",
+    altText: "Car Parking",
+    title:"Car Parking",
+    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+  },
+  {
+    id: 8,
+    imgSrc: Speed,
+    altText: "Vantilation",
+    title: "Vantilation",
     text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
 ];
 
-export default function FireSystemSec() {
+export default function KeyFeature() {
   return (
     <section
       sx={{ variant: "section.keyFeature" }}
@@ -54,7 +73,7 @@ export default function FireSystemSec() {
     >
       <div style={styles.gradient}></div>
       <Container>
-        <h1 style={{fontSize:"50px", color:"#596AFF"}}>Fire System</h1>
+        <h1 style={{fontSize:"50px", color:"#596AFF"}}>HVAC Services</h1>
         <p>
           Since its establishment in 1978, USBC has consistently delivered
           successful MEP projects in a wide spectrum of sectors including

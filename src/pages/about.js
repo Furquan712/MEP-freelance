@@ -4,15 +4,15 @@ import theme from "theme";
 import SEO from "components/seo";
 import Layout from "components/layout";
 import Banner from "sections/banner";
-import ContactSec from "sections/about-sec";
+import AboutSec from "sections/about-sec";
 
-export default function Contact() {
+export default function About() {
   return (
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
           <SEO title="Startup Landing 004" />
-          <ContactSec />
+          <AboutSec />
         </Layout>
       </StickyProvider>
     </ThemeProvider>

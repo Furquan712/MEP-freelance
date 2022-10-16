@@ -11,24 +11,26 @@ const data = [
   {
     id: 1,
     imgSrc: Vector,
-    altText: "Vector",
-    title: "Mechanical",
+    altText: "IT",
+    title: "IT",
     text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
   {
     id: 2,
     imgSrc: Editing,
-    altText: "Monitoring",
-    title: "Electrical",
+    altText: "CCTV",
+    title:  "CCTV",
     text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
+   
   {
     id: 3,
     imgSrc: Speed,
-    altText: "Quality",
-    title: "Plumbing",
+    altText: "Access control",
+    title: "Access control",
     text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
+   
 ];
 
 export default function KeyFeature() {
@@ -40,7 +42,7 @@ export default function KeyFeature() {
     >
       <div style={styles.gradient}></div>
       <Container>
-        <h1 style={{fontSize:"50px", color:"#596AFF"}}>HVAC Services</h1>
+        <h1 style={{fontSize:"50px", color:"#596AFF"}}>BLV Services</h1>
         <p>
           Since its establishment in 1978, USBC has consistently delivered
           successful MEP projects in a wide spectrum of sectors including
@@ -48,21 +50,6 @@ export default function KeyFeature() {
           Dhabi Investment Council, Dubai Fountain, Atlantis The Palm and Dubai
           Airport Concourse 4.
         </p>
-        <Grid sx={styles.grid}>
-          {data.map((item) => (
-            <FeatureCardColumn
-              sx={styles.featurecardcolumn}
-              data-aos="fade-down"
-              data-aos-easing="linear"
-              data-aos-duration="1500"
-              key={item.id}
-              src={item.imgSrc}
-              alt={item.title}
-              title={item.title}
-              text={item.text}
-            />
-          ))}
-        </Grid>
         <Grid sx={styles.grid}>
           {data.map((item) => (
             <FeatureCardColumn
