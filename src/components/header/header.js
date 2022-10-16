@@ -72,13 +72,13 @@ export default function Header({ className }) {
                     <div sx={styles.dropLink}>
                       <Link
                         activeClass="active"
-                        onClick={() => router.push("/hvac")}
+                        onClick={() => router.push("/building")}
                         spy={true}
                         smooth={true}
                         offset={-70}
                         duration={500}
                       >
-                        HVAC
+                        Building Services
                       </Link>
                     </div>
                     <div sx={styles.dropLink}>
