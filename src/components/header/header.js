@@ -90,7 +90,7 @@ export default function Header({ className }) {
                         offset={-70}
                         duration={500}
                       >
-                        Firesystem
+                        Fire system
                       </Link>
                     </div>
                     <div sx={styles.dropLink}>
@@ -103,7 +103,7 @@ export default function Header({ className }) {
                         duration={500}
                         
                       >
-                        Fabricated
+                        Fabricated System
                       </Link>
                     </div>
                   </div>
