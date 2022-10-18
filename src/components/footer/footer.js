@@ -83,15 +83,7 @@ export default function Footer() {
                 <Image src={Logo} />
                 <Text sx={styles.text}>Facility Management</Text>
               </Card>
-              <Card
-                sx={{
-                  maxWidth: 123,
-                  margin:"20px"
-                }}
-              >
-                <Image src={Logo} />
-                <Text sx={styles.text}>Joinery</Text>
-              </Card>
+              
             </Flex>
           </Container>
         </Container>
@@ -177,10 +169,7 @@ const styles = {
       },
       "&.instagram > svg": {
         color: "#161614",
-      },
-      "&.pintrest > svg": {
-        color: "#E74D89",
-      },
+      }, 
       ":hover": {
         color: "primary",
       },

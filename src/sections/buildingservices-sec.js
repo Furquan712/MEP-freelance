@@ -8,6 +8,7 @@ import Img from "../assets/elec.jpg";
 import { BsGear } from "react-icons/bs";
 import { GiElectric } from "react-icons/gi";
 import { MdEngineering } from "react-icons/md";
+import Link from 'next/link';
 export default function Service1() {
   return (
     <>
@@ -38,7 +39,7 @@ export default function Service1() {
             </p>
             <br />
             <Button sx={styles.btn}>
-              <Box sx={styles.bgBtn}>
+              <Box sx={styles.bgBtn} href="/hvac">
                 <BsGear sx={styles.icons} />
               </Box>
               HVAC

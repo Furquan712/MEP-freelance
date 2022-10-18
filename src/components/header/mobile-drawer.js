@@ -9,7 +9,7 @@ import {
   FaFacebookF,
   FaTwitter,
   FaInstagram,
-  FaPinterest,
+  
 } from 'react-icons/fa';
 import menuItems from './header.data';
 
@@ -26,10 +26,7 @@ const social = [
     path: '/',
     icon: <FaInstagram />,
   },
-  {
-    path: '/',
-    icon: <FaPinterest />,
-  },
+  
 ];
 
 const MobileDrawer = () => {

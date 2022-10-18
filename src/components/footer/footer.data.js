@@ -1,4 +1,4 @@
-import { FaFacebook, FaTwitter, FaInstagram, FaPinterest  } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram  } from 'react-icons/fa';
 
 export default [
   {
@@ -85,12 +85,7 @@ export default [
         name: 'instagram',
         icon: <FaInstagram />,
       },
-      {
-        path: '/',
-        label: 'Pinterest',
-        name: 'pinterest',
-        icon: <FaPinterest />,
-      },
+      
     ],
   },
 ];

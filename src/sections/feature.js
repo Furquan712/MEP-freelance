@@ -71,7 +71,7 @@ export default function Feature() {
           slogan="“You cannot create the experience. You must undergo it”"
         />
          <p>
-        The MEP division of Urban Science is managed by a team of highly qualified service engineers with 18 years of experience in the field of facility management and MEP works. This experience of our team makes us one of the leading facility management companies in Dubai. Our core team has been thoroughly exposed to projects such as Dubai airport, Mall of Emirates, PALM the Sofitel, and residential towers. We are there for you at all times, from planning it out on paper to providing the services.
+        The MEP division of Urban Science is managed by a team of highly qualified service engineers with 18 years of experience in the field of facility management and MEP works. This experience of our team makes us one of the leading facility management companies in Dubai.
         </p>
         <Grid sx={styles.grid} >
           {data.map((item) => (

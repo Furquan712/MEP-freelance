@@ -56,7 +56,6 @@ export default function Banner() {
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Get Started" backgroundColor='#596AFF' color='white'><a href="." download />
-            <a href="assets/mep.pdf" download="company_profile"> Company Profile</a>
             </Button>
             <>
               <ModalVideo
