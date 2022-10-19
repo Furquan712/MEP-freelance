@@ -46,7 +46,7 @@ export default function Banner() {
        
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" style={{fontSize:"280%",fontWeight:"bold"}}   color='#596AFF'>
-          Leading Facility management & MEP company in Dubai
+          Leading MEP & Facility management company in Dubai
           </Heading>
            
           <Text as="p" variant="heroSecondary" color='black'>
@@ -55,7 +55,7 @@ export default function Banner() {
           Meeting your goals is our main objective. Professional services for facility management & MEP works.
           </Text>
           <Flex>
-            <Button variant="whiteButton" aria-label="Get Started" backgroundColor='#596AFF' color='white'><a href="." download />
+            <Button variant="whiteButton" aria-label="Get Started" backgroundColor='#596AFF' color='white'> Campany Profile
             </Button>
             <>
               <ModalVideo

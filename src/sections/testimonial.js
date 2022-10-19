@@ -162,6 +162,15 @@ export default function TestimonialCard() {
               <Image src={Uk} alt="uk" />
             </Box>
           </Flex>
+          <Flex sx={styles.flexCard}  style={{marginLeft:"23px"}}>
+            <Box sx={styles.imageBox}>
+            <h1>Dubai</h1>
+            </Box>
+
+            <Box sx={styles.imageBox}>
+            <h1>Uk</h1>
+            </Box>
+          </Flex>
         </Box>
       </Container>
     </section>

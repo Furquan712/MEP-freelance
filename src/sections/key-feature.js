@@ -20,7 +20,7 @@ const data = [
     imgSrc: Editing,
     altText: "Monitoring",
     title: "Qualified and Certified",
-    text: "With growing urban development and opportunities in Dubai, many inexperienced players have also started working in the field of facilities management in Dubai. Therefore, whenever you start your work, please make sure to check that the company is certified and qualified enough to handle the project. At URBAN SCIENCE we have the most experienced team of facility management and MEP in Dubai. Our core team has been involved in a project like SOFITEL the palm, Mall of EMIRATES, and Dubai Airport..",
+    text: "With growing urban development and opportunities in Dubai, many inexperienced players have also started working in the field of facilities management in Dubai. Therefore, whenever you start your work, please make sure to check that the company is certified and qualified enough to handle the project. At URBAN SCIENCE we have the most experienced team of facility management and MEP in Dubai. ..",
   },
   {
     id: 3,

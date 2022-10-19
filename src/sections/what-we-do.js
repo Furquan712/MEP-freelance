@@ -77,7 +77,7 @@ export default function WhatWeDo() {
                   </div>
                   <div style={{width:'60%',textAlign:'center'}}>
                     <p style={styles.cardPara}> 
-                    Do you need a chilled water storage system to be installed in your industry? Urban Science is here for you. Our chiller maintenance programs are site-specific, reducing the possibility of costly breakdowns in the cooling systems of our clients. We have an in-house MEP team for both rooftop systems and those that are installed behind the building’s wall. So keep calm and contact us for all your facility management and MEP works.
+                    Do you need a chilled water storage system to be installed in your industry? Urban Science is here for you. Our chiller maintenance programs are site-specific, reducing the possibility of costly breakdowns in the cooling systems of our clients. We have an in-house MEP team for both rooftop systems .
                     </p>
                   </div>
                  

@@ -4,7 +4,7 @@ import { FaArrowCircleRight } from "react-icons/fa";
 import MallOfEmirates from "assets/emax dubai.jpg";
 import Palm from "assets/softel.jpg";
 import Shopping from "assets/shopping-center.jpg";
-import  Gyn from "assets/Gym.jpg";
+import  Gym from "assets/Gym.jpg";
 import Airport from "assets/Gym.jpg";
 
 export default function OurProjects() {
@@ -22,7 +22,7 @@ export default function OurProjects() {
     {
       id: 3,
       imgSrc: Gym,
-      altText: "zgym",
+      altText: "gym",
     },
     {
       id: 4,
