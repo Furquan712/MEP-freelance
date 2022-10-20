@@ -95,7 +95,7 @@ export default function WhatWeDo() {
                     <h3 style={styles.cardHeading}> Electrical work</h3>
                   </div>
                   <div style={{width:'60%',textAlign:'center'}}>
-                    <p style={styles.cardPara}>The reason why we are counted as one of the best facility management companies in Dubai is that we are a one-door solution for every MEP and facility management work. From your LV network to ELV services we have covered it all. We do not stop here, from your access control, CCTV, and security we have experts in every department. You are one call away from the best MEP company in Dubai.</p>
+                    <p style={styles.cardPara}>The reason why we are counted as one of the best facility management companies in Dubai is that we are a one-door solution for every MEP and facility management work. From your LV network to ELV services we have covered it all. We do not stop here, from your access control, CCTV, and security we have experts in every department. .</p>
                   </div>
                     <h2 style={{marginTop:"80px"}}><FiArrowRight /></h2>
                 </div>
@@ -232,6 +232,8 @@ const styles = {
     fontWeight: "400",
     color: "#7D7987",
     margin: "-70px",
+    textAlign:"justify",
+    padding:"20px",
   },
   img: {
     width: ["50px", null, "55px"],

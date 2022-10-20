@@ -50,9 +50,7 @@ export default function KeyFeature() {
         {data.map((item) => (
           <FeatureCardColumn
             sx={styles.featurecardcolumn}
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
+            
             key={item.id}
             src={item.imgSrc}
             alt={item.title}
@@ -69,6 +67,7 @@ const styles = {
   featurecardcolumn: {
     boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)",
     transition: "0.3s",
+   
   },
   gradient: {
     width: "830px",
@@ -85,6 +84,7 @@ const styles = {
     // px: [0, null, null, '40px', null, '80px'],
     pt: [0, null, null, null, null, null, null, 3],
     gridGap: ["35px 0", null, "40px 0"],
+    textAlign:"justify",
     gridTemplateColumns: [
       "repeat(1,1fr)",
       null,
