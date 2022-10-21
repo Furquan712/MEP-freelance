@@ -151,7 +151,7 @@ const styles = {
     }
   },
   specialCard: {
-    backgroundColor: "red",
+    backgroundColor: "rgb(73 107 255 / 48%)",
     flex:  "0 0 auto",
     textAlign: "center",
     alignItems: "center",
