@@ -6,7 +6,7 @@ import Layout from "components/layout";
 import Banner from "sections/banner";
 import FireSystem from "sections/firesystem-sec";
 
-export default function Contact() {
+export default function Fire() {
   return (
     <ThemeProvider theme={theme}>
       <StickyProvider>

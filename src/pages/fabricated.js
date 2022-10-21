@@ -4,15 +4,15 @@ import theme from "theme";
 import SEO from "components/seo";
 import Layout from "components/layout";
 import Banner from "sections/banner";
-import Fabricated from "sections/fabricated-sec";
+import FabricatedSec from "sections/fabricated-sec";
 
-export default function Contact() {
+export default function Fabricated() {
   return (
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
           <SEO title="Startup Landing 004" />
-          <Fabricated />
+          <FabricatedSec />
         </Layout>
       </StickyProvider>
     </ThemeProvider>

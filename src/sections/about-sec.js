@@ -23,7 +23,7 @@ function aboutsec() {
   return (
     <Box sx={styles.main}>
       <Container sx={styles.section} style={{margin:"60px"}}>
-        <h1 style={{fontSize:"50px", textAlign:"center"}}>About Us</h1>
+        <h1 style={{fontSize:"50px" }}>About Us</h1>
         <Flex sx={styles.flexbox}>
           <Box sx={styles.text}>
             <p>
@@ -111,20 +111,12 @@ const styles = {
     padding: "150px 0 120px 0",
   },
   text:{
-marginTop:"0px",
-  },
-  image: {
-    width: "600%",
+  textAlign:"justify",
+  paddingLeft:"20px",
+  paddingRight:"20px",
+  marginTop:"0px",
   },
   spacing: {
-    margin: ["20px 0", "20px"],
-    maxWidth: "300px",
-  },
-  extra: {
-    margin: "20px 0 20px 0",
-  },
-
-  flexx: {
     flexWrap: "wrap",
   },
   headBox: {

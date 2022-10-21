@@ -72,38 +72,38 @@ export default function Header({ className }) {
                     <div sx={styles.dropLink}>
                       <Link
                         activeClass="active"
-                        onClick={() => router.push("/service1")}
+                        onClick={() => router.push("/building")}
                         spy={true}
                         smooth={true}
                         offset={-70}
                         duration={500}
                       >
-                        HVAC
+                        Building Services
                       </Link>
                     </div>
                     <div sx={styles.dropLink}>
                       <Link
                         activeClass="active"
-                        onClick={() => router.push("/service2")}
+                        onClick={() => router.push("/firesystem")}
                         spy={true}
                         smooth={true}
                         offset={-70}
                         duration={500}
                       >
-                        Firesystem
+                        Fire system
                       </Link>
                     </div>
                     <div sx={styles.dropLink}>
                       <Link
                         activeClass="active"
-                        onClick={() => router.push("/service3")}
+                        onClick={() => router.push("/fabricated")}
                         spy={true}
                         smooth={true}
                         offset={-70}
                         duration={500}
                         
                       >
-                        Fabricated
+                        Fabricated System
                       </Link>
                     </div>
                   </div>

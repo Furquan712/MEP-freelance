@@ -157,6 +157,8 @@ const styles = {
     },
 
     subTitle: {
+      textAlign:"justify",
+
       fontSize: 1,
       fontWeight: 400,
       lineHeight: [1.85, null, 2],

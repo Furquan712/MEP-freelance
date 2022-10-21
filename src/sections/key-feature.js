@@ -20,7 +20,7 @@ const data = [
     imgSrc: Editing,
     altText: "Monitoring",
     title: "Qualified and Certified",
-    text: "With growing urban development and opportunities in Dubai, many inexperienced players have also started working in the field of facilities management in Dubai. Therefore, whenever you start your work, please make sure to check that the company is certified and qualified enough to handle the project. At URBAN SCIENCE we have the most experienced team of facility management and MEP in Dubai. Our core team has been involved in a project like SOFITEL the palm, Mall of EMIRATES, and Dubai Airport..",
+    text: "With growing urban development and opportunities in Dubai, many inexperienced players have also started working in the field of facilities management in Dubai. Therefore, whenever you start your work, please make sure to check that the company is certified and qualified enough to handle the project. At URBAN SCIENCE we have the most experienced team of facility management and MEP in Dubai. ..",
   },
   {
     id: 3,
@@ -50,9 +50,7 @@ export default function KeyFeature() {
         {data.map((item) => (
           <FeatureCardColumn
             sx={styles.featurecardcolumn}
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
+            
             key={item.id}
             src={item.imgSrc}
             alt={item.title}
@@ -69,6 +67,7 @@ const styles = {
   featurecardcolumn: {
     boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)",
     transition: "0.3s",
+   
   },
   gradient: {
     width: "830px",
@@ -85,6 +84,7 @@ const styles = {
     // px: [0, null, null, '40px', null, '80px'],
     pt: [0, null, null, null, null, null, null, 3],
     gridGap: ["35px 0", null, "40px 0"],
+    textAlign:"justify",
     gridTemplateColumns: [
       "repeat(1,1fr)",
       null,

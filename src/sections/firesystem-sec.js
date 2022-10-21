@@ -11,22 +11,36 @@ const data = [
   {
     id: 1,
     imgSrc: Vector,
-    altText: "Vector",
-    title: "Mechanical",
+    altText: "fire fighting",
+    title: "Fire fighting",
     text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
   {
     id: 2,
     imgSrc: Editing,
-    altText: "Monitoring",
-    title: "Electrical",
+    altText: "Fire protection",
+    title: "Fire protection",
     text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
   {
     id: 3,
     imgSrc: Speed,
-    altText: "Quality",
-    title: "fire system ",
+    altText: "Fire alarm",
+    title:"Fire alarm",
+    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+  },
+  {
+    id: 4,
+    imgSrc: Speed,
+    altText: "Central battery/Emergency light",
+    title:"Fire alarm",
+    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+  },
+  {
+    id: 4,
+    imgSrc: Speed,
+    altText: "Voice Evacuation",
+    title:"Voice Evacuation",
     text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
 ];
@@ -48,21 +62,6 @@ export default function FireSystemSec() {
           Dhabi Investment Council, Dubai Fountain, Atlantis The Palm and Dubai
           Airport Concourse 4.
         </p>
-        <Grid sx={styles.grid}>
-          {data.map((item) => (
-            <FeatureCardColumn
-              sx={styles.featurecardcolumn}
-              data-aos="fade-down"
-              data-aos-easing="linear"
-              data-aos-duration="1500"
-              key={item.id}
-              src={item.imgSrc}
-              alt={item.title}
-              title={item.title}
-              text={item.text}
-            />
-          ))}
-        </Grid>
         <Grid sx={styles.grid}>
           {data.map((item) => (
             <FeatureCardColumn

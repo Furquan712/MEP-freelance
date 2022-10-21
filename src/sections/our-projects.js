@@ -1,9 +1,11 @@
 import SectionHeader from "components/section-header";
 import { Container, Button, Box, Flex, Card, Image } from "theme-ui";
 import { FaArrowCircleRight } from "react-icons/fa";
-import MallOfEmirates from "assets/Mall-Of-The-Emirates.jpg";
-import Palm from "assets/palm.jpg";
-import Airport from "assets/airport.jpg";
+import MallOfEmirates from "assets/emax dubai.jpg";
+import Palm from "assets/softel.jpg";
+import Shopping from "assets/shopping-center.jpg";
+import  Gym from "assets/Gym.jpg";
+import Airport from "assets/Gym.jpg";
 
 export default function OurProjects() {
   const data = [
@@ -19,6 +21,16 @@ export default function OurProjects() {
     },
     {
       id: 3,
+      imgSrc: Gym,
+      altText: "gym",
+    },
+    {
+      id: 4,
+      imgSrc: Shopping,
+      altText: "Shoping",
+    },
+    {
+      id: 5,
       imgSrc: Airport,
       altText: "Dubai Airport",
     },

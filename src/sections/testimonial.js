@@ -145,7 +145,7 @@ export default function TestimonialCard() {
         <Box sx={styles.box}>
           <Image
             src={BannerThumb}
-            style={{ width: "75%", marginLeft: "100px" }}
+            style={{ width: "75%", marginLeft: "30px" }}
             alt="banner"
           />
         </Box>
@@ -160,6 +160,15 @@ export default function TestimonialCard() {
 
             <Box sx={styles.imageBox}>
               <Image src={Uk} alt="uk" />
+            </Box>
+          </Flex>
+          <Flex sx={styles.flexCard}  style={{marginLeft:"23px"}}>
+            <Box sx={styles.imageBox}>
+            <h1>Dubai</h1>
+            </Box>
+
+            <Box sx={styles.imageBox}>
+            <h1>Uk</h1>
             </Box>
           </Flex>
         </Box>
@@ -313,7 +322,7 @@ const styles = {
 
     marginTop: "70px",
     marginBottom: "-89px",
-    padding: ["55px 30px 42px", null, null, "55px 30px 42px", "55px 50px 42px"],
+    padding: ["55px 30px 42px", null, null, "55px 30px 42px", "55px 30px 42px"],
     backgroundColor: "#E9EFFF",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "60% center",
