@@ -206,6 +206,7 @@ const styles = {
     fontWeight: "400",
     color: "#7D7987",
     margin: "0",
+    textAlign: "justify",
   },
   img: {
     width: ["50px", null, "55px"],

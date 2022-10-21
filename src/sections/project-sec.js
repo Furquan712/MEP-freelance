@@ -8,15 +8,12 @@ import { FaTimes } from "react-icons/fa";
 
 import Plumber from "assets/plumber.png";
 import { FiArrowRight } from "react-icons/fi";
+import Link from "next/link";
 
 export default function ProjectSec() {
-  const [popUp, setPopUp] = useState(false);
-  const [popUp2, setPopUp2] = useState(false);
-  const [popUp3, setPopUp3] = useState(false);
-
   return (
     <>
-      {popUp ? (
+      {/* {popUp ? (
         <>
         <Box sx={style.blackBG}></Box>
         <Box sx={style.popUp}>
@@ -420,7 +417,7 @@ export default function ProjectSec() {
           </Container>
         </Box>
         </>
-      ) : null}
+      ) : null} */}
       <Image src={Img} sx={style.Image} />
       <Container sx={style.contactform}>
         <div sx={style.circle}></div>
@@ -429,26 +426,31 @@ export default function ProjectSec() {
         </Heading>
       </Container>
       <Container sx={style.center}>
-       
-        <div sx={style.anotherFlex} style={{ display: "flex", marginBottom:"10px" }}>
-        
-          <Heading sx={style.mainText} as="h2" onClick={() => setPopUp(true)}>
-            M
-          </Heading>
-          <Heading
-            sx={{ ...style.mainText, backgroundImage: `url(${Mall})` }}
-            as="h2"
-            onClick={() => setPopUp2(true)}
-          >
-            E
-          </Heading>
-          <Heading
-            sx={{ ...style.mainText, backgroundImage: `url(${Metro})` }}
-            as="h2"
-            onClick={() => setPopUp3(true)}
-          >
-            P
-          </Heading>
+        <div
+          sx={style.anotherFlex}
+          style={{ display: "flex", marginBottom: "10px" }}
+        >
+          <Link href="/projectsall">
+            <Heading sx={style.mainText} as="h2">
+              M
+            </Heading>
+          </Link>
+          <Link href="/projectsall">
+            <Heading
+              sx={{ ...style.mainText, backgroundImage: `url(${Mall})` }}
+              as="h2"
+            >
+              E
+            </Heading>
+          </Link>
+          <Link href="/projectsall">
+            <Heading
+              sx={{ ...style.mainText, backgroundImage: `url(${Metro})` }}
+              as="h2"
+            >
+              P
+            </Heading>
+          </Link>
         </div>
       </Container>
     </>
@@ -471,7 +473,7 @@ const style = {
     backgroundColor: "white",
     transform: "translate(-50%, -50%)",
   },
-  flexBox:{
+  flexBox: {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
@@ -491,7 +493,7 @@ const style = {
     margin: "0",
     padding: "0",
   },
-  close:{
+  close: {
     cursor: "pointer",
   },
   anotherFlex: {
@@ -508,7 +510,6 @@ const style = {
     backgroundClip: "text",
     color: "transparent",
     cursor: "pointer",
-
   },
   circle: {
     width: "50px",
@@ -522,7 +523,7 @@ const style = {
   },
   projectHeading: {
     fontSize: ["42px", "133px"],
-    
+
     color: "#353535",
     position: "relative",
     top: "100px",
@@ -532,7 +533,7 @@ const style = {
     display: "flex",
     justifyContent: "center",
   },
-  blackBG:{
+  blackBG: {
     backgroundColor: "black",
     width: "100vw",
     height: "100vh",

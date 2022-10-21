@@ -118,6 +118,7 @@ export default function Header({ className }) {
             aria-label="Get Started"
             backgroundColor="#596AFF"
             color="white"
+            onClick={() => router.push("/contact")}
           >
             Enquire Now
           </Button>
