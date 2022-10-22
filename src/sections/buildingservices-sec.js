@@ -38,19 +38,23 @@ export default function Service1() {
               in Dubai.
             </p>
             <br />
+            <Link href="/hvac">
             <Button sx={styles.btn}>
-              <Box sx={styles.bgBtn} href="/hvac">
+              <Box sx={styles.bgBtn}>
                 <BsGear sx={styles.icons} />
               </Box>
               HVAC
             </Button>
-             
+            </Link>
+            <Link href="/service3">
             <Button sx={styles.btn}>
               <Box sx={styles.bgBtn}>
                 <BsGear sx={styles.icons} />
               </Box>
               Plumbing
             </Button>
+            </Link>
+            
           </Box>
           <Box>
             <h1 sx={styles.heading}>
@@ -69,13 +73,16 @@ export default function Service1() {
               </Box>
               LV network
             </Button>
-            
+            <Link href="/blv">
             <Button sx={styles.btn}>
               <Box sx={styles.bgBtn}>
                 <BsGear sx={styles.icons} />
               </Box>
               BLV
             </Button>
+            </Link>
+            
+          
           </Box>
         </Container>
       </Container>
