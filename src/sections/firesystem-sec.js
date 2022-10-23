@@ -13,35 +13,22 @@ const data = [
     imgSrc: Vector,
     altText: "fire fighting",
     title: "Fire fighting",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+    text: "Your safety is our priority. We offer a wide range of services that cater to all your needs, right from fire-fighting to facility management. Not only this but we work with state-of-the-art equipment for maximum safety and efficiency. One of the leading companies in MEP and facility management. ",
   },
   {
     id: 2,
     imgSrc: Editing,
     altText: "Fire protection",
     title: "Fire protection",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+    text: "We offer all types of fire protection services and our team is equipped with the best tools and equipment. Our team has extensive safety knowledge and awareness to ensure that your property is fully safeguarded. We are approved by Dubai Municipality as well as other reputable institutions. ",
   },
+  
   {
     id: 3,
     imgSrc: Speed,
-    altText: "Fire alarm",
-    title:"Fire alarm",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
-  },
-  {
-    id: 4,
-    imgSrc: Speed,
-    altText: "Central battery/Emergency light",
-    title:"Fire alarm",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
-  },
-  {
-    id: 4,
-    imgSrc: Speed,
     altText: "Voice Evacuation",
     title:"Voice Evacuation",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+    text: "When it comes to safety the most effective method available in the event of an emergency is the voice evacuation system. And at urban science, we make sure to install this system properly in our desired areas. So that you can sleep peacefully. Working on our client's needs and satisfying them makes us one of the leading facility management companies in Dubai.",
   },
 ];
 
@@ -56,11 +43,7 @@ export default function FireSystemSec() {
       <Container>
         <h1 style={{fontSize:"50px", color:"#596AFF"}}>Fire System</h1>
         <p>
-          Since its establishment in 1978, USBC has consistently delivered
-          successful MEP projects in a wide spectrum of sectors including
-          infrastructure and commercial buildings such as Burj Al Arab, Abu
-          Dhabi Investment Council, Dubai Fountain, Atlantis The Palm and Dubai
-          Airport Concourse 4.
+        Fire safety is everyone's responsibility. The safety of your employees, suppliers, and customers is dependent upon the severity of your fire protection program. Therefore, before choosing a Fire system company for your work please make sure to check their approvals, certificates, and standards. We at Urban Science follow the complete international guidelines while performing Fire system work. Gaining your trust makes us the leading facility management company in Dubai.
         </p>
         <Grid sx={styles.grid}>
           {data.map((item) => (

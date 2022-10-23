@@ -18,12 +18,7 @@ export default function Service1() {
           <Box>
             <h1 sx={styles.mainheading}>MEP Building Services </h1>
             <p>
-              URBAN SCIENCE is one of the leading MEP companies in Dubai, in
-              electrical, mechanical, instrumentation and building services
-              within Dubai. We help our customers with integrated engineering
-              solutions that is comprised of design, procurement, construction,
-              project management, commissioning and facilities management
-              especially done according to clients’ requirements.
+            URBAN SCIENCE is one of the leading MEP companies in Dubai, in electrical, mechanical, instrumentation, and building services within Dubai. We help our customers with integrated engineering solutions that are comprised of design, procurement, project management, commissioning, and facilities management especially done according to the client's requirements. We employ the best engineers, offer the best technology, and use the most efficient processes that guarantee a successful project. We'll meet with you before a project starts to discuss any custom needs, and provide a handover when it's done so you're fully satisfied.
             </p>
           </Box>
           <Box>
@@ -38,19 +33,23 @@ export default function Service1() {
               in Dubai.
             </p>
             <br />
+            <Link href="/hvac">
             <Button sx={styles.btn}>
-              <Box sx={styles.bgBtn} href="/hvac">
+              <Box sx={styles.bgBtn}>
                 <BsGear sx={styles.icons} />
               </Box>
               HVAC
             </Button>
-             
+            </Link>
+            <Link href="/service3">
             <Button sx={styles.btn}>
               <Box sx={styles.bgBtn}>
                 <BsGear sx={styles.icons} />
               </Box>
               Plumbing
             </Button>
+            </Link>
+            
           </Box>
           <Box>
             <h1 sx={styles.heading}>
@@ -69,13 +68,16 @@ export default function Service1() {
               </Box>
               LV network
             </Button>
-            
+            <Link href="/blv">
             <Button sx={styles.btn}>
               <Box sx={styles.bgBtn}>
                 <BsGear sx={styles.icons} />
               </Box>
               BLV
             </Button>
+            </Link>
+            
+          
           </Box>
         </Container>
       </Container>

@@ -78,7 +78,7 @@ const styles = {
   coreFeature: {
     py: [0, null, null, 2, null, 7],
     position: "relative",
-    backgroundColor: "#66ABFF",
+    backgroundColor: "rgb(73 107 255 / 48%)",
     padding: "60px 0",
     margin: "0 0 40px 0",
     "&::before": {
