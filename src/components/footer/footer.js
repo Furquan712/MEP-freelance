@@ -24,13 +24,7 @@ export default function Footer() {
           <Box sx={styles.footer.footerTopArea}>
             <Box sx={styles.copyrightArea}>
               <Box className="footer__logo"></Box>
-              <nav className="footer__menu">
-                <Link path="/" label="Terms of use" />
-                <Link path="/" label="Privacy" />
-              </nav>
-              <Text as="p" sx={styles.copyrightArea.copyright}>
-                Copyright by 2022 , Inc
-              </Text>
+              
             </Box>
             <Flex sx={styles.footer.menuArea}>
               {menuItems &&
@@ -54,7 +48,7 @@ export default function Footer() {
                 ))}
             </Flex>
           </Box>
-          <Container>
+          <Container sx={styles.margin}>
             <Flex sx={{justifyContent:'center',flexWrap:'wrap'}}>
               <Card
                 sx={{
@@ -177,6 +171,9 @@ const styles = {
         mb: "0px",
       },
     },
+  },
+  margin:{
+    marginTop:["100px","0px"]
   },
   copyrightArea: {
     width: ["100%", null, null, null, "250px", "300px"],

@@ -40,6 +40,10 @@ export default function Banner() {
     e.preventDefault();
     setVideoOpen(true);
   };
+
+  const downloadFile=()=>{
+    window.open('mep.pdf', '_blank');
+  }
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
@@ -55,7 +59,7 @@ export default function Banner() {
           Meeting your goals is our main objective. Professional services for facility management & MEP works.
           </Text>
           <Flex>
-            <Button variant="whiteButton" aria-label="Get Started" backgroundColor='#596AFF' color='white'> Campany Profile
+            <Button variant="whiteButton" onClick={downloadFile} type="download" aria-label="Get Started" backgroundColor='#596AFF' color='white'> Campany Profile
             </Button>
             <>
               <ModalVideo

@@ -96,7 +96,7 @@ export default function TestimonialCard() {
         <SectionHeader slogan="Testimonial" title="Meet Client Satisfaction" />
       </Container>
 
-      <Grid gap={2} columns={[2, "1fr 1fr"]}>
+      <Grid gap={2} columns={[2, "2fr 1fr"]} className="grid">
         <Box sx={styles.carouselWrapper}>
           <Carousel
             additionalTransfrom={0}
@@ -148,7 +148,7 @@ export default function TestimonialCard() {
             style={{ width: "75%", marginLeft: "30px" }}
             alt="banner"
           />
-        </Box>
+        </Box> 
       </Grid>
       {/* </div> */}
       <Container sx={styles.abovefooter}>

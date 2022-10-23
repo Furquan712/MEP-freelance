@@ -1,108 +1,180 @@
 import { Container } from "theme-ui";
 import SectionHeader from "components/section-header";
 import Plumber from "assets/plumber.png";
-import { FiArrowRight } from 'react-icons/fi'
+import { FiArrowRight } from "react-icons/fi";
 
 export default function WhatWeDo() {
   return (
     <section style={styles.coreFeature}>
-        <SectionHeader style={{fontSize:"40px"}} title="What We Do ?" />
+      <SectionHeader style={{ fontSize: "40px" }} title="What We Do ?" />
 
-        <div class="container">
-          <div style={styles.anotherContainer}>
-            <ul class="cards" style={styles.cards}>
-              <li class="card" style={styles.card}>
-                <div style={styles.cardContent}>
-                  <div style={{margin:"20px"}}>
-                    <div style={styles.imageBG}>
-                      <img src={Plumber} style={{width:'100%',height:'100%',objectFit:'contain'}}/>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 style={styles.cardHeading}>Facility management</h3>
-                  </div>
-                  <div style={{width:'70%',textAlign:'center'}}>
-                    <p style={styles.cardPara}> 
-                    We are 24/7 available for you and your property. Our main aim is to make your environment a better place sustainably and cost-effectively. Having an in-house team for every facility management and MEP work stands us out from others in this unreliable market and no doubt makes us your dream facility management company in Dubai.
-                    </p>
-                  </div>
-                    <h2 style={{marginTop:"80px"}}><FiArrowRight /></h2>
-                </div>
-              </li>
-              <li class="card" style={styles.card}>
+      <div class="container">
+        <div sx={styles.anotherContainer}>
+          <ul class="cards" style={styles.cards}>
+            <li class="card" style={styles.card}>
               <div style={styles.cardContent}>
-                  <div style={{margin:"20px"}}>
-                    <div style={styles.imageBG}>
-                      <img src={Plumber} style={{width:'100%',height:'100%',objectFit:'contain'}}/>
-                    </div>
+                <div style={{ margin: "20px" }}>
+                  <div style={styles.imageBG}>
+                    <img
+                      src={Plumber}
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "contain",
+                      }}
+                    />
                   </div>
-                  <div>
-                    <h3 style={styles.cardHeading}>MEP Works</h3>
-                  </div>
-                  <div style={{width:'70%',textAlign:'center'}}>
-                    <p style={styles.cardPara}> 
-                    We are 24/7 available for you and your property. Our main aim is to make your environment a better place sustainably and cost-effectively. Having an in-house team for every facility management and MEP work stands us out from others in this unreliable market and no doubt makes us your dream facility management company in Dubai.
-                    </p>
-                  </div>
-                    <h2 style={{marginTop:"80px"}}><FiArrowRight /></h2>
                 </div>
-              </li>
-              <li class="card" style={styles.card}>
+                <div>
+                  <h3 style={styles.cardHeading}>Facility management</h3>
+                </div>
+                <div style={{ width: "70%", textAlign: "center" }}>
+                  <p style={styles.cardPara}>
+                    We are 24/7 available for you and your property. Our main
+                    aim is to make your environment a better place sustainably
+                    and cost-effectively. Having an in-house team for every
+                    facility management and MEP work stands us out from others
+                    in this unreliable market and no doubt makes us your dream
+                    facility management company in Dubai.
+                  </p>
+                </div>
+                <h2 style={{ marginTop: "80px" }}>
+                  <FiArrowRight />
+                </h2>
+              </div>
+            </li>
+            <li class="card" style={styles.card}>
               <div style={styles.cardContent}>
-                  <div style={{margin:"20px"}}>
-                    <div style={styles.imageBG}>
-                      <img src={Plumber} style={{width:'100%',height:'100%',objectFit:'contain'}}/>
-                    </div>
+                <div style={{ margin: "20px" }}>
+                  <div style={styles.imageBG}>
+                    <img
+                      src={Plumber}
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "contain",
+                      }}
+                    />
                   </div>
-                  <div>
-                    <h3 style={styles.cardHeading}>Air conditioning services </h3>
-                  </div>
-                  <div style={{width:'70%',textAlign:'center'}}>
-                    <p style={styles.cardPara}> 
-                    We are here to save you from sleepless nights. After 3-4 months of installation, if your Air-conditioner starts making noises or dripping water. You have gotten yourself into serious trouble. But do not worry, best MEP company in Dubai is here to help you. Just give us a call, we will be there to make your life easier and more comfortable.
-                    </p>
-                  </div>
-                    <h2 style={{marginTop:"80px"}}><FiArrowRight /></h2>
                 </div>
-              </li>
-              <li class="card" style={styles.card}>
+                <div>
+                  <h3 style={styles.cardHeading}>MEP Works</h3>
+                </div>
+                <div style={{ width: "70%", textAlign: "center" }}>
+                  <p style={styles.cardPara}>
+                    We are 24/7 available for you and your property. Our main
+                    aim is to make your environment a better place sustainably
+                    and cost-effectively. Having an in-house team for every
+                    facility management and MEP work stands us out from others
+                    in this unreliable market and no doubt makes us your dream
+                    facility management company in Dubai.
+                  </p>
+                </div>
+                <h2 style={{ marginTop: "80px" }}>
+                  <FiArrowRight />
+                </h2>
+              </div>
+            </li>
+            <li class="card" style={styles.card}>
               <div style={styles.cardContent}>
-                  <div style={{margin:"20px"}}>
-                    <div style={styles.imageBG}>
-                      <img src={Plumber} style={{width:'100%',height:'100%',objectFit:'contain'}}/>
-                    </div>
+                <div style={{ margin: "20px" }}>
+                  <div style={styles.imageBG}>
+                    <img
+                      src={Plumber}
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "contain",
+                      }}
+                    />
                   </div>
-                  <div>
-                    <h3 style={styles.cardHeading}>Chilled water system</h3>
-                  </div>
-                  <div style={{width:'70%',textAlign:'center'}}>
-                    <p style={styles.cardPara}> 
-                    Do you need a chilled water storage system to be installed in your industry? Urban Science is here for you. Our chiller maintenance programs are site-specific, reducing the possibility of costly breakdowns in the cooling systems of our clients. We have an in-house MEP team for both rooftop systems .
-                    </p>
-                  </div>
-                 
-                    <h2 style={{marginTop:"80px"}}><FiArrowRight /></h2>
                 </div>
-              </li>
-              <li class="card" style={styles.card}>
+                <div>
+                  <h3 style={styles.cardHeading}>Air conditioning services </h3>
+                </div>
+                <div style={{ width: "70%", textAlign: "center" }}>
+                  <p style={styles.cardPara}>
+                    We are here to save you from sleepless nights. After 3-4
+                    months of installation, if your Air-conditioner starts
+                    making noises or dripping water. You have gotten yourself
+                    into serious trouble. But do not worry, best MEP company in
+                    Dubai is here to help you. Just give us a call, we will be
+                    there to make your life easier and more comfortable.
+                  </p>
+                </div>
+                <h2 style={{ marginTop: "80px" }}>
+                  <FiArrowRight />
+                </h2>
+              </div>
+            </li>
+            <li class="card" style={styles.card}>
               <div style={styles.cardContent}>
-                  <div style={{margin:"20px"}}>
-                    <div style={styles.imageBG}>
-                      <img src={Plumber} style={{width:'100%',height:'100%',objectFit:'contain'}}/>
-                    </div>
+                <div style={{ margin: "20px" }}>
+                  <div style={styles.imageBG}>
+                    <img
+                      src={Plumber}
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "contain",
+                      }}
+                    />
                   </div>
-                  <div>
-                    <h3 style={styles.cardHeading}> Electrical work</h3>
-                  </div>
-                  <div style={{width:'70%',textAlign:'center'}}>
-                    <p style={styles.cardPara}>The reason why we are counted as one of the best facility management companies in Dubai is that we are a one-door solution for every MEP and facility management work. From your LV network to ELV services we have covered it all. We do not stop here, from your access control, CCTV, and security we have experts in every department. .</p>
-                  </div>
-                    <h2 style={{marginTop:"80px"}}><FiArrowRight /></h2>
                 </div>
-              </li>
-            </ul>
-          </div>
+                <div>
+                  <h3 style={styles.cardHeading}>Chilled water system</h3>
+                </div>
+                <div style={{ width: "70%", textAlign: "center" }}>
+                  <p style={styles.cardPara}>
+                    Do you need a chilled water storage system to be installed
+                    in your industry? Urban Science is here for you. Our chiller
+                    maintenance programs are site-specific, reducing the
+                    possibility of costly breakdowns in the cooling systems of
+                    our clients. We have an in-house MEP team for both rooftop
+                    systems .
+                  </p>
+                </div>
+
+                <h2 style={{ marginTop: "80px" }}>
+                  <FiArrowRight />
+                </h2>
+              </div>
+            </li>
+            <li class="card" style={styles.card}>
+              <div style={styles.cardContent}>
+                <div style={{ margin: "20px" }}>
+                  <div style={styles.imageBG}>
+                    <img
+                      src={Plumber}
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "contain",
+                      }}
+                    />
+                  </div>
+                </div>
+                <div>
+                  <h3 style={styles.cardHeading}> Electrical work</h3>
+                </div>
+                <div style={{ width: "70%", textAlign: "center" }}>
+                  <p style={styles.cardPara}>
+                    The reason why we are counted as one of the best facility
+                    management companies in Dubai is that we are a one-door
+                    solution for every MEP and facility management work. From
+                    your LV network to ELV services we have covered it all. We
+                    do not stop here, from your access control, CCTV, and
+                    security we have experts in every department. .
+                  </p>
+                </div>
+                <h2 style={{ marginTop: "80px" }}>
+                  <FiArrowRight />
+                </h2>
+              </div>
+            </li>
+          </ul>
         </div>
+      </div>
     </section>
   );
 }
@@ -149,22 +221,22 @@ const styles = {
   },
   anotherContainer: {
     maxWidth: "1400px",
-    padding: "0 15px",
+    padding: ["0 15px","0px"],
     margin: "0 auto",
+
   },
   cardContent: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
-    height:"100%",
+    height: "100%",
   },
-  imageBG:{
+  imageBG: {
     backgroundColor: "#EBEDFF",
     borderRadius: "50%",
-    height:"100px" ,
-    width:"100px",
-
+    height: "100px",
+    width: "100px",
   },
   thumbnail: {
     pl: [0, 5, 0, null, 7, 95],
@@ -211,29 +283,29 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     minWidth: "400px",
-    minHeight:"430px",
+    minHeight: "430px",
     backgroundColor: "white",
     borderRadius: "12px",
     boxShadow: " 0 5px 15px rgba(0, 0, 0, 15%)",
     scrollSnapAlign: "start",
     transition: "all 0.2s",
-    
+    // "calc(100vw - 20px)",
   },
-  cardHeading:{
+  cardHeading: {
     fontSize: "24px",
     fontWeight: "600",
     color: "#272D4E",
     textAlign: "center",
     letterSpacing: "0.5px",
-    marginBottom:"85px",
+    marginBottom: "85px",
   },
-  cardPara:{
+  cardPara: {
     fontSize: "16px",
     fontWeight: "400",
     color: "#7D7987",
     margin: "0",
     textAlign: "justify",
-    margin: "0px"
+    margin: "0px",
   },
   img: {
     width: ["50px", null, "55px"],
