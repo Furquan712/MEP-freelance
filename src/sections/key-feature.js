@@ -20,14 +20,14 @@ const data = [
     imgSrc: Editing,
     altText: "Monitoring",
     title: "Qualified and Certified",
-    text: "With growing urban development and opportunities in Dubai, many inexperienced players have also started working in the field of facilities management in Dubai. Therefore, whenever you start your work, please make sure to check that the company is certified and qualified enough to handle the project. At URBAN SCIENCE we have the most experienced team of facility management and MEP in Dubai. ..",
+    text: "Urban Science is one of the leading companies in Dubai with a mission to provide customer satisfaction at every level. We provide effective solutions for all your MEP and facility management needs with a commitment to quality, environmental sustainability, and people-centered development. Urban Science is among the few companies in Dubai to be certified and approved by Dubai Municipality. Our professional and certified approach makes us among the best facilities management companies in Dubai",
   },
   {
     id: 3,
     imgSrc: Speed,
     altText: "Quality",
     title: "Experienced team",
-    text: "THE ONLY SOURCE OF EXPERIENCE IS KNOWLEDGE. And this tough experience has made Urban Science what we are today. One of the best when it comes to MEP companies in Dubai and facility management companies in Dubai. Everyone calls themselves the best. But how do you choose the right company to perform your task? See their core team and you will get your answers.",
+    text:  "Urban Science is the best MEP and facility management company that provides comprehensive and reliable services to meet all your needs. We've been in Dubai for over 10 years, and have helped more than 200 companies around the city with their facilities management needs. We are a well-established company with years of experience in the field. Our workforce of over 200 employees is backed by advanced technology and the latest tools to provide quality services.",
   },
 ];
 
