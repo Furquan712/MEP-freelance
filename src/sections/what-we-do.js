@@ -9,7 +9,7 @@ export default function WhatWeDo() {
       <SectionHeader style={{ fontSize: "40px" }} title="What We Do ?" />
 
       <div class="container">
-        <div style={styles.anotherContainer}>
+        <div sx={styles.anotherContainer}>
           <ul class="cards" style={styles.cards}>
             <li class="card" style={styles.card}>
               <div style={styles.cardContent}>
@@ -65,7 +65,7 @@ export default function WhatWeDo() {
                     anything. We employ the best engineers, offer the best
                     technology, and use the most efficient processes that
                     guarantee a successful project. Our in-house experts for
-                    every division make us the best MEP company in Dubai.
+                    every division .
                   </p>
                 </div>
                 <h2 style={{ marginTop: "8px" }}>
@@ -119,7 +119,7 @@ export default function WhatWeDo() {
                 </div>
                 <div style={{ width: "70%", textAlign: "center" }}>
                   <p style={styles.cardPara}>
-                  We offer the most cost-efficient prices in Dubai, with plans that suit every budget. The best-chilled water system in Dubai, with installation specs and service tailored to your needs. The latest models of chiller units are always in stock for fast turnaround time. Urban Science has been providing customers in the UAE with chilled water systems for the past 15 years. With over a decade of experience, we are experts on all things chiller related. Our technicians are certified by top international organizations such as ASHRAE and WRAS, so you can rest assured that your job will be done right!
+                  We offer the most cost-efficient prices in Dubai, with plans that suit every budget. The best-chilled water system in Dubai, with installation specs and service tailored to your needs. The latest models of chiller units are always in stock for fast turnaround time. Urban Science has been providing customers in the UAE with chilled water systems for the past 15 years. With over a decade of experience, we are experts on all things chiller related. Our technicians are certified . .
  
 
                   </p>
@@ -206,8 +206,9 @@ const styles = {
   },
   anotherContainer: {
     maxWidth: "1400px",
-    padding: "0 15px",
+    padding: ["0 15px","0px"],
     margin: "0 auto",
+
   },
   cardContent: {
     display: "flex",

@@ -22,9 +22,12 @@ import {
 function aboutsec() {
   return (
     <Box sx={styles.main}>
-      <Container sx={styles.section} style={{margin:"60px"}}>
+       <Box>
+          <Image src={CoreFeatureThumb} alt="Thumbnail" sx={styles.image} />
+          </Box>
+      <Container sx={styles.section}>
         <h1 style={{fontSize:"50px" }}>About Us</h1>
-        <Flex sx={styles.flexbox}>
+        <Flex >
           <Box sx={styles.text}>
             <p>
               A Leading MEP company in Dubai is Urban Science contracting MEP
@@ -44,9 +47,6 @@ function aboutsec() {
               managing your communities so that you can spend your team
               peacefully. Best facility management company in Dubai.
             </p>
-          </Box>
-          <Box>
-          <Image src={CoreFeatureThumb} alt="Thumbnail" sx={styles.image} />
           </Box>
         </Flex>
         <Box sx={styles.quotes}>
@@ -108,7 +108,7 @@ const styles = {
     backgroundColor: "white",
   },
   section: {
-    padding: "150px 0 120px 0",
+    padding: "60px 0 120px 0",
   },
   text:{
   textAlign:"justify",

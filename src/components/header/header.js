@@ -11,7 +11,7 @@ import { DrawerProvider } from "../../contexts/drawer/drawer.provider";
 import MobileDrawer from "./mobile-drawer";
 import menuItems from "./header.data";
 import { useRouter } from 'next/router';
-// import { BsTelephoneInboundFil } from 'react-icons/bs';
+
 
 export default function Header({ className }) {
 
@@ -151,6 +151,7 @@ const styles = {
   flex: {
     justifyContent: "flex-end",
     alignItems: "center",
+    flexWrap: "wrap",
   },
   dropDown: {
     position: "Absolute",
@@ -177,7 +178,7 @@ const styles = {
     py: 4,
     width: "100%",
     position: "absolute",
-    top: "23px",
+    top: ["57px","23px"],
     left: 0,
     backgroundColor: "transparent",
     transition: "all 0.5s ease",
