@@ -98,7 +98,7 @@ const style = {
     flexDirection: "row",
   },
   mainText: {
-    fontSize: ["150px", "433px"],
+    fontSize: ["160px", "433px"],
     backgroundImage: `url(${Img})`,
     backgroundRepeat: "no-repeat",
     "-webkit-background-clip": "text",
@@ -118,10 +118,9 @@ const style = {
   },
   projectHeading: {
     fontSize: ["42px", "133px"],
-
     color: "#353535",
     position: "relative",
-    top: "100px",
+    top: "40%",
   },
   contactform: {
     padding: "0",
