@@ -6,32 +6,39 @@ import Palm from "assets/softel.jpg";
 import Shopping from "assets/shopping-center.jpg";
 import  Gym from "assets/Gym.jpg";
 import Airport from "assets/Gym.jpg";
+import img2 from "assets/img4dubaimall.jpg";
+import img3 from "assets/img5emax.jpeg";
+import img4 from "assets/img6jumeriah.jpg";
+import img5 from "assets/img7carefour.jpg";
+import img6 from "assets/img8gym.png";
+import img7 from "assets/img9.jpg";
+import img8 from "assets/img10.jpg";
 
 export default function OurProjects() {
   const data = [
     {
       id: 1,
-      imgSrc: MallOfEmirates,
+      imgSrc: img3,
       altText: "Mall Of Emirates",
     },
     {
       id: 2,
-      imgSrc: Palm,
+      imgSrc: img2,
       altText: "Palm Jumeirah",
     },
     {
       id: 3,
-      imgSrc: Gym,
+      imgSrc: img7,
       altText: "gym",
     },
     {
       id: 4,
-      imgSrc: Shopping,
+      imgSrc: img8,
       altText: "Shoping",
     },
     {
       id: 5,
-      imgSrc: Airport,
+      imgSrc: img4,
       altText: "Dubai Airport",
     },
   ];
@@ -59,7 +66,7 @@ export default function OurProjects() {
           </Box>
         </Card>
         <Card sx={{ ...styles.specialCard}}>
-          <Image src={data[1].imgSrc} style={styles.specialCardImage} />
+          <Image src={data[3].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[1].altText}</h3>
           </Box>
