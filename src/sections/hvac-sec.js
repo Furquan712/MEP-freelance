@@ -1,12 +1,12 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
-import { Container, Grid } from "theme-ui";
+import { Container, Grid, Box, Image } from "theme-ui";
 import SectionHeader from "../components/section-header";
 import FeatureCardColumn from "components/feature-card-column.js";
 import Vector from "assets/key-feature/vector.svg";
 import Editing from "assets/key-feature/editing.svg";
 import Speed from "assets/key-feature/speed.svg";
-
+import Banner  from "assets/HVAC (2).jpg";
 const data = [
   {
     id: 1,
@@ -54,13 +54,17 @@ const data = [
 
 export default function KeyFeature() {
   return (
-    <section
+    <>
+     <Box>
+          <Image src={Banner} alt="Thumbnail" sx={styles.image} />
+          </Box>
+       <section
       sx={{ variant: "section.keyFeature" }}
       style={{ position: "relative", overflow: "hidden" }}
       id="feature"
     >
-      <div style={styles.gradient}></div>
       <Container>
+     
         <h1 style={{fontSize:"50px", color:"#596AFF"}}>HVAC Services</h1>
         <p>
         For the last 18+years, USBC has consistently delivered successful MEP projects in a wide spectrum of sectors including infrastructure and commercial buildings such as Fichte, Mall of Emirates, Abu Dhabi Investment Council, Dubai Fountain, Atlantis the Palm, and Dubai Airport Concourse 4. Urban Science gives you access to skillful professionals with years of training and experience from around the world - whether you need mechanical or non-mechanical work, we'll find the perfect fit for your needs!
@@ -82,6 +86,8 @@ export default function KeyFeature() {
         </Grid>
       </Container>
     </section>
+    </>
+   
   );
 }
 

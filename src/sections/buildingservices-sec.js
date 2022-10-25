@@ -8,13 +8,18 @@ import Img from "../assets/elec.jpg";
 import { BsGear } from "react-icons/bs";
 import { GiElectric } from "react-icons/gi";
 import { MdEngineering } from "react-icons/md";
+import Banner  from "assets/Building services.jpg";
 import Link from 'next/link';
 export default function Service1() {
   return (
     <>
+     <Box>
+          <Image src={Banner} alt="Thumbnail" sx={styles.image} />
+          </Box>
       <Container>
-        <Image src={Img} sx={styles.Image} />
+     
         <Container sx={styles.service1}>
+       
           <Box>
             <h1 sx={styles.mainheading}>MEP Building Services </h1>
             <p>

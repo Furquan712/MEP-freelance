@@ -35,8 +35,9 @@ export default function ContactSec() {
                   margin: "8px 0px",
                 }}
               >
-                <FaEnvelope /> enquiry@gmail.com
-                {/* <FaPhone /> +91 1234567890 */}
+                <FaEnvelope /> urbansciencemep@gmail.com
+
+                {/* <FaPhone /> +971 543565450 */}
               </Text>
               <Text
                 sx={{
@@ -45,7 +46,7 @@ export default function ContactSec() {
                   display: "block",
                 }}
               >
-                <FaPhone /> +91 1234567890
+                <FaPhone /> +971 543565450
               </Text>
             </Box>
             <hr></hr>
@@ -61,8 +62,9 @@ export default function ContactSec() {
                   margin: "8px 0px",
                 }}
               >
-                <FaEnvelope /> enquiry@gmail.com
-                {/* <FaPhone /> +91 1234567890 */}
+                <FaEnvelope /> urbansciencemep@gmail.com
+
+                {/* <FaPhone /> +971 543565450 */}
               </Text>
               <Text
                 sx={{
@@ -71,7 +73,7 @@ export default function ContactSec() {
                   display: "block",
                 }}
               >
-                <FaPhone /> +91 1234567890
+                <FaPhone /> +971 543565450
               </Text>
             </Box>
             <hr></hr>
@@ -86,7 +88,7 @@ export default function ContactSec() {
                   display: "block",
                 }}
               >
-                <FaPhone /> +91 1234567890
+                <FaPhone /> +971 543565450
               </Text>
             </Box>
             <hr></hr>

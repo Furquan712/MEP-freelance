@@ -4,6 +4,14 @@ import { FaArrowCircleRight } from "react-icons/fa";
 import MallOfEmirates from "assets/Mall-Of-The-Emirates.jpg";
 import Palm from "assets/palm.jpg";
 import Airport from "assets/airport.jpg";
+import img2 from "assets/img4dubaimall.jpg";
+import img3 from "assets/img5emax.jpeg";
+import img4 from "assets/img6jumeriah.jpg";
+import img5 from "assets/img7carefour.jpg";
+import img6 from "assets/img8gym.png";
+import img7 from "assets/img9.jpg";
+import img8 from "assets/img10.jpg";
+ 
 
 export default function OurProjects() {
   const data = [
@@ -20,6 +28,31 @@ export default function OurProjects() {
     {
       id: 3,
       imgSrc: Airport,
+      altText: "Dubai Airport",
+    },
+    {
+      id: 4,
+      imgSrc: img2,
+      altText: "Dubai mall",
+    }, {
+      id: 5,
+      imgSrc: img3,
+      altText: "Dubai Airport",
+    }, {
+      id: 6,
+      imgSrc: img4,
+      altText: "Dubai Airport",
+    }, {
+      id: 7,
+      imgSrc: img5,
+      altText: "Dubai Airport",
+    }, {
+      id: 8,
+      imgSrc: img8,
+      altText: "Dubai Airport",
+    }, {
+      id: 9,
+      imgSrc: img7,
       altText: "Dubai Airport",
     },
   ];
@@ -52,19 +85,19 @@ export default function OurProjects() {
         </Flex>
         <Flex style={styles.flex}>
         <Card sx={{ ...styles.specialCard}}>
-          <Image src={data[1].imgSrc} style={styles.specialCardImage} />
+          <Image src={data[3].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[1].altText}</h3>
           </Box>
         </Card>
         <Card sx={{ ...styles.specialCard}}>
-          <Image src={data[1].imgSrc} style={styles.specialCardImage} />
+          <Image src={data[4].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[1].altText}</h3>
           </Box>
         </Card>
         <Card sx={{ ...styles.specialCard}}>
-          <Image src={data[1].imgSrc} style={styles.specialCardImage} />
+          <Image src={data[5].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[1].altText}</h3>
           </Box>
@@ -72,19 +105,19 @@ export default function OurProjects() {
         </Flex>
         <Flex style={styles.flex}>
         <Card sx={{ ...styles.specialCard}}>
-          <Image src={data[1].imgSrc} style={styles.specialCardImage} />
+          <Image src={data[6].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[1].altText}</h3>
           </Box>
         </Card>
         <Card sx={{ ...styles.specialCard}}>
-          <Image src={data[1].imgSrc} style={styles.specialCardImage} />
+          <Image src={data[7].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[1].altText}</h3>
           </Box>
         </Card>
         <Card sx={{ ...styles.specialCard}}>
-          <Image src={data[1].imgSrc} style={styles.specialCardImage} />
+          <Image src={data[8].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[1].altText}</h3>
           </Box>

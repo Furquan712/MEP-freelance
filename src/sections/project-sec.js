@@ -1,5 +1,5 @@
 import { Container, Box, Heading, Text, Flex } from "theme-ui";
-import Img from "../assets/elec.jpg";
+import Img from "../assets/project2.jpg";
 import { Image } from "theme-ui";
 import Mall from "../assets/dubai_mall.webp";
 import Metro from "../assets/dubai-metro.jpg";
@@ -13,7 +13,9 @@ import Link from "next/link";
 export default function ProjectSec() {
   return (
     <>
-      <Image src={Img} sx={style.Image} />
+       <Box>
+          <Image src={Img} alt="Thumbnail"  />
+          </Box>
       <Container sx={style.contactform}>
         <div sx={style.circle}></div>
         <Heading sx={style.projectHeading} as="h1">
