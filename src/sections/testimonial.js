@@ -96,7 +96,7 @@ export default function TestimonialCard() {
         <SectionHeader slogan="Testimonial" title="Meet Client Satisfaction" />
       </Container>
 
-      <Grid gap={2} columns={[2, "2fr 1fr"]} className="grid">
+      <Grid gap={2} columns={[2, "1fr 1fr"]} className="grid">
         <Box sx={styles.carouselWrapper}>
           <Carousel
             additionalTransfrom={0}
