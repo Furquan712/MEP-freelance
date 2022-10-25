@@ -177,7 +177,7 @@ const styles = {
     // flexWrap: "nowrap",
     margin: "40px 0px",
     // overflowX:"auto",
-    padding: "51px",
+    padding: "28px",
     flexWrap: "wrap",
     "&::WebkitScrollbar": {
       background: "transparent",

@@ -78,7 +78,8 @@ const styles = {
   coreFeature: {
     py: [0, null, null, 2, null, 7],
     position: "relative",
-    backgroundColor: "rgb(73 107 255 / 48%)",
+    backgroundImage: 
+ "url('src/assets/projectbg.jpg')",
     padding: "60px 0",
     margin: "0 0 40px 0",
     "&::before": {
