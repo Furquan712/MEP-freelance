@@ -28,7 +28,7 @@ export default function Header({ className }) {
           </a>
           <a as="h4" href="mailto:mep@gmail.com" sx={styles.head}>
             <FaEnvelope sx={styles.icons} />
-            urbansciencemep@gmail.com
+            enquiry@urbansciencemep.com
           </a>
         </Flex>
       </header>
