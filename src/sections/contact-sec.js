@@ -25,7 +25,7 @@ export default function ContactSec() {
             | Connect With Us
           </Heading>
           <Box sx={styles.salesBox}>
-            <Heading as="h5">Enquiry for sales</Heading>
+            <Heading as="h5">Enquiry </Heading>
             <Box sx={styles.box}>
               <Text
                 sx={{
@@ -35,7 +35,7 @@ export default function ContactSec() {
                   margin: "8px 0px",
                 }}
               >
-                <FaEnvelope /> urbansciencemep@gmail.com
+                <FaEnvelope /> enquiry@urbansciencemep.com
 
                 {/* <FaPhone /> +971 543565450 */}
               </Text>
@@ -46,13 +46,14 @@ export default function ContactSec() {
                   display: "block",
                 }}
               >
-                <FaPhone /> +971 543565450
+                <FaPhone /> 0509418224
               </Text>
             </Box>
             <hr></hr>
           </Box>
           <Box sx={styles.salesBox}>
-            <Heading as="h5">Enquiry for sales</Heading>
+            <Heading as="h5">Procurement Team
+</Heading>
             <Box sx={styles.box}>
               <Text
                 sx={{
