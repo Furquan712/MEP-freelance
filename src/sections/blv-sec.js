@@ -14,14 +14,14 @@ const data = [
     imgSrc: Vector,
     altText: "IT",
     title: "IT",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+    text: "We have successfully managed hundreds of projects for different clients, helping them increase their productivity and efficiency. If you're looking for someone to help manage your business efficiently and without fail, look no further! Best facility management company in Dubai.",
   },
   {
     id: 2,
     imgSrc: Editing,
     altText: "CCTV",
     title:  "CCTV",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+    text: "We put customer needs first and foremost. We are always looking for new ways to make our customers' lives easier and more productive, from innovative office equipment solutions to holistic CCTV solutions.",
   },
    
   {
@@ -29,7 +29,7 @@ const data = [
     imgSrc: Speed,
     altText: "Access control",
     title: "Access control",
-    text: "Get your blood tests delivered at home collect a sample from the your blood tests.",
+    text: "With the latest tech in place, we can help you manage your facilities more efficiently than ever before. You'll also have peace of mind knowing that we are committed to protecting your assets with our state-of-the-art security solutions. ",
   },
    
 ];
@@ -49,11 +49,7 @@ export default function KeyFeature() {
       <Container>
         <h1 style={{fontSize:"50px", color:"#596AFF"}}>BLV Services</h1>
         <p>
-          Since its establishment in 1978, USBC has consistently delivered
-          successful MEP projects in a wide spectrum of sectors including
-          infrastructure and commercial buildings such as Burj Al Arab, Abu
-          Dhabi Investment Council, Dubai Fountain, Atlantis The Palm and Dubai
-          Airport Concourse 4.
+        Urban Science has a team of professionals that specializes in a variety of fields, all with the latest in technologies and expertise. From access control to IT, Urban Science has the perfect solution for your facility's needs. We have successfully managed hundreds of projects for different clients, helping them increase their productivity and efficiency. If you're looking for someone to help manage your business efficiently and without fail, look no further!
         </p>
         <Grid sx={styles.grid}>
           {data.map((item) => (

@@ -4,7 +4,7 @@ import theme from "theme";
 import SEO from "components/seo";
 import Layout from "components/layout";
 import Banner from "sections/banner";
-import ServiceSec from "sections/service3-sec";
+import ServiceSec from "sections/plumbing-sec";
 
 export default function Contact() {
   return (
