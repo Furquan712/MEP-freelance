@@ -117,7 +117,9 @@ const styles = {
   marginTop:"0px",
   },
   spacing: {
-    flexWrap: "wrap",
+    // flexWrap: "wrap",
+    margin: "10px",
+    maxWidth: ["250px","300px"],
   },
   headBox: {
     padding: ["0 20px", "0 70px"],
@@ -126,10 +128,11 @@ const styles = {
   head: {
     fontSize: "30px",
     position: "absolute",
-    bottom: "-85px",
+    bottom: ["-85px","-105px"],
     color: "#7d89f2",
     textAlign:"center",
     zIndex: "1",
+    backgroundColor: "white",
   },
   
   Image: {
@@ -137,6 +140,10 @@ const styles = {
     height: "400px",
     objectFit: "cover",
     margin: "100px 0 50px 0",
+  },
+  flexx:{
+    flexWrap:"wrap",
+    justifyContent:"center",
   },
   flexxbox: {
     display: "flex",
@@ -149,7 +156,7 @@ const styles = {
   aboutform: {
     position: "relative",
     padding: ["20px", "70px"],
-    border: "2px solid #fff",
+    border: "2px solid #7d89f2",
     margin: "40px",
   },
   aboutforminner: {

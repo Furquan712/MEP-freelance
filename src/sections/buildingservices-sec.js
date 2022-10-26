@@ -107,6 +107,7 @@ const styles = {
     backgroundColor: "#fff",
     color: "#596AFF",
     fontSize: "20px",
+    margin: "10px",
   },
   bgBtn: {
     backgroundColor: "#596AFF",

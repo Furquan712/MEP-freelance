@@ -95,7 +95,7 @@ export default function ContactSec() {
             <hr></hr>
           </Box>
         </Box>
-        <Box as="form" onSubmit={(e) => e.preventDefault()}>
+        <Box style={{padding:'10px'}} as="form" onSubmit={(e) => e.preventDefault()}>
           <Label htmlFor="username">Name</Label>
           <Input name="username" id="username" mb={3} />
           <Label htmlFor="password">Email</Label>
@@ -113,19 +113,6 @@ export default function ContactSec() {
           <Input type="date" name="password" id="password" mb={3} />
           <Label htmlFor="comment">Message</Label>
           <Textarea name="comment" id="comment" rows={6} mb={3} />
-          {/* <Flex mb={3}>
-            <Label>
-              <Radio name="letter" /> Alpha
-            </Label>
-            <Label>
-              <Radio name="letter" /> Bravo
-            </Label>
-            <Label>
-              <Radio name="letter" /> Charlie
-            </Label>
-          </Flex> */}
-          {/* <Label>Slider</Label>
-          <Slider mb={3} /> */}
           <Button>Submit</Button>
         </Box>
       </Grid>
