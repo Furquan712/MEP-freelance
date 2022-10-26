@@ -26,7 +26,7 @@ function aboutsec() {
         <Image src={CoreFeatureThumb} alt="Thumbnail" sx={styles.image} />
       </Box>
       <Container sx={styles.section}>
-        <h1 style={{ fontSize: "50px" }}>About Us</h1>
+        <h1 style={{ fontSize: "50px", textAlign:"center" }}>About Us</h1>
         <Flex>
           <Box sx={styles.text}>
             <p>
@@ -125,9 +125,7 @@ const styles = {
   main: {
     backgroundColor: "white",
   },
-  section: {
-    padding: "60px 0 120px 0",
-  },
+  
   text: {
     textAlign: "justify",
     paddingLeft: "20px",
