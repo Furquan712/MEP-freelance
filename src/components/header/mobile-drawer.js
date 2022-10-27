@@ -12,6 +12,7 @@ import {
   
 } from 'react-icons/fa';
 import menuItems from './header.data';
+import { useRouter } from 'next/router';
 
 const social = [
   {
@@ -33,6 +34,7 @@ const MobileDrawer = () => {
   const { state, dispatch } = useContext(DrawerContext);
 
   // Toggle drawer
+  const router = useRouter();
   const toggleHandler = React.useCallback(() => {
     dispatch({
       type: 'TOGGLE',
@@ -57,14 +59,15 @@ const MobileDrawer = () => {
         <Box sx={styles.content}>
           <Box sx={styles.menu}>
             {menuItems.map(({ path, label }, i) => (
+
               <Link
                 activeClass="active"
-                to={path}
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
                 key={i}
+                onClick={()=>router.push(path)}
               >
                 {label}
               </Link>

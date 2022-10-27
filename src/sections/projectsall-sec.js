@@ -176,7 +176,7 @@ const styles = {
   flex: {
     // flexWrap: "nowrap",
     margin: "40px 0px",
-    // overflowX:"auto",
+    justifyContent:"space-around",
     padding: "28px",
     flexWrap: "wrap",
     "&::WebkitScrollbar": {
@@ -188,8 +188,8 @@ const styles = {
     flex:  "0 0 auto",
     textAlign: "center",
     alignItems: "center",
-    margin: "20px",
-    width: "400px",
+    margin: "10px",
+    width: "380px",
     display: "inline-block",
     transition: "all 0.3s ease-in-out",
     "&:hover": {
