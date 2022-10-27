@@ -89,7 +89,7 @@ export default function ContactSec() {
                   display: "block",
                 }}
               >
-                <FaPhone /> +971 543565450
+                <FaPhone /> 0509418224
               </Text>
             </Box>
             <hr></hr>
