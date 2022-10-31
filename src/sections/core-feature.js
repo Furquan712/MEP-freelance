@@ -26,14 +26,14 @@ const data = {
 export default function CoreFeature() {
   return (
     <section sx={styles.coreFeature}>
-        <Box sx={styles.headingTop}>
+        <Box data-aos="zoom-out-left" sx={styles.headingTop}>
             <TextFeature subTitle={data.subTitle} title={data.title} />
-            <Box gap="15px 0" columns={1} sx={styles.grid}>
+            <Box data-aos="zoom-out-left" gap="15px 0" columns={1} sx={styles.grid}>
             {data.features.map((item) => (
-              <Box sx={styles.card} key={item.id}>
+              <Box data-aos="zoom-out-left" sx={styles.card} key={item.id}>
                 
 
-                <Box sx={styles.wrapper}>
+                <Box data-aos="zoom-out-left" sx={styles.wrapper}>
                   <Heading sx={styles.wrapper.title}>{item.title}</Heading>
                 </Box>
               </Box>
@@ -42,10 +42,10 @@ export default function CoreFeature() {
           </Box>
 
       <Container sx={styles.containerBox}>
-        <Box sx={styles.thumbnail}>
+        <Box data-aos="zoom-out-right" sx={styles.thumbnail}>
           <Image src={CoreFeatureThumb} alt="Thumbnail" style={{borderRadius:"30%"}}/>
         </Box>
-        <Box sx={styles.contentBox}>
+        <Box  data-aos="zoom-out-left" sx={styles.contentBox}>
          
           <Box gap="15px 0" columns={1} sx={styles.grid}>
             {data.features.map((item) => (

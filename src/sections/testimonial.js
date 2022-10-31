@@ -92,12 +92,12 @@ const responsive = {
 export default function TestimonialCard() {
   return (
     <section id="testimonial" sx={{ variant: "section.testimonial" }}>
-      <Container>
+      <Container data-aos="zoom-in">
         <SectionHeader slogan="Testimonial" title="Meet Client Satisfaction" />
       </Container>
 
       <Grid gap={2} columns={[2, "1fr 1fr"]} className="grid">
-        <Box sx={styles.carouselWrapper}>
+        <Box data-aos="zoom-in-right" sx={styles.carouselWrapper}>
           <Carousel
             additionalTransfrom={0}
             arrows={false}
@@ -142,7 +142,7 @@ export default function TestimonialCard() {
             ))}
           </Carousel>
         </Box>
-        <Box sx={styles.box}>
+        <Box data-aos="zoom-in-left" sx={styles.box}>
           <Image
             src={BannerThumb}
             style={{ width: "75%", marginLeft: "30px" }}

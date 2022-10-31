@@ -64,19 +64,19 @@ export default function OurProjects() {
 
       <Flex style={styles.flex}>
         
-        <Card sx={styles.specialCard}>
+        <Card data-aos="zoom-out" sx={styles.specialCard}>
           <Image src={data[0].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[0].altText}</h3>
           </Box>
         </Card>
-        <Card sx={{ ...styles.specialCard }}>
+        <Card data-aos="zoom-out" sx={{ ...styles.specialCard }}>
           <Image src={data[1].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[1].altText}</h3>
           </Box>
         </Card>
-        <Card sx={styles.specialCard}>
+        <Card data-aos="zoom-out" sx={styles.specialCard}>
           <Image src={data[2].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[2].altText}</h3>
@@ -84,19 +84,19 @@ export default function OurProjects() {
         </Card>
         </Flex>
         <Flex style={styles.flex}>
-        <Card sx={{ ...styles.specialCard}}>
+        <Card data-aos="zoom-out" sx={{ ...styles.specialCard}}>
           <Image src={data[3].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[1].altText}</h3>
           </Box>
         </Card>
-        <Card sx={{ ...styles.specialCard}}>
+        <Card data-aos="zoom-out" sx={{ ...styles.specialCard}}>
           <Image src={data[4].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[1].altText}</h3>
           </Box>
         </Card>
-        <Card sx={{ ...styles.specialCard}}>
+        <Card data-aos="zoom-out" sx={{ ...styles.specialCard}}>
           <Image src={data[5].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[1].altText}</h3>
@@ -104,19 +104,19 @@ export default function OurProjects() {
         </Card>
         </Flex>
         <Flex style={styles.flex}>
-        <Card sx={{ ...styles.specialCard}}>
+        <Card data-aos="zoom-out" sx={{ ...styles.specialCard}}>
           <Image src={data[6].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[1].altText}</h3>
           </Box>
         </Card>
-        <Card sx={{ ...styles.specialCard}}>
+        <Card data-aos="zoom-out" sx={{ ...styles.specialCard}}>
           <Image src={data[7].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[1].altText}</h3>
           </Box>
         </Card>
-        <Card sx={{ ...styles.specialCard}}>
+        <Card data-aos="zoom-out" sx={{ ...styles.specialCard}}>
           <Image src={data[8].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[1].altText}</h3>
