@@ -7,6 +7,7 @@ import Banner from "sections/banner";
 import KeyFeature from "sections/key-feature";
 import ContactSec from "sections/contact-sec";
 
+
 export default function Contact() {
   return (
     <ThemeProvider theme={theme}>
