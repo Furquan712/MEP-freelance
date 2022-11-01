@@ -46,7 +46,7 @@ export default function KeyFeature() {
         />
       </Container>
 
-      <Grid sx={styles.grid}>
+      <Grid data-aos="zoom-in" sx={styles.grid}>
         {data.map((item) => (
           <FeatureCardColumn
             sx={styles.featurecardcolumn}
@@ -81,6 +81,7 @@ const styles = {
   },
 
   grid: {
+    
     // px: [0, null, null, '40px', null, '80px'],
     pt: [0, null, null, null, null, null, null, 3],
     gridGap: ["35px 0", null, "40px 0"],

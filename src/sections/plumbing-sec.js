@@ -1,11 +1,12 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
-import { Container, Grid } from "theme-ui";
+import { Container, Grid, Box, Image } from "theme-ui";
 import SectionHeader from "../components/section-header";
 import FeatureCardColumn from "components/feature-card-column.js";
 import Vector from "assets/key-feature/vector.svg";
 import Editing from "assets/key-feature/editing.svg";
 import Speed from "assets/key-feature/speed.svg";
+import Banner  from "assets/plumbing.jpg";
 
 const data = [
   {
@@ -33,7 +34,11 @@ const data = [
 
 export default function KeyFeature() {
   return (
-    <section
+    <>
+        <Box>
+          <Image src={Banner} alt="Thumbnail" sx={styles.image} />
+          </Box>
+       <section
       sx={{ variant: "section.keyFeature" }}
       style={{ position: "relative", overflow: "hidden" }}
       id="feature"
@@ -61,6 +66,8 @@ export default function KeyFeature() {
         </Grid>
       </Container>
     </section>
+    </>
+   
   );
 }
 

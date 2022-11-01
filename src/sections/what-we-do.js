@@ -11,7 +11,7 @@ export default function WhatWeDo() {
       <div class="container">
         <div sx={styles.anotherContainer}>
           <ul class="cards" style={styles.cards}>
-            <li class="card" style={styles.card}>
+            <li data-aos="zoom-in-down" class="card" style={styles.card}>
               <div style={styles.cardContent}>
                 <div style={{ margin: "20px" }}>
                   <div style={styles.imageBG}>
@@ -30,7 +30,14 @@ export default function WhatWeDo() {
                 </div>
                 <div style={{ width: "70%", textAlign: "center" }}>
                   <p style={styles.cardPara}>
-                  We comply with the highest standards of professionalism and have one of the lowest employee turnover rates in the industry. Our urban science experts who are reliable and on time have a combined experience of over 18+ years. Financially, we offer the best rates in the industry with no hidden fees or expensive contracts. If you want to save money and find an inexpensive company for your facility management needs Urban Science is the place for you!
+                    We comply with the highest standards of professionalism and
+                    have one of the lowest employee turnover rates in the
+                    industry. Our urban science experts who are reliable and on
+                    time have a combined experience of over 18+ years.
+                    Financially, we offer the best rates in the industry with no
+                    hidden fees or expensive contracts. If you want to save
+                    money and find an inexpensive company for your facility
+                    management needs Urban Science is the place for you!
                   </p>
                 </div>
                 <h2 style={{ marginTop: "8px" }}>
@@ -38,7 +45,7 @@ export default function WhatWeDo() {
                 </h2>
               </div>
             </li>
-            <li class="card" style={styles.card}>
+            <li data-aos="zoom-in-down" class="card" style={styles.card}>
               <div style={styles.cardContent}>
                 <div style={{ margin: "20px" }}>
                   <div style={styles.imageBG}>
@@ -73,7 +80,7 @@ export default function WhatWeDo() {
                 </h2>
               </div>
             </li>
-            <li class="card" style={styles.card}>
+            <li data-aos="zoom-in-down" class="card" style={styles.card}>
               <div style={styles.cardContent}>
                 <div style={{ margin: "20px" }}>
                   <div style={styles.imageBG}>
@@ -92,7 +99,15 @@ export default function WhatWeDo() {
                 </div>
                 <div style={{ width: "70%", textAlign: "center" }}>
                   <p style={styles.cardPara}>
-                  Don't delay the installation or repair of your air-conditioning unit any longer! Urban Science offers a full range of professional services that are quick to respond and affordable. Urban Science is a leading expert in air-conditioning servicing and maintenance. We offer an array of services, with no contract or upfront payments. Whatever your problem is, we've got you covered. If it's about your air-conditioning unit, we'll diagnose and fix it - without costing you a dime. 
+                    Don't delay the installation or repair of your
+                    air-conditioning unit any longer! Urban Science offers a
+                    full range of professional services that are quick to
+                    respond and affordable. Urban Science is a leading expert in
+                    air-conditioning servicing and maintenance. We offer an
+                    array of services, with no contract or upfront payments.
+                    Whatever your problem is, we've got you covered. If it's
+                    about your air-conditioning unit, we'll diagnose and fix it
+                    - without costing you a dime.
                   </p>
                 </div>
                 <h2 style={{ marginTop: "8px" }}>
@@ -100,7 +115,7 @@ export default function WhatWeDo() {
                 </h2>
               </div>
             </li>
-            <li class="card" style={styles.card}>
+            <li data-aos="zoom-in-down" class="card" style={styles.card}>
               <div style={styles.cardContent}>
                 <div style={{ margin: "20px" }}>
                   <div style={styles.imageBG}>
@@ -119,9 +134,15 @@ export default function WhatWeDo() {
                 </div>
                 <div style={{ width: "70%", textAlign: "center" }}>
                   <p style={styles.cardPara}>
-                  We offer the most cost-efficient prices in Dubai, with plans that suit every budget. The best-chilled water system in Dubai, with installation specs and service tailored to your needs. The latest models of chiller units are always in stock for fast turnaround time. Urban Science has been providing customers in the UAE with chilled water systems for the past 15 years. With over a decade of experience, we are experts on all things chiller related. Our technicians are certified . .
- 
-
+                    We offer the most cost-efficient prices in Dubai, with plans
+                    that suit every budget. The best-chilled water system in
+                    Dubai, with installation specs and service tailored to your
+                    needs. The latest models of chiller units are always in
+                    stock for fast turnaround time. Urban Science has been
+                    providing customers in the UAE with chilled water systems
+                    for the past 15 years. With over a decade of experience, we
+                    are experts on all things chiller related. Our technicians
+                    are certified . .
                   </p>
                 </div>
 
@@ -130,7 +151,7 @@ export default function WhatWeDo() {
                 </h2>
               </div>
             </li>
-            <li class="card" style={styles.card}>
+            <li data-aos="zoom-in-down" class="card" style={styles.card}>
               <div style={styles.cardContent}>
                 <div style={{ margin: "20px" }}>
                   <div style={styles.imageBG}>
@@ -149,7 +170,15 @@ export default function WhatWeDo() {
                 </div>
                 <div style={{ width: "70%", textAlign: "center" }}>
                   <p style={styles.cardPara}>
-                  We are experts in what we do. We employ over 100 international & local laborers with a wide range of skills - electrical and non-electrical. We have completed projects for some of the world's most prestigious brands, including Mercedes, carrefour, and Dior. With extensive experience in providing solutions to residential, commercial, and industrial clients across Dubai, UAE, and the GCC region, we know what it takes to create world-class living spaces. Best MEP company in Dubai
+                    We are experts in what we do. We employ over 100
+                    international & local laborers with a wide range of skills -
+                    electrical and non-electrical. We have completed projects
+                    for some of the world's most prestigious brands, including
+                    Mercedes, carrefour, and Dior. With extensive experience in
+                    providing solutions to residential, commercial, and
+                    industrial clients across Dubai, UAE, and the GCC region, we
+                    know what it takes to create world-class living spaces. Best
+                    MEP company in Dubai
                   </p>
                 </div>
                 <h2 style={{ marginTop: "8px" }}>
@@ -206,9 +235,8 @@ const styles = {
   },
   anotherContainer: {
     maxWidth: "1400px",
-    padding: ["0 15px","0px"],
+    padding: ["0 15px", "0px"],
     margin: "0 auto",
-
   },
   cardContent: {
     display: "flex",
