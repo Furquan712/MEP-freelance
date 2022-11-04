@@ -9,8 +9,6 @@ import KeyFeature from 'sections/key-feature';
 import CoreFeature from 'sections/core-feature';
 import PartnerSection from 'sections/partner';
 import TestimonialCard from 'sections/testimonial';
- import Package from 'sections/package';
-import Faq from 'sections/faq';
 import OurProjects from 'sections/our-projects';
 import WhatWeDo from 'sections/what-we-do';
 

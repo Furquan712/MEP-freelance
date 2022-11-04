@@ -11,7 +11,7 @@ export default function WhatWeDo() {
       <div class="container">
         <div sx={styles.anotherContainer}>
           <ul class="cards" style={styles.cards}>
-            <li data-aos="zoom-in-down" class="card" style={styles.card}>
+            <li class="card" style={styles.card}>
               <div style={styles.cardContent}>
                 <div style={{ margin: "20px" }}>
                   <div style={styles.imageBG}>
@@ -45,7 +45,7 @@ export default function WhatWeDo() {
                 </h2>
               </div>
             </li>
-            <li data-aos="zoom-in-down" class="card" style={styles.card}>
+            <li  class="card" style={styles.card}>
               <div style={styles.cardContent}>
                 <div style={{ margin: "20px" }}>
                   <div style={styles.imageBG}>
@@ -80,7 +80,7 @@ export default function WhatWeDo() {
                 </h2>
               </div>
             </li>
-            <li data-aos="zoom-in-down" class="card" style={styles.card}>
+            <li  class="card" style={styles.card}>
               <div style={styles.cardContent}>
                 <div style={{ margin: "20px" }}>
                   <div style={styles.imageBG}>
@@ -115,7 +115,7 @@ export default function WhatWeDo() {
                 </h2>
               </div>
             </li>
-            <li data-aos="zoom-in-down" class="card" style={styles.card}>
+            <li  class="card" style={styles.card}>
               <div style={styles.cardContent}>
                 <div style={{ margin: "20px" }}>
                   <div style={styles.imageBG}>
@@ -151,7 +151,7 @@ export default function WhatWeDo() {
                 </h2>
               </div>
             </li>
-            <li data-aos="zoom-in-down" class="card" style={styles.card}>
+            <li  class="card" style={styles.card}>
               <div style={styles.cardContent}>
                 <div style={{ margin: "20px" }}>
                   <div style={styles.imageBG}>
