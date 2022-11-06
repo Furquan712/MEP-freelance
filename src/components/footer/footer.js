@@ -11,6 +11,9 @@ import {
 } from "theme-ui";
 import { Link } from "components/link";
 import Logo from "assets/logo.png";
+import Logoa from "assets/logoc.png";
+import Logob from "assets/logob.png";
+import Logoc from "assets/logoa.png";
 import menuItems from "./footer.data";
 import Dubaicon from "assets/dubai.png";
 import IndiaGate from "assets/india-gate.png";
@@ -57,7 +60,7 @@ export default function Footer() {
                 }}
               >
                 <Image src={Logo} />
-                <Text sx={styles.text}>Interiors</Text>
+                
               </Card>
               <Card
                 sx={{
@@ -65,8 +68,8 @@ export default function Footer() {
                   margin:"20px"
                 }}
               >
-                <Image src={Logo} />
-                <Text sx={styles.text}>MEP</Text>
+                <Image src={Logoa} />
+                 
               </Card>
               <Card
                 sx={{
@@ -74,8 +77,17 @@ export default function Footer() {
                   margin:"20px"
                 }}
               >
-                <Image src={Logo} />
-                <Text sx={styles.text}>Facility Management</Text>
+                <Image src={Logob} />
+                 
+              </Card>
+              <Card
+                sx={{
+                  maxWidth: 123,
+                  margin:"20px"
+                }}
+              >
+                <Image src={Logoc} />
+                 
               </Card>
               
             </Flex>
