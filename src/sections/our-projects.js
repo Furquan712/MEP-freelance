@@ -1,46 +1,45 @@
 import SectionHeader from "components/section-header";
 import { Container, Button, Box, Flex, Card, Image } from "theme-ui";
 import { FaArrowCircleRight } from "react-icons/fa";
-import MallOfEmirates from "assets/emax dubai.jpg";
-import Palm from "assets/softel.jpg";
-import Shopping from "assets/shopping-center.jpg";
-import  Gym from "assets/Gym.jpg";
-import Airport from "assets/Gym.jpg";
-import img2 from "assets/img4dubaimall.jpg";
-import img3 from "assets/img5emax.jpeg";
-import img4 from "assets/img6jumeriah.jpg";
-import img5 from "assets/img7carefour.jpg";
-import img6 from "assets/img8gym.png";
-import img7 from "assets/img9.jpg";
-import img8 from "assets/img10.jpg";
+import img1 from "assets/Mall-Of-The-Emirates.jpg";
+import img2 from "assets/img/Atlantis, The Palm.jpg";
+import img3 from "assets/img/Dubai-Mall.jpg";
+import img4 from "assets/emax dubai.jpg";
+import img5 from "assets/img/madinat Jumeriah.jpg";
+import img6 from "assets/img7carefour.jpg";
+ 
 
 export default function OurProjects() {
   const data = [
     {
       id: 1,
-      imgSrc: img3,
+      imgSrc: img1,
       altText: "Mall Of Emirates",
     },
     {
       id: 2,
       imgSrc: img2,
-      altText: "Palm Jumeirah",
+      altText: "Atlantis–The Palm",
     },
     {
       id: 3,
-      imgSrc: img7,
-      altText: "gym",
+      imgSrc: img3,
+      altText: "Dubai Mall",
     },
     {
       id: 4,
-      imgSrc: img8,
-      altText: "Shoping",
+      imgSrc: img4,
+      altText: "Emax",
     },
     {
       id: 5,
-      imgSrc: img4,
-      altText: "Dubai Airport",
-    },
+      imgSrc: img5,
+      altText: "Medinat",
+    },{
+      id: 6,
+      imgSrc: img6,
+      altText: "Carrefour",
+    }, 
   ];
 
   return (
@@ -68,9 +67,22 @@ export default function OurProjects() {
         <Card sx={{ ...styles.specialCard}}>
           <Image src={data[3].imgSrc} style={styles.specialCardImage} />
           <Box>
-            <h3 style={styles.cardHeading}>{data[1].altText}</h3>
+            <h3 style={styles.cardHeading}>{data[3].altText}</h3>
           </Box>
         </Card>
+        <Card sx={{ ...styles.specialCard}}>
+          <Image src={data[4].imgSrc} style={styles.specialCardImage} />
+          <Box>
+            <h3 style={styles.cardHeading}>{data[4].altText}</h3>
+          </Box>
+        </Card>
+        <Card sx={{ ...styles.specialCard}}>
+          <Image src={data[5].imgSrc} style={styles.specialCardImage} />
+          <Box>
+            <h3 style={styles.cardHeading}>{data[5].altText}</h3>
+          </Box>
+        </Card>
+         
       </Flex>
       <Box style={styles.buttonDiv}>
         <Button style={styles.button}>

@@ -1,59 +1,76 @@
 import SectionHeader from "components/section-header";
 import { Container, Button, Box, Flex, Card, Image } from "theme-ui";
 import { FaArrowCircleRight } from "react-icons/fa";
-import MallOfEmirates from "assets/Mall-Of-The-Emirates.jpg";
-import Palm from "assets/palm.jpg";
-import Airport from "assets/airport.jpg";
-import img2 from "assets/img4dubaimall.jpg";
-import img3 from "assets/img5emax.jpeg";
-import img4 from "assets/img6jumeriah.jpg";
-import img5 from "assets/img7carefour.jpg";
-import img6 from "assets/img8gym.png";
-import img7 from "assets/img9.jpg";
-import img8 from "assets/img10.jpg";
+ 
+import img6 from "assets/img/Atlantis, The Palm.jpg";
+import img7 from "assets/img/Office.jpg";
+import img1 from "assets/img/DWTC.jpg";
+import img2 from "assets/img/Dxb Airport Concorde D.jpg";
+import img5 from "assets/img/Office in Business Bay.jpg";
+import img3 from "assets/img/Maui Restaurant.jpg";
+import img4 from "assets/img/Nail-paint bar.jpg";
+import img8 from "assets/img/Residential Tower.jpg";
+import img9 from "assets/img/Sofitel.jpg";
+import img10 from "assets/img/THE-GYM-Dubai.png";
+import img11 from "assets/img/Villa.jpg";
+import img12 from "assets/img/Warehouse.jpg";
+ 
  
 
 export default function OurProjects() {
   const data = [
     {
       id: 1,
-      imgSrc: MallOfEmirates,
-      altText: "Mall Of Emirates",
+      imgSrc: img1,
+      altText: "DWTC",
     },
     {
       id: 2,
-      imgSrc: Palm,
-      altText: "Palm Jumeirah",
+      imgSrc: img2,
+      altText: "Dxb Airport Concorde D",
     },
     {
       id: 3,
-      imgSrc: Airport,
-      altText: "Dubai Airport",
+      imgSrc: img3,
+      altText: "Maui-Restaurant",
     },
     {
       id: 4,
-      imgSrc: img2,
-      altText: "Dubai mall",
+      imgSrc: img4,
+      altText: "Nail-paint bar",
     }, {
       id: 5,
-      imgSrc: img3,
-      altText: "Dubai Airport",
+      imgSrc: img5,
+      altText: "Office in Business Bay",
     }, {
       id: 6,
-      imgSrc: img4,
-      altText: "Dubai Airport",
+      imgSrc: img6,
+      altText: "Maui-Resturant",
     }, {
       id: 7,
-      imgSrc: img5,
-      altText: "Dubai Airport",
+      imgSrc: img7,
+      altText: "Office",
     }, {
       id: 8,
       imgSrc: img8,
-      altText: "Dubai Airport",
+      altText: "Residential Tower",
     }, {
       id: 9,
-      imgSrc: img7,
-      altText: "Dubai Airport",
+      imgSrc: img9,
+      altText: "Sofitel",
+    },
+    {
+      id: 10,
+      imgSrc: img10,
+      altText: ". The – Gym – Dubai ",
+    }, {
+      id: 11,
+      imgSrc: img11,
+      altText: "Villa",
+    }, {
+      id: 12,
+      imgSrc: img12,
+      altText: "Warehouse",
     },
   ];
 
@@ -64,19 +81,19 @@ export default function OurProjects() {
 
       <Flex style={styles.flex}>
         
-        <Card data-aos="zoom-out" sx={styles.specialCard}>
+        <Card   sx={styles.specialCard}>
           <Image src={data[0].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[0].altText}</h3>
           </Box>
         </Card>
-        <Card data-aos="zoom-out" sx={{ ...styles.specialCard }}>
+        <Card   sx={{ ...styles.specialCard }}>
           <Image src={data[1].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[1].altText}</h3>
           </Box>
         </Card>
-        <Card data-aos="zoom-out" sx={styles.specialCard}>
+        <Card   sx={styles.specialCard}>
           <Image src={data[2].imgSrc} style={styles.specialCardImage} />
           <Box>
             <h3 style={styles.cardHeading}>{data[2].altText}</h3>
@@ -84,47 +101,69 @@ export default function OurProjects() {
         </Card>
         </Flex>
         <Flex style={styles.flex}>
-        <Card data-aos="zoom-out" sx={{ ...styles.specialCard}}>
+        <Card   sx={{ ...styles.specialCard}}>
           <Image src={data[3].imgSrc} style={styles.specialCardImage} />
           <Box>
-            <h3 style={styles.cardHeading}>{data[1].altText}</h3>
+            <h3 style={styles.cardHeading}>{data[3].altText}</h3>
           </Box>
         </Card>
-        <Card data-aos="zoom-out" sx={{ ...styles.specialCard}}>
+        <Card   sx={{ ...styles.specialCard}}>
           <Image src={data[4].imgSrc} style={styles.specialCardImage} />
           <Box>
-            <h3 style={styles.cardHeading}>{data[1].altText}</h3>
+            <h3 style={styles.cardHeading}>{data[4].altText}</h3>
           </Box>
         </Card>
-        <Card data-aos="zoom-out" sx={{ ...styles.specialCard}}>
+        <Card   sx={{ ...styles.specialCard}}>
           <Image src={data[5].imgSrc} style={styles.specialCardImage} />
           <Box>
-            <h3 style={styles.cardHeading}>{data[1].altText}</h3>
+            <h3 style={styles.cardHeading}>{data[5].altText}</h3>
           </Box>
         </Card>
         </Flex>
         <Flex style={styles.flex}>
-        <Card data-aos="zoom-out" sx={{ ...styles.specialCard}}>
+        <Card   sx={{ ...styles.specialCard}}>
           <Image src={data[6].imgSrc} style={styles.specialCardImage} />
           <Box>
-            <h3 style={styles.cardHeading}>{data[1].altText}</h3>
+            <h3 style={styles.cardHeading}>{data[6].altText}</h3>
           </Box>
         </Card>
-        <Card data-aos="zoom-out" sx={{ ...styles.specialCard}}>
+        <Card   sx={{ ...styles.specialCard}}>
           <Image src={data[7].imgSrc} style={styles.specialCardImage} />
           <Box>
-            <h3 style={styles.cardHeading}>{data[1].altText}</h3>
+            <h3 style={styles.cardHeading}>{data[7].altText}</h3>
           </Box>
         </Card>
-        <Card data-aos="zoom-out" sx={{ ...styles.specialCard}}>
+        <Card   sx={{ ...styles.specialCard}}>
           <Image src={data[8].imgSrc} style={styles.specialCardImage} />
           <Box>
-            <h3 style={styles.cardHeading}>{data[1].altText}</h3>
+            <h3 style={styles.cardHeading}>{data[8].altText}</h3>
           </Box>
         </Card>
-        </Flex>
        
+        </Flex>
+        
+       <Flex  style={styles.flex}>
+       <Card   sx={{ ...styles.specialCard}}>
+          <Image src={data[9].imgSrc} style={styles.specialCardImage} />
+          <Box>
+            <h3 style={styles.cardHeading}>{data[9].altText}</h3>
+          </Box>
+        </Card>
+        <Card   sx={{ ...styles.specialCard}}>
+          <Image src={data[10].imgSrc} style={styles.specialCardImage} />
+          <Box>
+            <h3 style={styles.cardHeading}>{data[10].altText}</h3>
+          </Box>
+        </Card>
       
+        <Card   sx={{ ...styles.specialCard}}>
+          <Image src={data[11].imgSrc} style={styles.specialCardImage} />
+          <Box>
+            <h3 style={styles.cardHeading}>{data[11].altText}</h3>
+          </Box>
+        </Card>
+       </Flex>
+       
        
     </section>
   );

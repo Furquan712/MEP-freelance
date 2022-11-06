@@ -13,8 +13,7 @@ export default function Project() {
         <StickyProvider>
           <Layout>
             <SEO title="Startup Landing 004" />
-            <ProjectSec
-            />
+            <ProjectSec/>
           </Layout>
         </StickyProvider>
     </ThemeProvider>
