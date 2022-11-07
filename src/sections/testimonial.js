@@ -168,7 +168,7 @@ export default function TestimonialCard() {
             </Box>
 
             <Box sx={styles.imageBox} style={{paddingLeft:"35px"}}>
-            <h1>Uk</h1>
+            <h1>UK</h1>
             </Box>
           </Flex>
         </Box>
