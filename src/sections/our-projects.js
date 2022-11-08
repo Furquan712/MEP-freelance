@@ -95,10 +95,10 @@ export default function OurProjects() {
 
 const styles = {
   coreFeature: {
+    marginTop:"100px",
     py: [0, null, null, 2, null, 7],
     position: "relative",
-    backgroundImage: 
- "url('https://media.istockphoto.com/photos/industrial-welder-with-torch-in-big-hall-welding-metal-profiles-picture-id1303602869?k=20&m=1303602869&s=612x612&w=0&h=ZckhxyIZOPIj7FZFhtMfjX3vSnHUk20JykqL8H2IcB8=')",
+    backgroundColor:"#E9EFFF",
     padding: "60px 0",
     margin: "0 0 40px 0",
     "&::before": {

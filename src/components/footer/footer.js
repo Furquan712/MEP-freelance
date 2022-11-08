@@ -71,15 +71,7 @@ export default function Footer() {
                 <Image src={Logoa} />
                  
               </Card>
-              <Card
-                sx={{
-                  maxWidth: 123,
-                  margin:"20px"
-                }}
-              >
-                <Image src={Logob} />
-                 
-              </Card>
+              
               <Card
                 sx={{
                   maxWidth: 123,
