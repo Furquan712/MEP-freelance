@@ -1,7 +1,7 @@
 import SectionHeader from "components/section-header";
 import { Container, Button, Box, Flex, Card, Image } from "theme-ui";
 import { FaArrowCircleRight } from "react-icons/fa";
- 
+
 import img6 from "assets/img/Atlantis, The Palm.jpg";
 import img7 from "assets/img/Office.jpg";
 import img1 from "assets/img/DWTC.jpg";
@@ -14,8 +14,6 @@ import img9 from "assets/img/Sofitel.jpg";
 import img10 from "assets/img/THE-GYM-Dubai.png";
 import img11 from "assets/img/Villa.jpg";
 import img12 from "assets/img/Warehouse.jpg";
- 
- 
 
 export default function OurProjects() {
   const data = [
@@ -38,23 +36,28 @@ export default function OurProjects() {
       id: 4,
       imgSrc: img4,
       altText: "Nail-paint bar",
-    }, {
+    },
+    {
       id: 5,
       imgSrc: img5,
       altText: "Office in Business Bay",
-    }, {
+    },
+    {
       id: 6,
       imgSrc: img6,
       altText: "Maui-Resturant",
-    }, {
+    },
+    {
       id: 7,
       imgSrc: img7,
       altText: "Office",
-    }, {
+    },
+    {
       id: 8,
       imgSrc: img8,
       altText: "Residential Tower",
-    }, {
+    },
+    {
       id: 9,
       imgSrc: img9,
       altText: "Sofitel",
@@ -62,12 +65,14 @@ export default function OurProjects() {
     {
       id: 10,
       imgSrc: img10,
-      altText: ". The – Gym – Dubai ",
-    }, {
+      altText: "The Gym Dubai ",
+    },
+    {
       id: 11,
       imgSrc: img11,
       altText: "Villa",
-    }, {
+    },
+    {
       id: 12,
       imgSrc: img12,
       altText: "Warehouse",
@@ -76,95 +81,98 @@ export default function OurProjects() {
 
   return (
     <section style={styles.coreFeature}>
-    
-       <h1 style={{ color: "#596AFF", textAlign:"center", fontSize:"50px"}}>Our Projects </h1>
+      <h1 style={{ color: "#596AFF", textAlign: "center", fontSize: "50px" }}>
+        Our Projects{" "}
+      </h1>
 
       <Flex style={styles.flex}>
-        
-        <Card   sx={styles.specialCard}>
-          <Image src={data[0].imgSrc} style={styles.specialCardImage} />
+        <Card sx={styles.specialCard}>
+        <div style={styles.photo}><Image src={data[0].imgSrc} style={styles.specialCardImage} /></div>
+          
           <Box>
             <h3 style={styles.cardHeading}>{data[0].altText}</h3>
           </Box>
         </Card>
-        <Card   sx={{ ...styles.specialCard }}>
-          <Image src={data[1].imgSrc} style={styles.specialCardImage} />
+        <Card sx={{ ...styles.specialCard }}>
+          <div style={styles.photo}>
+            {" "}
+            <Image src={data[1].imgSrc} style={styles.specialCardImage} />
+          </div>
+
           <Box>
             <h3 style={styles.cardHeading}>{data[1].altText}</h3>
           </Box>
         </Card>
-        <Card   sx={styles.specialCard}>
-          <Image src={data[2].imgSrc} style={styles.specialCardImage} />
+        <Card sx={styles.specialCard}>
+        <div style={styles.photo}><Image src={data[2].imgSrc} style={styles.specialCardImage} /></div>
+          
           <Box>
             <h3 style={styles.cardHeading}>{data[2].altText}</h3>
           </Box>
         </Card>
-        </Flex>
-        <Flex style={styles.flex}>
-        <Card   sx={{ ...styles.specialCard}}>
-          <Image src={data[3].imgSrc} style={styles.specialCardImage} />
+      </Flex>
+      <Flex style={styles.flex}>
+        <Card sx={{ ...styles.specialCard }}>
+        <div style={styles.photo}><Image src={data[3].imgSrc} style={styles.specialCardImage} /></div>
           <Box>
             <h3 style={styles.cardHeading}>{data[3].altText}</h3>
           </Box>
         </Card>
-        <Card   sx={{ ...styles.specialCard}}>
-          <Image src={data[4].imgSrc} style={styles.specialCardImage} />
+        <Card sx={{ ...styles.specialCard }}>
+        <div style={styles.photo}><Image src={data[4].imgSrc} style={styles.specialCardImage} /></div>
           <Box>
             <h3 style={styles.cardHeading}>{data[4].altText}</h3>
           </Box>
         </Card>
-        <Card   sx={{ ...styles.specialCard}}>
-          <Image src={data[5].imgSrc} style={styles.specialCardImage} />
+        <Card sx={{ ...styles.specialCard }}>
+        <div style={styles.photo}><Image src={data[5].imgSrc} style={styles.specialCardImage} /></div>
           <Box>
             <h3 style={styles.cardHeading}>{data[5].altText}</h3>
           </Box>
         </Card>
-        </Flex>
-        <Flex style={styles.flex}>
-        <Card   sx={{ ...styles.specialCard}}>
-          <Image src={data[6].imgSrc} style={styles.specialCardImage} />
+      </Flex>
+      <Flex style={styles.flex}>
+        <Card sx={{ ...styles.specialCard }}>
+        <div style={styles.photo}><Image src={data[6].imgSrc} style={styles.specialCardImage} /></div>
           <Box>
             <h3 style={styles.cardHeading}>{data[6].altText}</h3>
           </Box>
         </Card>
-        <Card   sx={{ ...styles.specialCard}}>
-          <Image src={data[7].imgSrc} style={styles.specialCardImage} />
+        <Card sx={{ ...styles.specialCard }}>
+        <div style={styles.photo}><Image src={data[7].imgSrc} style={styles.specialCardImage} /></div>
           <Box>
             <h3 style={styles.cardHeading}>{data[7].altText}</h3>
           </Box>
         </Card>
-        <Card   sx={{ ...styles.specialCard}}>
-          <Image src={data[8].imgSrc} style={styles.specialCardImage} />
+        <Card sx={{ ...styles.specialCard }}>
+        <div style={styles.photo}><Image src={data[8].imgSrc} style={styles.specialCardImage} /></div>
           <Box>
             <h3 style={styles.cardHeading}>{data[8].altText}</h3>
           </Box>
         </Card>
-       
-        </Flex>
-        
-       <Flex  style={styles.flex}>
-       <Card   sx={{ ...styles.specialCard}}>
-          <Image src={data[9].imgSrc} style={styles.specialCardImage} />
+      </Flex>
+
+      <Flex style={styles.flex}>
+        <Card sx={{ ...styles.specialCard }}>
+        <div style={styles.photo}><Image src={data[9].imgSrc} style={styles.specialCardImage} /></div>
           <Box>
             <h3 style={styles.cardHeading}>{data[9].altText}</h3>
           </Box>
         </Card>
-        <Card   sx={{ ...styles.specialCard}}>
-          <Image src={data[10].imgSrc} style={styles.specialCardImage} />
+        <Card sx={{ ...styles.specialCard }}>
+        <div style={styles.photo}><Image src={data[10].imgSrc} style={styles.specialCardImage} /></div>
           <Box>
             <h3 style={styles.cardHeading}>{data[10].altText}</h3>
           </Box>
         </Card>
-      
-        <Card   sx={{ ...styles.specialCard}}>
-          <Image src={data[11].imgSrc} style={styles.specialCardImage} />
+
+        <Card sx={{ ...styles.specialCard }}>
+        <div style={styles.photo}><Image src={data[11].imgSrc} style={styles.specialCardImage} /></div>
           <Box>
             <h3 style={styles.cardHeading}>{data[11].altText}</h3>
           </Box>
         </Card>
-       </Flex>
-       
-       
+      </Flex>
     </section>
   );
 }
@@ -176,7 +184,7 @@ const styles = {
     backgroundColor: "white",
     padding: "60px 0",
     margin: "0 0 40px 0",
-    paddingTop:"100px",
+    paddingTop: "100px",
     "&::before": {
       position: "absolute",
       content: '""',
@@ -192,19 +200,23 @@ const styles = {
       transform: ["translateY(0)", null, null, "translateY(-50%)"],
     },
   },
-  mainheading: {
-  },
+  mainheading: {},
   containerBox: {
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
     flexDirection: ["column", null, null, "row"],
   },
-   
+
   thumbnail: {
     pl: [0, 5, 0, null, 7, 95],
     pr: [0, 5, null, null, null, 75, 95],
     order: [2, null, null, 0],
+  },
+  photo: {
+    height: "240px",
+    width: "100%",
+    objectFit: "cover",
   },
   contentBox: {
     width: ["100%", 450, 550, 350, 500, 570],
@@ -215,16 +227,16 @@ const styles = {
   flex: {
     // flexWrap: "nowrap",
     margin: "40px 0px",
-    justifyContent:"space-around",
+    justifyContent: "space-around",
     padding: "28px",
     flexWrap: "wrap",
     "&::WebkitScrollbar": {
       background: "transparent",
-    }
+    },
   },
   specialCard: {
     backgroundColor: "rgb(73 107 255 / 48%)",
-    flex:  "0 0 auto",
+    flex: "0 0 auto",
     textAlign: "center",
     alignItems: "center",
     margin: "10px",
@@ -237,12 +249,14 @@ const styles = {
     },
     "@media screen and (max-width: 768px)": {
       width: "250px",
-    }
+    },
   },
 
   specialCardImage: {
     width: "90%",
+    height: "90%",
     transform: "translateY(-10%)",
+    objectFit: "cover",
   },
   buttonDiv: {
     display: "flex",
