@@ -24,7 +24,7 @@ export default function OurProjects() {
     {
       id: 3,
       imgSrc: img3,
-      altText: "Dubai Mall",
+      altText: "Dubai-Mall",
     },
     {
       id: 4,
