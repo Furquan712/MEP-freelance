@@ -2,9 +2,9 @@ import SectionHeader from "components/section-header";
 import { Container, Button, Box, Flex, Card, Image } from "theme-ui";
 import { FaArrowCircleRight } from "react-icons/fa";
 import img1 from "assets/Mall-Of-The-Emirates.jpg";
-import img2 from "assets/img/Atlantis, The Palm.jpg";
+import img2 from "assets/img/AtlantisThePalm.jpg";
 import img3 from "assets/img/Dubai-Mall.jpg";
-import img4 from "assets/emax dubai.jpg";
+import img4 from "assets/emaxdubai.jpg";
 import img5 from "assets/img/madinat Jumeriah.jpg";
 import img6 from "assets/img7carefour.jpg";
  
