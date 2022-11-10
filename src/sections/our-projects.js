@@ -5,7 +5,7 @@ import img1 from "assets/Mall-Of-The-Emirates.jpg";
 import img2 from "assets/img/AtlantisThePalm.jpg";
 import img3 from "assets/img/Dubai-Mall.jpg";
 import img4 from "assets/emaxdubai.jpg";
-import img5 from "assets/img/madinat Jumeriah.jpg";
+import img5 from "assets/img/madinatJumeriah.jpg";
 import img6 from "assets/img7carefour.jpg";
  
 
