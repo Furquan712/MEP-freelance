@@ -9,8 +9,6 @@ import 'components/style.css';
 import 'react-multi-carousel/lib/styles.css';
 import 'react-modal-video/css/modal-video.min.css';
 import 'rc-drawer/assets/index.css';
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
 
 // AOS.init();
 
