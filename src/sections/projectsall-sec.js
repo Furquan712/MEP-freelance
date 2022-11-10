@@ -6,7 +6,7 @@ import img6 from "assets/img/AtlantisThePalm.jpg";
 import img7 from "assets/img/Office.jpg";
 import img1 from "assets/img/DWTC.jpg";
 import img2 from "assets/img/DxbAirportConcordeD.jpg";
-import img5 from "assets/img/OfficeinBusinessBay.jpg";
+import img5 from "assets/img/OfficeB.jpg";
 import img3 from "assets/img/MauiRestaurant.jpg";
 import img4 from "assets/img/Nail-paint bar.jpg";
 import img8 from "assets/img/residentialTower.jpg";
