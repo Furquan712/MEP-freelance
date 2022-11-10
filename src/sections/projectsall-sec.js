@@ -9,7 +9,7 @@ import img2 from "assets/img/Dxb Airport Concorde D.jpg";
 import img5 from "assets/img/Office in Business Bay.jpg";
 import img3 from "assets/img/Maui Restaurant.jpg";
 import img4 from "assets/img/Nail-paint bar.jpg";
-import img8 from "assets/img/Residential Tower.jpg";
+import img8 from "assets/img/residentialTower.jpg";
 import img9 from "assets/img/Sofitel.jpg";
 import img10 from "assets/img/THE-GYM-Dubai.png";
 import img11 from "assets/img/Villa.jpg";
