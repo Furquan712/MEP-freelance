@@ -1,4 +1,4 @@
-import { FaFacebook, FaTwitter, FaInstagram  } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin  } from 'react-icons/fa';
 
 export default [
   {
@@ -68,19 +68,19 @@ export default [
     header: 'Contact',
     items: [
       {
-        path: '/',
+        path: 'https://www.facebook.com/profile.php?id=100087045604368&is_tour_completed=true',
         label: 'Facebook',
         name: 'facebook',
         icon: <FaFacebook />,
       },
       {
-        path: '/',
-        label: 'Twitter',
-        name: 'twitter',
-        icon: <FaTwitter />,
+        path: 'https://www.linkedin.com/company/usbc-interiors-urban-science-building-contracting/',
+        label: 'Linkedin',
+        name: 'linkedin',
+        icon: <FaLinkedin />,
       },
       {
-        path: '/',
+        path: 'https://www.instagram.com/urbanscience_mep/',
         label: 'Instagram',
         name: 'instagram',
         icon: <FaInstagram />,

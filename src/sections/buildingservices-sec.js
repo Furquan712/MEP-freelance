@@ -46,7 +46,7 @@ export default function Service1() {
               HVAC
             </Button>
             </Link>
-            <Link href="/service3">
+            <Link href="/plumbing">
             <Button sx={styles.btn}>
               <Box sx={styles.bgBtn}>
                 <BsGear sx={styles.icons} />
