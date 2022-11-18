@@ -11,7 +11,7 @@ export default function Hvac() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Startup Landing 004" />
+          <SEO title="HVAC" />
           <HvacSec />
         </Layout>
       </StickyProvider>

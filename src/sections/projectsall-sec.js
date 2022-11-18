@@ -45,7 +45,7 @@ export default function OurProjects() {
     {
       id: 6,
       imgSrc: img6,
-      altText: "Maui-Resturant",
+      altText: "Atlantis, The Palm",
     },
     {
       id: 7,

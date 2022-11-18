@@ -11,7 +11,7 @@ export default function About() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Startup Landing 004" />
+          <SEO title="About Us" />
           <AboutSec />
         </Layout>
       </StickyProvider>

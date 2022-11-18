@@ -11,7 +11,7 @@ export default function Fabricated() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Startup Landing 004" />
+          <SEO title="Fabricated" />
           <FabricatedSec />
         </Layout>
       </StickyProvider>
