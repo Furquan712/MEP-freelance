@@ -13,7 +13,7 @@ export default function Contact() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Startup Landing 004" />
+          <SEO title="Contact Us" />
           <ContactSec />
         </Layout>
       </StickyProvider>

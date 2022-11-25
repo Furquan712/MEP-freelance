@@ -12,7 +12,7 @@ export default function Project() {
     <ThemeProvider theme={theme}>
         <StickyProvider>
           <Layout>
-            <SEO title="Startup Landing 004" />
+            <SEO title="Our Projects" />
             <ProjectSec/>
           </Layout>
         </StickyProvider>

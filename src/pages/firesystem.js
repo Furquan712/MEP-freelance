@@ -11,7 +11,7 @@ export default function Fire() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Startup Landing 004" />
+          <SEO title="Fire system" />
           <FireSystem />
         </Layout>
       </StickyProvider>

@@ -11,7 +11,7 @@ export default function Blv() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Startup Landing 004" />
+          <SEO title="BLV" />
           <BlvSec />
         </Layout>
       </StickyProvider>
