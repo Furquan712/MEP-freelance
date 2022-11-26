@@ -28,7 +28,7 @@ const data = [
     id: 1,
     title: "Modern look & trending design",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+      ". Yousef and Team work on a consultative basis and delivered exactly what we were looking for. The folding doors they added have made a huge difference to our living area and are high quality. Overall, would recommend them whole heartedly. Best facility management company in Dubai",
     avatar: Avatar1,
     name: "Denny Hilguston",
     designation: "@denny.hil",
@@ -38,7 +38,7 @@ const data = [
     id: 2,
     title: "Design Quality & performance",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+      "As a real estate agent in Dubai, this company did Awesome job for my clients. They have a huge experience when it comes to MEP and facility management. Professional, top of the market and the most important thing that are ethical and they deliver on time. Will always work with them",
     avatar: Avatar2,
     name: "Denny Hilguston",
     designation: "@denny.hil",
@@ -48,7 +48,7 @@ const data = [
     id: 3,
     title: "Layout and organized layers",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+      "Always go with experience not with the name. This is what I have learnt after working with urban Science. The most important thing for which I would rate them 5 star is there customer service and there strict timeline which they always",
     avatar: Avatar3,
     name: "Denny Hilguston",
     designation: "@denny.hil",
@@ -58,7 +58,7 @@ const data = [
     id: 4,
     title: "Modern look & trending design",
     description:
-      "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
+      "Initially, I have given my office AC work to a different contractor. They messed it up keep delaying the deadline until I reached Urban Science. They completely took over the work and resolved all the blunder the previous contractor have created in just 45 days.",
     avatar: Avatar4,
     name: "Denny Hilguston",
     designation: "@denny.hil",
@@ -123,9 +123,7 @@ export default function TestimonialCard() {
             {data.map((item) => (
               <Box sx={styles.reviewCard} key={`testimonial--key${item.id}`}>
                 <Rating rating={item.review} />
-                <Heading as="h3" sx={styles.title}>
-                  {item.title}
-                </Heading>
+               
                 <Text sx={styles.description}>{item.description}</Text>
                 <div className="card-footer">
                   <div className="image">
