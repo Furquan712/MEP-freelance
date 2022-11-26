@@ -42,7 +42,7 @@ export default function Banner() {
   };
 
   const downloadFile=()=>{
-    window.open('mep.pdf', '_blank');
+    window.open('/mep.pdf', '_blank');
   }
   return (
     <section sx={styles.banner} id="home">
