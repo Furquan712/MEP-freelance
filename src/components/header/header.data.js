@@ -16,7 +16,7 @@ export default [
     label: 'Services',
   },
   {
-    path: 'blog',
+    path: 'https://mepblog.vercel.app/',
     label: 'Blog',
   },
   
